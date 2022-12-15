@@ -25,8 +25,11 @@ source("Scripts/all-required-packages.R", local = knitr::knit_global())
 # get initials from the PPG data
 nome.PPG <- read_excel("Sucupira/Dados Cadastrais.xlsx", sheet = "Dados do programa", col_types = c("text"))[2,2]
 
+nome.PPG.split <- str_split_1(as.character(nome.PPG)[[1]], " ")
+match.stopwords <- match(str_split_1(as.character(nome.PPG)[[1]], " "), stopwords("portuguese"))
+nome.PPG.no.stopwords <- paste(nome.PPG.split[is.na(match.stopwords)], collapse = " ")
 source("Scripts/get-initials.R")
-sigla.PPG <- initials(remove_stopwords(as.character(nome.PPG), stopwords("portuguese")))
+sigla.PPG <- initials(nome.PPG.no.stopwords)
 
 site.PPG <- read_excel("Sucupira/Dados Cadastrais.xlsx", sheet = "Endereço", col_types = c("text"))[7,2]
 
