@@ -2660,6 +2660,7 @@ href="http://www.faperj.br"><strong>FAPERJ</strong></a>,
 </div>
 <div id="section-12" class="section level3">
 <h3><strong>2016-2013</strong></h3>
+<p><em>Sem dados para exibir</em></p>
 <div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-295e5e92937d79b3a9a1" style="width:100%;height:auto;"></div>
 <script type="application/json" data-for="htmlwidget-295e5e92937d79b3a9a1">{"x":{"filter":"none","vertical":false,"extensions":["Buttons","ColReorder","Responsive"],"data":[[],[],[],[],[],[]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Ano<\/th>\n      <th>Agência<\/th>\n      <th>Edital<\/th>\n      <th>Processo No.<\/th>\n      <th>Título do projeto<\/th>\n      <th>Programa<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"colReorder":true,"pageLength":4,"scrolX":false,"dom":"Bftip","searchHighlight":true,"buttons":[{"extend":"copy"},{"extend":"csv"},{"extend":"pdf","title":"Ações durante a Pandemia - Financiadores","filename":"Ações durante a Pandemia - Financiadores"}],"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"responsive":true,"lengthMenu":[4,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 <p><em>Fontes:</em> <a
@@ -2673,6 +2674,7 @@ href="http://www.faperj.br"><strong>FAPERJ</strong></a>,
 </div>
 <div id="section-13" class="section level3">
 <h3><strong>2012-2010</strong></h3>
+<p><em>Sem dados para exibir</em></p>
 <div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-fb63f6937ce9b942740f" style="width:100%;height:auto;"></div>
 <script type="application/json" data-for="htmlwidget-fb63f6937ce9b942740f">{"x":{"filter":"none","vertical":false,"extensions":["Buttons","ColReorder","Responsive"],"data":[[],[],[],[],[],[]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Ano<\/th>\n      <th>Agência<\/th>\n      <th>Edital<\/th>\n      <th>Processo No.<\/th>\n      <th>Título do projeto<\/th>\n      <th>Programa<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"colReorder":true,"pageLength":4,"scrolX":false,"dom":"Bftip","searchHighlight":true,"buttons":[{"extend":"copy"},{"extend":"csv"},{"extend":"pdf","title":"Ações durante a Pandemia - Financiadores","filename":"Ações durante a Pandemia - Financiadores"}],"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"responsive":true,"lengthMenu":[4,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 <p><em>Fontes:</em> <a
@@ -2686,6 +2688,7 @@ href="http://www.faperj.br"><strong>FAPERJ</strong></a>,
 </div>
 <div id="pré-2010-2" class="section level3">
 <h3><strong>Pré-2010</strong></h3>
+<p><em>Sem dados para exibir</em></p>
 <div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-9eadbe1d76289191636c" style="width:100%;height:auto;"></div>
 <script type="application/json" data-for="htmlwidget-9eadbe1d76289191636c">{"x":{"filter":"none","vertical":false,"extensions":["Buttons","ColReorder","Responsive"],"data":[[],[],[],[],[],[]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Ano<\/th>\n      <th>Agência<\/th>\n      <th>Edital<\/th>\n      <th>Processo No.<\/th>\n      <th>Título do projeto<\/th>\n      <th>Programa<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"colReorder":true,"pageLength":4,"scrolX":false,"dom":"Bftip","searchHighlight":true,"buttons":[{"extend":"copy"},{"extend":"csv"},{"extend":"pdf","title":"Ações durante a Pandemia - Financiadores","filename":"Ações durante a Pandemia - Financiadores"}],"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"responsive":true,"lengthMenu":[4,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 <p><em>Fontes:</em> <a
@@ -2869,9 +2872,11 @@ Sucupira</strong></a></p>
 <div id="doutorado" class="section level4 tabset">
 <h4 class="tabset"><strong>Doutorado</strong></h4>
 <center>
-<strong>TOTAL REQUERIDO: 36 CR</strong> <br> Créditos OBRIGATÓRIOS
-marcados: <strong id=msgOBRDSC></strong> <br> Créditos ELETIVOS
-marcados: <strong id=msgELEDSC></strong>
+<strong>TOTAL REQUERIDO:
+<code>{r eval = has.dados.cadastrais} dados.do.programa.raw[1,3]</code>
+CR</strong> <br> Créditos OBRIGATÓRIOS marcados:
+<strong id=msgOBRDSC></strong> <br> Créditos ELETIVOS marcados:
+<strong id=msgELEDSC></strong>
 </center>
 <div id="obrigatórios" class="section level5">
 <h5><strong>Obrigatórios</strong></h5>
@@ -3084,9 +3089,11 @@ Sucupira</strong></a></p>
 <div id="mestrado" class="section level4 tabset">
 <h4 class="tabset"><strong>Mestrado</strong></h4>
 <center>
-<strong>TOTAL REQUERIDO: 24 CR</strong> <br> Créditos OBRIGATÓRIOS
-marcados: <strong id=msgOBRMSC></strong> <br> Créditos ELETIVOS
-marcados: <strong id=msgELEMSC></strong>
+<strong>TOTAL REQUERIDO:
+<code>{r eval = has.dados.cadastrais} dados.do.programa.raw[1,2]</code>
+CR</strong> <br> Créditos OBRIGATÓRIOS marcados:
+<strong id=msgOBRMSC></strong> <br> Créditos ELETIVOS marcados:
+<strong id=msgELEMSC></strong>
 </center>
 <div id="obrigatórios-1" class="section level5">
 <h5><strong>Obrigatórios</strong></h5>
