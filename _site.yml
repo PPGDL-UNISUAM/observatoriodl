@@ -4,7 +4,7 @@ date: '`r format(Sys.Date())`'
 author:
   - name: PPGDL-UNISUAM
   - email: "desenvolvimentolocal@souunisuam.com.br"
-repository_url: https://github.com/ppgdl-unisuam/observatoriodl/
+repository_url: https://ppgdl-unisuam.github.io/observatoriodl/
 creative_commons: CC BY-NC
 output_dir: docs
 include:
