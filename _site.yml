@@ -2,22 +2,20 @@
 title: Observatório
 date: '`r format(Sys.Date())`'
 author:
-  - name: PPGDL-UNISUAM
-  - email: "desenvolvimentolocal@souunisuam.com.br"
-repository_url: https://ppgdl-unisuam.github.io/observatoriodl/
+  - name: PPGCR-UNISUAM
+  - email: "cienciasdareabilitacao@souunisuam.com.br"
+repository_url: https://ppgcr-unisuam.github.io/observatoriocr/
 creative_commons: CC BY-NC
 output_dir: docs
 include:
-  - 1_INI.html
   - header.html
   - google-translate.html
   - footer.html
-  - /CSS
-  - /Metrics
-  - /PPG
-  - /Scripts
-  - /Sucupira
-  - /Texts
+  - CSS
+  - Metrics
+  - PPG
+  - Scripts
+  - Sucupira
 search: true
 navbar:
   left:
@@ -177,8 +175,10 @@ navbar:
     - text: ""
       icon: "fa-link"
       menu:
-      - text: "Área 49"
-        href: [https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/sobre-a-avaliacao/areas-avaliacao/sobre-as-areas-de-avaliacao/colegio-de-ciencias-exatas-tecnologicas-e-multidisciplinar/multidisciplinar/ciencias-ambientais]
+      - text: "Área 21"
+        href: [https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/sobre-a-avaliacao/areas-avaliacao/sobre-as-areas-de-avaliacao/colegio-de-ciencias-da-vida/ciencias-da-saude/educacao-fisica]
+      - text: "Forum da Área 21"
+        href: [https://www.fef.unicamp.br/fef/posgraduacao/forumpg21]
       - text: "Chamadas públicas"
         menu:
         - text: "FAPERJ"
@@ -189,13 +189,16 @@ navbar:
           href: [https://www.gov.br/cnpq/pt-br]
     - text: ""
       icon: "fa-envelope"
-      href: [mailto:desenvolvimentolocal@unisuam.edu.br]
+      href: [mailto:cienciasdareabilitacao@souunisuam.com.br]
     - text: ""
       icon: "fa-instagram"
-      href: [https://www.instagram.com/ppgdl_unisuam/]
+      href: [https://www.instagram.com/ppgcr_unisuam/]
+    - text: ""
+      icon: "fa-facebook"
+      href: [https://www.facebook.com/people/Ciências-da-Reabilitação/100010029900421/]
     - text: ""
       icon: "fa-github"
-      href: [https://github.com/ppgdl-unisuam/observatoriodl]
+      href: [https://github.com/ppgcr-unisuam/observatoriocr]
 
 output:
   html_document:
@@ -207,9 +210,9 @@ output:
       after_body: [footer.html]
     css:
       - style.css
-      - /CSS/responsive.css
-      - /CSS/narrow-margins.css
-      - /CSS/logo-above-toc.css
+      - CSS/responsive.css
+      - CSS/narrow-margins.css
+      - CSS/logo-above-toc.css
     toc: true
     toc_depth: 3
     toc_float: true
