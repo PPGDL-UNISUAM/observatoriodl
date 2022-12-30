@@ -3,8 +3,8 @@ title: Observatório
 date: '`r format(Sys.Date())`'
 author:
   - name: PPGCR-UNISUAM
-  - email: "cienciasdareabilitacao@souunisuam.com.br"
-repository_url: https://ppgcr-unisuam.github.io/observatoriocr/
+  - email: "desenvolvimentolocal@souunisuam.com.br"
+repository_url: https://ppgdl-unisuam.github.io/observatoriodl/
 creative_commons: CC BY-NC
 output_dir: docs
 include:
@@ -175,10 +175,8 @@ navbar:
     - text: ""
       icon: "fa-link"
       menu:
-      - text: "Área 21"
-        href: [https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/sobre-a-avaliacao/areas-avaliacao/sobre-as-areas-de-avaliacao/colegio-de-ciencias-da-vida/ciencias-da-saude/educacao-fisica]
-      - text: "Forum da Área 21"
-        href: [https://www.fef.unicamp.br/fef/posgraduacao/forumpg21]
+      - text: "Área 49"
+        href: [https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/sobre-a-avaliacao/areas-avaliacao/sobre-as-areas-de-avaliacao/colegio-de-ciencias-exatas-tecnologicas-e-multidisciplinar/multidisciplinar/ciencias-ambientais]
       - text: "Chamadas públicas"
         menu:
         - text: "FAPERJ"
@@ -189,16 +187,13 @@ navbar:
           href: [https://www.gov.br/cnpq/pt-br]
     - text: ""
       icon: "fa-envelope"
-      href: [mailto:cienciasdareabilitacao@souunisuam.com.br]
+      href: [mailto:desenvolvimentolocal@souunisuam.com.br]
     - text: ""
       icon: "fa-instagram"
-      href: [https://www.instagram.com/ppgcr_unisuam/]
-    - text: ""
-      icon: "fa-facebook"
-      href: [https://www.facebook.com/people/Ciências-da-Reabilitação/100010029900421/]
+      href: [https://www.instagram.com/ppgdl_unisuam/]
     - text: ""
       icon: "fa-github"
-      href: [https://github.com/ppgcr-unisuam/observatoriocr]
+      href: [https://github.com/ppgdl-unisuam/observatoriodl]
 
 output:
   html_document:
