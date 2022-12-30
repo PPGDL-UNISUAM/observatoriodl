@@ -898,7 +898,7 @@ layout.m <- c(1)
 source("Scripts/plot-margins.R", local = knitr::knit_global())
 
 # Define the number of colors you want
-nb.cols <- unique(estratos)
+nb.cols <- length(unique(estratos))
 mycolors <- colorRampPalette(brewer.pal(9, "Set3"))(nb.cols)
 
 # plot 1 (total de produção bilbiográfica, por ano)
@@ -910,7 +910,7 @@ title(main = "Produção Bibliográfica",
       cex.main = 1.7)
 
 # Define the number of colors you want
-nb.cols <- unique(estratos)
+nb.cols <- length(unique(estratos))
 mycolors <- colorRampPalette(brewer.pal(9, "Blues"))(nb.cols)
 
 # plot 2 (total de produção bilbiográfica, por estrato, por ano)
@@ -980,7 +980,7 @@ source("Scripts/line-2-break.R", local = knitr::knit_global())
 data.journals$name <- broken_text
 
 # Define the number of colors you want
-nb.cols <- unique(estratos)
+nb.cols <- length(unique(estratos))
 mycolors <- colorRampPalette(brewer.pal(9, "Set3"))(nb.cols)
 
 options(digits = 10)
