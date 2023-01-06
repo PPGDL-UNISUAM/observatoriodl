@@ -169,31 +169,25 @@ navbar:
           href: [autoavaliacao.html#impacto]
         - text: "Resultados"
           href: [autoavaliacao.html#resultados]
-    - text: "Downloads"
-      href: [downloads.html]
-  right:
-    - text: ""
-      icon: "fa-link"
+    - text: "Área"
       menu:
+      - text: "Áreas"
+        href: [https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/sobre-a-avaliacao/areas-avaliacao/sobre-as-areas-de-avaliacao/sobre-as-areas-de-avaliacao]
       - text: "Área 49"
         href: [https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/sobre-a-avaliacao/areas-avaliacao/sobre-as-areas-de-avaliacao/colegio-de-ciencias-exatas-tecnologicas-e-multidisciplinar/multidisciplinar/ciencias-ambientais]
-      - text: "Chamadas públicas"
-        menu:
-        - text: "FAPERJ"
-          href: [https://www.faperj.br/?id=28.5.7]
-        - text: "CAPES"
-          href: [https://www.gov.br/capes/pt-br/assuntos/editais-capes]
-        - text: "CNPq"
-          href: [https://www.gov.br/cnpq/pt-br]
+    - text: ""
+      icon: "fa-download"
+      href: [downloads.html]
     - text: ""
       icon: "fa-envelope"
       href: [mailto:desenvolvimentolocal@souunisuam.com.br]
     - text: ""
       icon: "fa-instagram"
       href: [https://www.instagram.com/ppgdl_unisuam/]
+  right:
     - text: ""
       icon: "fa-github"
-      href: [https://github.com/ppgdl-unisuam/observatoriodl]
+      href: [https://github.com/FerreiraAS/observatorio]
 
 output:
   html_document:
