@@ -78,10 +78,10 @@ navbar:
           href: [pessoas.html#posdocs]
         - text: "Discentes"
           href: [pessoas.html#discentes]
-        - text: "Bolsistas"
-          href: [pessoas.html#bolsistas]
         - text: "Egressos"
           href: [pessoas.html#egressos]
+        - text: "Bolsistas"
+          href: [pessoas.html#bolsistas]
         - text: "Grupos de pesquisa"
           href: [pessoas.html#grupos-pesquisa]
         - text: "Grupos de pesquisa externos"
@@ -161,6 +161,13 @@ navbar:
           href: [autoavaliacao.html#planejamento]
         - text: "Metodologia"
           href: [autoavaliacao.html#metodologia]
+          menu:
+            - text: "Coleta e dados do Programa"
+              href: [autoavaliacao.html#coleta-dados-ppg]
+            - text: "Formulários"
+              href: [autoavaliacao.html#formularios]
+            - text: "Grupos de trabalho"
+              href: [autoavaliacao.html#grupos-trabalho]
         - text: "Resultados"
           href: [autoavaliacao.html#resultados]
           menu:
