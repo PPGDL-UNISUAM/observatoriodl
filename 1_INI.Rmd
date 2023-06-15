@@ -68,7 +68,12 @@ has.sucupira.files <- length(files.to.read) != 0
 has.artigos.completos.sucupira <- FALSE
 has.artigos.resumos.sucupira <- FALSE
 has.anais.sucupira <- FALSE
+has.livros.sucupira <- FALSE
 has.producao.sucupira <- FALSE
+has.2024.2021 <- FALSE
+has.2020.2017 <- FALSE
+has.2016.2013 <- FALSE
+has.2012.2010 <- FALSE
 ```
 
 ```{r try-ppg-files, results = "hide"}
@@ -145,13 +150,6 @@ has.calendarios <-
 ```{r try-cep, results = "hide"}
 has.cep <-
   !is.error(try(readxl::read_excel("PPG/CEP.xlsx", sheet = 1),
-                silent = TRUE)
-  )
-```
-
-```{r try-colegiado, results = "hide"}
-has.colegiado <-
-  !is.error(try(readxl::read_excel("PPG/Colegiado.xlsx", sheet = 1),
                 silent = TRUE)
   )
 ```
@@ -335,7 +333,7 @@ source("Scripts/read-xlsx-sucupira.R", local = knitr::knit_global())
 # características
 subtipo <- "ARTIGO EM PERIÓDICO"
 detalhamento <- "Completo"
-item.detalhamento <- "Número do DOI"
+item.detalhamento <- c("Número do DOI", "URL do DOI", "URL")[1]
 
 # Data selection
 produtos <-
@@ -378,7 +376,7 @@ has.artigos.completos.sucupira <-
 # características
 subtipo <- "ARTIGO EM PERIÓDICO"
 detalhamento <- "Resumo"
-item.detalhamento <- "Número do DOI"
+item.detalhamento <- c("Número do DOI", "URL do DOI", "URL")[1]
 
 # Data selection
 produtos <-
@@ -458,10 +456,53 @@ if (dim(doi_anais_sucupira)[1] != 0) {
 has.anais.sucupira <-
   length(doi_anais_sucupira) != 0
 
+
+# características
+subtipo <- "LIVROS"
+item.detalhamento <- "URL"
+
+# Data selection
+produtos <-
+  sucupira.raw %>% dplyr::select(
+    c(
+      "Nome da Produção",
+      "Subtipo de Produção",
+      "Item de Detalhamento",
+      "Valor do Item de Detalhamento"
+    )
+  )
+# find titles of artigos completos
+titles <- (
+  produtos$"Nome da Produção"[
+  produtos$"Subtipo de Produção" == subtipo]
+)
+titles <- titles[!is.na(titles)]
+
+doi_livros_sucupira <-
+  data.frame(DOI = matrix(NA, nrow = length(titles), ncol = 1))
+if (dim(doi_livros_sucupira)[1] != 0) {
+  # data filter
+  for (i in 1:length(titles)) {
+    doi_livros_sucupira$DOI[i] <-
+      sucupira.raw$`Valor do Item de Detalhamento`[which(
+        and(
+          sucupira.raw$`Nome da Produção` == titles[i],
+          sucupira.raw$`Item de Detalhamento` == item.detalhamento
+        ) == TRUE
+      )]
+  }
+  doi_livros_sucupira <- data.frame(doi_livros_sucupira[!is.na(doi_livros_sucupira)])
+  names(doi_livros_sucupira) <- "DOI"
+}
+has.livros.sucupira <-
+  length(doi_livros_sucupira) != 0
+
+
 has.producao.sucupira <-
   any(has.artigos.completos.sucupira,
       has.artigos.resumos.sucupira,
-      has.anais.sucupira)
+      has.anais.sucupira,
+      has.livros.sucupira)
 ```
 
 ```{r producao-ppg, results = "hide"}
@@ -780,18 +821,26 @@ if (!sjmisc::is_empty(dois)) {
 }
 ```
 
-```{r metrics-livros, results = "hide", cache = TRUE, cache.path = "cache/livros/", eval = has.livros.ppg}
-# read data
-data.sheet <-
-  data.frame(readxl::read_excel(
-    "PPG/Produção.xlsx",
-    sheet = "PI.livros",
-    col_types = c("text")
-  ))
-
-# select DOI column
-dois <-
-  data.frame(DOI = data.sheet[, match("DOI", names(data.sheet))])
+```{r metrics-livros, results = "hide", cache = TRUE, cache.path = "cache/livros/", eval = any(has.livros.ppg, has.livros.sucupira)}
+# bind PPG and SUCUPIRA DOIs
+dois.ppg <- data.frame()
+if(has.livros.ppg) {
+  # read data
+  data.sheet <-
+    data.frame(readxl::read_excel(
+      "PPG/Produção.xlsx",
+      sheet = "PI.livros",
+      col_types = c("text")
+    ))
+  # select DOI column
+  dois.ppg <-
+    data.frame(DOI = data.sheet[, match("DOI", names(data.sheet))])
+}
+dois.sucupira <- data.frame()
+if(has.livros.sucupira) {
+  dois.sucupira <- doi_livros_sucupira
+}
+dois <- data.frame(DOI = c(dois.sucupira$DOI, dois.ppg$DOI))
 
 # Data cleaning
 dois <- data.frame(DOI = dois$DOI[!duplicated(dois)])
@@ -931,7 +980,7 @@ if (!sjmisc::is_empty(dois)) {
 ```{r metrics-anais, results = "hide", cache = TRUE, cache.path = "cache/anais/", eval = any(has.anais.ppg, has.anais.sucupira)}
 # bind PPG and SUCUPIRA DOIs
 dois.ppg <- data.frame()
-if(has.artigos.completos.ppg) {
+if(has.anais.ppg) {
   # read data
   data.sheet <-
     data.frame(readxl::read_excel(
@@ -944,8 +993,8 @@ if(has.artigos.completos.ppg) {
     data.frame(DOI = data.sheet[, match("DOI", names(data.sheet))])
 }
 dois.sucupira <- data.frame()
-if(has.artigos.completos.sucupira) {
-  dois.sucupira <- doi_artigos_completos_sucupira
+if(has.anais.ppg) {
+  dois.sucupira <- doi_anais_sucupira
 }
 dois <- data.frame(DOI = c(dois.sucupira$DOI, dois.ppg$DOI))
 
@@ -1091,7 +1140,6 @@ has.blog.ies
 has.bolsas
 has.calendarios
 has.cep
-has.colegiado
 has.convenios
 has.cooperacoes
 has.coordenacao
@@ -1117,6 +1165,7 @@ has.softwares
 # data sucupira
 has.artigos.completos.sucupira
 has.artigos.resumos.sucupira
+has.livros.sucupira
 has.anais.sucupira
 has.producao.sucupira
 
@@ -1128,4 +1177,37 @@ has.livros.ppg
 has.capitulos.ppg
 has.anais.ppg
 has.producao.ppg
+```
+
+```{r save, results = "hide"}
+try(write.table(
+  doi_with_altmetric_all,
+  "doi_with_altmetric_all.tsv",
+  quote = FALSE,
+  sep = "\t",
+  row.names = FALSE,
+  col.names = TRUE
+),
+silent = TRUE)
+
+try(write.table(
+  doi_without_altmetric_all,
+  "doi_without_altmetric_all.tsv",
+  quote = FALSE,
+  sep = "\t",
+  row.names = FALSE,
+  col.names = TRUE
+),
+silent = TRUE)
+
+try(write.table(
+  doi_all,
+  "doi_all.tsv",
+  quote = FALSE,
+  sep = "\t",
+  row.names = FALSE,
+  col.names = TRUE
+),
+silent = TRUE
+)
 ```
