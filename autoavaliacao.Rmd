@@ -2201,9 +2201,45 @@ cat('<br><a style="float:right" href="#top"><b>Início &nbsp;</b>⬆️</a><br>'
 
 #### **Produção do Programa**
 
-*Em construção*
+```{r 3-1-2-data, eval = has.sucupira.files}
+# Produções - Detalhes
+sheet <- "Produções - Detalhes"
+source("Scripts/read-xlsx-sucupira.R", local = knitr::knit_global())
 
-<a style="float:right" href="#top"><b>Início &nbsp;</b>⬆️</a>
+# get years
+source("Scripts/years-sucupira.R", local = knitr::knit_global())
+names(sucupira.list) <- as.character(anos)
+
+# get data for the current period
+sucupira <- sucupira.list[as.character(quadrienal.vigente)] %>%
+  plyr::compact()
+for(i in 1:length(sucupira)){
+  sucupira[[i]] <- cbind(
+    "Anos" = rep(quadrienal.vigente[i], times = dim(sucupira[[i]])[1]),
+    sucupira[[i]]
+  )
+}
+sucupira.df <- data.frame(do.call(dplyr::bind_rows, sucupira))
+names(sucupira.df) <-
+  names(sucupira[[as.character(max(as.numeric(quadrienal.vigente)))]])
+
+# filter docente responsável
+sucupira.df <-
+  sucupira.df[sucupira.df$`Membro Responsável` == "Sim", ]
+
+sucupira.df <-
+  sucupira.df %>% dplyr::select(
+    "Anos",
+    "Área de Concentração",
+    "Linha de Pesquisa",
+    "Nome do Projeto de Pesquisa",
+    "Nome do Membro do Projeto",
+    "Categoria do Membro do Projeto",
+    "Data de Início",
+    "Data da Situação",
+    "Situação"
+  )
+```
 
 <br>
 
