@@ -89,11 +89,11 @@ if (window.hljs) {
 
 
 
-<link rel="stylesheet" href="CSS/logo-above-toc.css" type="text/css" />
-<link rel="stylesheet" href="CSS/narrow-margins.css" type="text/css" />
-<link rel="stylesheet" href="CSS/responsive.css" type="text/css" />
-<link rel="stylesheet" href="CSS/generic.css" type="text/css" />
-<link rel="stylesheet" href="CSS/main-color.css" type="text/css" />
+<link rel="stylesheet" href="css/logo-above-toc.css" type="text/css" />
+<link rel="stylesheet" href="css/narrow-margins.css" type="text/css" />
+<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+<link rel="stylesheet" href="css/generic.css" type="text/css" />
+<link rel="stylesheet" href="css/main-color.css" type="text/css" />
 
 
 
@@ -619,19 +619,24 @@ div.tocify {
         </li>
       </ul>
     </li>
-    <li class="dropdown-submenu">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ficha de avaliação</a>
-      <ul class="dropdown-menu" role="menu">
-        <li>
-          <a href="autoavaliacao.html#programa">1. Programa</a>
-        </li>
-        <li>
-          <a href="autoavaliacao.html#formacao">2. Formação</a>
-        </li>
-        <li>
-          <a href="autoavaliacao.html#impacto">3. Impacto na sociedade</a>
-        </li>
-      </ul>
+    <li>
+      <a href="autoavaliacao.html#ficha-avaliacao">Ficha de avaliação</a>
+    </li>
+    <li>
+      <a href="autoavaliacao.html#programa">1. Programa</a>
+    </li>
+    <li>
+      <a href="autoavaliacao.html#formacao">2. Formação</a>
+    </li>
+    <li>
+      <a href="autoavaliacao.html#impacto">3. Impacto na sociedade</a>
+    </li>
+    <li>
+      <a href="autoavaliacao.pdf">
+        <span class="fa fa-file-pdf"></span>
+         
+        Relatório quadrienal
+      </a>
     </li>
   </ul>
 </li>
@@ -639,13 +644,11 @@ div.tocify {
   <a href="downloads.html">Downloads</a>
 </li>
 <li>
-  <a href="info.html">
-    <span class="fa fa-globe"></span>
-     
-    
-  </a>
+  <a href="links.html">Links</a>
 </li>
-<li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
   <a href="mailto:desenvolvimentolocal@souunisuam.com.br">
     <span class="fa fa-envelope"></span>
      
@@ -653,20 +656,29 @@ div.tocify {
   </a>
 </li>
 <li>
-  <a href="https://www.instagram.com/ppgdl_unisuam/">
-    <span class="fa fa-instagram"></span>
-     
-    
-  </a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
   <a href="https://github.com/FerreiraAS/observatorio">
     <span class="fa fa-github"></span>
      
     
   </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-share-nodes"></span>
+     
+    
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://www.instagram.com/ppgdl_unisuam/">
+        <span class="fa fa-instagram"></span>
+         
+        
+      </a>
+    </li>
+  </ul>
 </li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -717,6 +729,7 @@ href="https://www.linkedin.com/shareArticle?mini=true&amp;url="><svg preserveAsp
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:black;background-color:black">
 <p><br></p>
+<div style="page-break-after: always;"></div>
 <p><br></p>
 </div>
 <div id="resultados" class="section level2 tabset">
@@ -776,18 +789,17 @@ Sucupira</strong></a></p>
 </div>
 <div id="dados-perdidos" class="section level4">
 <h4><strong>Dados perdidos</strong></h4>
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-43f929eaf9aaa288a02e" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-43f929eaf9aaa288a02e">{"x":{"filter":"none","vertical":false,"extensions":["Buttons","ColReorder","Responsive"],"data":[["2012","2012","2012","2012","2012","2012","2012","2012","2012","2013","2013","2013","2013","2013","2013","2013","2013","2013","2014","2014","2014","2014","2014","2014","2014","2014","2014","2015","2015","2015","2015","2015","2015","2015","2015","2015","2016","2016","2016","2016","2016","2016","2016","2016","2016","2017","2017","2017","2017","2017","2017","2017","2017","2017","2018","2018","2018","2018","2018","2018","2018","2018","2018","2019","2019","2019","2019","2019","2019","2019","2019","2019","2020","2020","2020","2020","2020","2020","2020","2020","2020","2021","2021","2021","2021","2021","2021","2021","2021","2021","2022","2022","2022","2022","2022","2022","2022","2022","2022","2023","2023","2023","2023","2023","2023","2023","2023","2023","2012","2012","2013","2013","2013","2014","2014","2014","2015","2015","2015","2016","2016","2016","2017","2017","2018","2019","2020","2021","2022","2023","2012","2012","2012","2012","2012","2012","2012","2012","2012","2013","2013","2013","2013","2013","2013","2013","2013","2013","2013","2014","2014","2014","2014","2014","2014","2014","2014","2014","2014","2015","2015","2015","2015","2015","2015","2015","2015","2015","2015","2016","2016","2016","2016","2016","2016","2016","2016","2016","2016","2017","2017","2017","2017","2017","2017","2017","2017","2017","2018","2018","2018","2018","2018","2018","2018","2018","2019","2019","2019","2019","2019","2019","2019","2019","2020","2020","2020","2020","2020","2020","2020","2020","2021","2021","2021","2021","2021","2021","2021","2021","2022","2022","2022","2022","2022","2022","2022","2022","2023","2023","2023","2023","2023","2023","2023","2023","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2020","2021","2022","2022","2023","2023","2012","2012","2012","2013","2013","2013","2014","2014","2014","2015","2015","2015","2016","2016","2016","2017","2017","2017","2018","2018","2018","2019","2019","2019","2020","2020","2020","2021","2021","2021","2022","2022","2022","2022","2022","2022","2022","2022","2023","2023","2023","2015","2016","2018","2019","2020","2021","2022","2012","2012","2013","2013","2014","2014","2015","2015","2016","2016","2017","2017","2018","2018","2019","2019","2020","2020","2021","2021","2022","2022","2023","2023","2012","2014","2014","2018","2018","2019","2019","2012","2014","2014","2017","2018","2018","2018","2019","2019","2019","2020","2021","2022","2023","2012","2013","2014","2018","2019","2019","2019","2020","2021","2022","2023","2012","2012","2012","2012","2012","2012","2012","2012","2012","2013","2013","2013","2014","2014","2014","2015","2015","2015","2016","2016","2016","2017","2017","2017","2018","2018","2018","2019","2020","2020","2020","2021","2021","2021","2022","2022","2022","2023","2023","2023","2012","2012","2012","2012","2012","2012","2012","2012","2012","2012","2012","2012","2012","2013","2013","2013","2013","2013","2013","2013","2013","2014","2014","2014","2014","2014","2014","2014","2014","2015","2015","2015","2015","2015","2015","2015","2015","2016","2016","2016","2016","2016","2016","2016","2016","2017","2017","2017","2017","2017","2017","2017","2017","2018","2018","2018","2018","2018","2018","2018","2018","2019","2019","2019","2019","2019","2019","2020","2020","2020","2020","2020","2020","2020","2020","2021","2021","2021","2021","2021","2021","2021","2021","2022","2022","2022","2022","2022","2022","2022","2022","2023","2023","2023","2023","2023","2023","2023","2023","2012","2012","2012","2012","2012","2012","2013","2013","2013","2013","2013","2013","2014","2014","2014","2014","2014","2014","2015","2015","2015","2015","2015","2015","2016","2016","2016","2016","2016","2016","2017","2017","2017","2017","2017","2017","2018","2018","2018","2018","2018","2018","2019","2019","2019","2019","2019","2019","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2021","2021","2021","2021","2021","2021","2022","2022","2022","2022","2022","2022","2023","2023","2023","2023","2023","2023","2012","2012","2012","2013","2013","2013","2014","2014","2014","2015","2015","2015","2016","2016","2016","2017","2017","2017","2018","2018","2018","2019","2019","2019","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2021","2021","2021","2022","2022","2022","2023","2023","2023","2012","2012","2012","2012","2013","2013","2013","2013","2014","2014","2014","2014","2015","2015","2015","2015","2016","2016","2016","2016","2017","2017","2017","2017","2018","2018","2018","2018","2019","2019","2019","2019","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2021","2021","2021","2021","2022","2022","2022","2022","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2012","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2012","2013","2014","2015","2016","2017","2018","2019","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2021","2022","2023","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023"],["Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Egressos","Egressos","Egressos","Egressos","Egressos","Egressos","Egressos","Egressos","Egressos","Egressos","Pós-Doc","Pós-Doc","Pós-Doc","Pós-Doc","Pós-Doc","Pós-Doc","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Turmas","Turmas","Turmas","Turmas","Turmas","Turmas","Turmas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Projetos","Projetos","Projetos","Projetos","Projetos","Projetos","Projetos","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Financiadores","Projetos - Financiadores","Projetos - Financiadores","Projetos - Financiadores","Projetos - Financiadores","Projetos - Financiadores","Projetos - Financiadores","Projetos - Financiadores","Projetos - Financiadores","Projetos - Financiadores","Projetos - Financiadores","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC"],["Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Raça/Cor","ORCID","Raça/Cor","E-mail","ORCID","Raça/Cor","E-mail","ORCID","Raça/Cor","E-mail","ORCID","Raça/Cor","E-mail","ORCID","E-mail","ORCID","ORCID","ORCID","ORCID","ORCID","ORCID","ORCID","Raça/Cor","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","Raça/Cor","E-mail","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","Raça/Cor","E-mail","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","Raça/Cor","E-mail","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","Raça/Cor","E-mail","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","E-mail","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","ORCID","ORCID","ORCID","ORCID","ORCID","ORCID","ORCID","ORCID","ORCID","ORCID","Vínculo Fim","Vínculo Fim","ORCID","Vínculo Fim","ORCID","Vínculo Fim","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","Nível Titulação","Área de Conhecimento Titulação","Nome IES Titulação","Ano Titulação","País Titulação","ORCID","País da Instituição de Origem","Instituição de Origem","Nome da Turma","Nome da Turma","Nome da Turma","Nome da Turma","Nome da Turma","Nome da Turma","Nome da Turma","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Área de Concentração","Data de Início da Linha de Pesquisa","Linha de Pesquisa","Data de Início da Linha de Pesquisa","Linha de Pesquisa","Data de Início da Linha de Pesquisa","Linha de Pesquisa","Área de Concentração","Data de Início da Linha de Pesquisa","Linha de Pesquisa","Data Fim do Membro","Data de Início da Linha de Pesquisa","Linha de Pesquisa","Data Fim do Membro","Data de Início da Linha de Pesquisa","Linha de Pesquisa","Data Fim do Membro","Data Fim do Membro","Data Fim do Membro","Data Fim do Membro","Data Fim do Membro","Data Fim Financiador","Data Fim Financiador","Data Fim Financiador","Data Fim Financiador","Data de Início da Linha de Pesquisa","Linha de Pesquisa","Data Fim Financiador","Data Fim Financiador","Data Fim Financiador","Data Fim Financiador","Data Fim Financiador","Identificador da Pessoa da Banca","Nome da Pessoa da Banca","Tipo de Documento da Pessoa da Banca","Número do Documento da Pessoa da Banca","País da Pessoa da Banca","Tipo de Papel da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Nome da Pessoa da Banca","Tipo de Documento da Pessoa da Banca","Número do Documento da Pessoa da Banca","País da Pessoa da Banca","Tipo de Papel da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","Identificador do PPG","Código do PPG","Nome do PPG","Área de Avaliação","IES Sigla","IES Nome","Ano da Produção","ID da Produção","Produção vinculada a TCC concluído","Importada Lattes?","Inconsistente","Tipo de Produção","Subtipo de Produção","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","Nome do Autor Principal","Categoria do Autor Principal","Entre as 5 produções mais relevantes do programa?","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Identificador do PPG","Código do PPG","Nome do PPG","Área de Avaliação","IES Sigla","IES Nome","Ano da Produção","ID da Produção","Produção vinculada a TCC concluído","Importada Lattes?","Inconsistente","Tipo de Produção","Subtipo de Produção","Área de Concentração","Linha de Pesquisa","Projeto","ID Pessoa do Autor","Nome do Autor","Número de Ordem do Autor","Categoria do Autor","Entre as 5 produções mais relevantes do programa?","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Identificador do PPG","Código do PPG","Nome do PPG","Área de Avaliação","IES Sigla","IES Nome","Ano da Produção","ID da Produção","Produção vinculada a TCC concluído","Importada Lattes?","Inconsistente","Tipo de Produção","Subtipo de Produção","Item de Detalhamento","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Nome do Autor Principal","Categoria do Autor Principal","Entre as 5 produções mais relevantes do programa?","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Identificador do PPG","Código do PPG","Nome do PPG","Área de Avaliação","IES Sigla","IES Nome","Ano da Produção","ID da Produção","Nome da Produção","Produção vinculada a TCC concluído","Importada Lattes?","Inconsistente","Tipo de Produção","Subtipo de Produção","Item de Detalhamento","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Nome do Autor Principal","Categoria do Autor Principal","Entre as 5 produções mais relevantes do programa?","Área de Concentração","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Identificador do PPG","Código do PPG","Nome do PPG","Área de Avaliação","IES Sigla","IES Nome","Identificador da Linha de Pesquisa","Linha de Pesquisa","Identificador da Área de Concentração","Área de Concentração","Data de Início da Linha","Data de Fim da Linha","Identificador da Produção","identificador do Tipo da Produção","Tipo da Produção","Identificador do Subtipo da Produção","Subtipo da Produção","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Aba<\/th>\n      <th>Ano<\/th>\n      <th>Coluna<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"colReorder":true,"pageLength":4,"scrolX":false,"dom":"Bftip","searchHighlight":true,"buttons":[{"extend":"copy"},{"extend":"csv"},{"extend":"pdf","title":"Dados perdidos na Sucupira","filename":"Dados perdidos na Sucupira"}],"columnDefs":[],"order":[],"autoWidth":false,"orderClasses":false,"responsive":true,"lengthMenu":[4,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-abe45014fa278cdd546a" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-abe45014fa278cdd546a">{"x":{"filter":"none","vertical":false,"extensions":["Buttons","ColReorder","Responsive"],"data":[["2012","2012","2012","2012","2012","2012","2012","2012","2012","2013","2013","2013","2013","2013","2013","2013","2013","2013","2014","2014","2014","2014","2014","2014","2014","2014","2014","2015","2015","2015","2015","2015","2015","2015","2015","2015","2016","2016","2016","2016","2016","2016","2016","2016","2016","2017","2017","2017","2017","2017","2017","2017","2017","2017","2018","2018","2018","2018","2018","2018","2018","2018","2018","2019","2019","2019","2019","2019","2019","2019","2019","2019","2020","2020","2020","2020","2020","2020","2020","2020","2020","2021","2021","2021","2021","2021","2021","2021","2021","2021","2022","2022","2022","2022","2022","2022","2022","2022","2022","2023","2023","2023","2023","2023","2023","2023","2023","2023","2012","2012","2013","2013","2013","2014","2014","2014","2015","2015","2015","2016","2016","2016","2017","2017","2018","2019","2020","2021","2022","2023","2012","2012","2012","2012","2012","2012","2012","2012","2012","2013","2013","2013","2013","2013","2013","2013","2013","2013","2013","2014","2014","2014","2014","2014","2014","2014","2014","2014","2014","2015","2015","2015","2015","2015","2015","2015","2015","2015","2015","2016","2016","2016","2016","2016","2016","2016","2016","2016","2016","2017","2017","2017","2017","2017","2017","2017","2017","2017","2018","2018","2018","2018","2018","2018","2018","2018","2019","2019","2019","2019","2019","2019","2019","2019","2020","2020","2020","2020","2020","2020","2020","2020","2021","2021","2021","2021","2021","2021","2021","2021","2022","2022","2022","2022","2022","2022","2022","2022","2023","2023","2023","2023","2023","2023","2023","2023","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2020","2021","2022","2022","2023","2023","2012","2012","2012","2013","2013","2013","2014","2014","2014","2015","2015","2015","2016","2016","2016","2017","2017","2017","2018","2018","2018","2019","2019","2019","2020","2020","2020","2021","2021","2021","2022","2022","2022","2022","2022","2022","2022","2022","2023","2023","2023","2015","2016","2018","2019","2020","2021","2022","2012","2012","2013","2013","2014","2014","2015","2015","2016","2016","2017","2017","2018","2018","2019","2019","2020","2020","2021","2021","2022","2022","2023","2023","2012","2014","2014","2018","2018","2019","2019","2012","2014","2014","2017","2018","2018","2018","2019","2019","2019","2020","2021","2022","2023","2012","2013","2014","2018","2019","2019","2019","2020","2021","2022","2023","2012","2012","2012","2012","2012","2012","2012","2012","2012","2013","2013","2013","2014","2014","2014","2015","2015","2015","2016","2016","2016","2017","2017","2017","2018","2018","2018","2019","2020","2020","2020","2021","2021","2021","2022","2022","2022","2023","2023","2023","2012","2012","2012","2012","2012","2012","2012","2012","2012","2012","2012","2012","2012","2013","2013","2013","2013","2013","2013","2013","2013","2014","2014","2014","2014","2014","2014","2014","2014","2015","2015","2015","2015","2015","2015","2015","2015","2016","2016","2016","2016","2016","2016","2016","2016","2017","2017","2017","2017","2017","2017","2017","2017","2018","2018","2018","2018","2018","2018","2018","2018","2019","2019","2019","2019","2019","2019","2020","2020","2020","2020","2020","2020","2020","2020","2021","2021","2021","2021","2021","2021","2021","2021","2022","2022","2022","2022","2022","2022","2022","2022","2023","2023","2023","2023","2023","2023","2023","2023","2012","2012","2012","2012","2012","2012","2013","2013","2013","2013","2013","2013","2014","2014","2014","2014","2014","2014","2015","2015","2015","2015","2015","2015","2016","2016","2016","2016","2016","2016","2017","2017","2017","2017","2017","2017","2018","2018","2018","2018","2018","2018","2019","2019","2019","2019","2019","2019","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2021","2021","2021","2021","2021","2021","2022","2022","2022","2022","2022","2022","2023","2023","2023","2023","2023","2023","2012","2012","2012","2013","2013","2013","2014","2014","2014","2015","2015","2015","2016","2016","2016","2017","2017","2017","2018","2018","2018","2019","2019","2019","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2021","2021","2021","2022","2022","2022","2023","2023","2023","2012","2012","2012","2012","2013","2013","2013","2013","2014","2014","2014","2014","2015","2015","2015","2015","2016","2016","2016","2016","2017","2017","2017","2017","2018","2018","2018","2018","2019","2019","2019","2019","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2021","2021","2021","2021","2022","2022","2022","2022","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2023","2012","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2012","2013","2014","2015","2016","2017","2018","2019","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2020","2021","2022","2023","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023"],["Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Docentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Discentes - Orientadores","Egressos","Egressos","Egressos","Egressos","Egressos","Egressos","Egressos","Egressos","Egressos","Egressos","Pós-Doc","Pós-Doc","Pós-Doc","Pós-Doc","Pós-Doc","Pós-Doc","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Participante Externo","Turmas","Turmas","Turmas","Turmas","Turmas","Turmas","Turmas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Disciplinas","Projetos","Projetos","Projetos","Projetos","Projetos","Projetos","Projetos","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Membros","Projetos - Financiadores","Projetos - Financiadores","Projetos - Financiadores","Projetos - Financiadores","Projetos - Financiadores","Projetos - Financiadores","Projetos - Financiadores","Projetos - Financiadores","Projetos - Financiadores","Projetos - Financiadores","Projetos - Financiadores","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Banca","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","TCC - Financiadores","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Autores","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Produções - Detalhes","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Projetos","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - Produções","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC","Linhas de Pesquisa - TCC"],["Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Data de Desligamento","Fim da Categoria","Tipo de Bolsa CNPq","Modalidade da Bolsa CNPq","Categoria da Bolsa CNPq","ORCID","Último Afastamento Motivo","Último Afastamento Início","Último Afastamento Fim","Raça/Cor","ORCID","Raça/Cor","E-mail","ORCID","Raça/Cor","E-mail","ORCID","Raça/Cor","E-mail","ORCID","Raça/Cor","E-mail","ORCID","E-mail","ORCID","ORCID","ORCID","ORCID","ORCID","ORCID","ORCID","Raça/Cor","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","Raça/Cor","E-mail","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","Raça/Cor","E-mail","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","Raça/Cor","E-mail","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","Raça/Cor","E-mail","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","E-mail","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","ORCID","Identificador do Orientador","Nome do Orientador","Tipo de Orientador","Início da Orientação","Fim da Orientação","Orientador Principal?","Categoria do Orientador","ORCID","ORCID","ORCID","ORCID","ORCID","ORCID","ORCID","ORCID","ORCID","ORCID","Vínculo Fim","Vínculo Fim","ORCID","Vínculo Fim","ORCID","Vínculo Fim","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","ORCID","País da Instituição de Origem","Instituição de Origem","Nível Titulação","Área de Conhecimento Titulação","Nome IES Titulação","Ano Titulação","País Titulação","ORCID","País da Instituição de Origem","Instituição de Origem","Nome da Turma","Nome da Turma","Nome da Turma","Nome da Turma","Nome da Turma","Nome da Turma","Nome da Turma","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Data de fim","Área de Concentração","Área de Concentração","Data de Início da Linha de Pesquisa","Linha de Pesquisa","Data de Início da Linha de Pesquisa","Linha de Pesquisa","Data de Início da Linha de Pesquisa","Linha de Pesquisa","Área de Concentração","Data de Início da Linha de Pesquisa","Linha de Pesquisa","Data Fim do Membro","Data de Início da Linha de Pesquisa","Linha de Pesquisa","Data Fim do Membro","Data de Início da Linha de Pesquisa","Linha de Pesquisa","Data Fim do Membro","Data Fim do Membro","Data Fim do Membro","Data Fim do Membro","Data Fim do Membro","Data Fim Financiador","Data Fim Financiador","Data Fim Financiador","Data Fim Financiador","Data de Início da Linha de Pesquisa","Linha de Pesquisa","Data Fim Financiador","Data Fim Financiador","Data Fim Financiador","Data Fim Financiador","Data Fim Financiador","Identificador da Pessoa da Banca","Nome da Pessoa da Banca","Tipo de Documento da Pessoa da Banca","Número do Documento da Pessoa da Banca","País da Pessoa da Banca","Tipo de Papel da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Nome da Pessoa da Banca","Tipo de Documento da Pessoa da Banca","Número do Documento da Pessoa da Banca","País da Pessoa da Banca","Tipo de Papel da Pessoa da Banca","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","Categoria da Pessoa da Banca","Sigla da IES da Pessoa da Banca","Nome da IES da Pessoa da Banca","Tipo de Documento do Financiador","Número do Documento do Financiador","Nome do Financiador","Nome do Programa de Fomento","Quantidade de Meses","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","Identificador do PPG","Código do PPG","Nome do PPG","Área de Avaliação","IES Sigla","IES Nome","Ano da Produção","ID da Produção","Produção vinculada a TCC concluído","Importada Lattes?","Inconsistente","Tipo de Produção","Subtipo de Produção","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","Nome do Autor Principal","Categoria do Autor Principal","Entre as 5 produções mais relevantes do programa?","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","ISSN","Título","Estrato","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Identificador do PPG","Código do PPG","Nome do PPG","Área de Avaliação","IES Sigla","IES Nome","Ano da Produção","ID da Produção","Produção vinculada a TCC concluído","Importada Lattes?","Inconsistente","Tipo de Produção","Subtipo de Produção","Área de Concentração","Linha de Pesquisa","Projeto","ID Pessoa do Autor","Nome do Autor","Número de Ordem do Autor","Categoria do Autor","Entre as 5 produções mais relevantes do programa?","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Área de Concentração","Linha de Pesquisa","Projeto","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Identificador do PPG","Código do PPG","Nome do PPG","Área de Avaliação","IES Sigla","IES Nome","Ano da Produção","ID da Produção","Produção vinculada a TCC concluído","Importada Lattes?","Inconsistente","Tipo de Produção","Subtipo de Produção","Item de Detalhamento","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Nome do Autor Principal","Categoria do Autor Principal","Entre as 5 produções mais relevantes do programa?","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Identificador do PPG","Código do PPG","Nome do PPG","Área de Avaliação","IES Sigla","IES Nome","Ano da Produção","ID da Produção","Nome da Produção","Produção vinculada a TCC concluído","Importada Lattes?","Inconsistente","Tipo de Produção","Subtipo de Produção","Item de Detalhamento","Valor do Item de Detalhamento","Área de Concentração","Linha de Pesquisa","Projeto","Nome do Autor Principal","Categoria do Autor Principal","Entre as 5 produções mais relevantes do programa?","Área de Concentração","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Identificador do PPG","Código do PPG","Nome do PPG","Área de Avaliação","IES Sigla","IES Nome","Identificador da Linha de Pesquisa","Linha de Pesquisa","Identificador da Área de Concentração","Área de Concentração","Data de Início da Linha","Data de Fim da Linha","Identificador da Produção","identificador do Tipo da Produção","Tipo da Produção","Identificador do Subtipo da Produção","Subtipo da Produção","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha","Data de Fim da Linha"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Aba<\/th>\n      <th>Ano<\/th>\n      <th>Coluna<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"colReorder":true,"pageLength":4,"scrolX":false,"dom":"Bftip","searchHighlight":true,"buttons":[{"extend":"copy"},{"extend":"csv"},{"extend":"pdf","title":"Dados perdidos na Sucupira","filename":"Dados perdidos na Sucupira"}],"columnDefs":[],"order":[],"autoWidth":false,"orderClasses":false,"responsive":true,"lengthMenu":[4,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 <p><em>Fontes:</em> <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a></p>
+href="https://www.gov.br/capes/pt-br"><strong>CAPES</strong></a></p>
 <p><br><a style="float:right" href="#top"><b>Início  </b>⬆️</a><br></p>
 <p><br></p>
 </div>
 </div>
 <div id="documentos" class="section level3 tabset">
 <h3 class="tabset"><strong>Documentos CAPES</strong></h3>
-<p><br></p>
+<div style="page-break-after: always;"></div>
 </div>
 </div>
 <div id="programa" class="section level2 tabset">
@@ -1868,24 +1880,24 @@ Sucupira</strong></a></p>
 </div>
 <div id="coerencia-quantitativo" class="section level5">
 <h5><strong>Síntese</strong></h5>
-<div id="dzjkzkciao"
+<div id="lequhmukso"
 style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#dzjkzkciao table {
+<style>#lequhmukso table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#dzjkzkciao thead, #dzjkzkciao tbody, #dzjkzkciao tfoot, #dzjkzkciao tr, #dzjkzkciao td, #dzjkzkciao th {
+#lequhmukso thead, #lequhmukso tbody, #lequhmukso tfoot, #lequhmukso tr, #lequhmukso td, #lequhmukso th {
   border-style: none;
 }
 
-#dzjkzkciao p {
+#lequhmukso p {
   margin: 0;
   padding: 0;
 }
 
-#dzjkzkciao .gt_table {
+#lequhmukso .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1911,12 +1923,12 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-left-color: #D3D3D3;
 }
 
-#dzjkzkciao .gt_caption {
+#lequhmukso .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#dzjkzkciao .gt_title {
+#lequhmukso .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1928,7 +1940,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-width: 0;
 }
 
-#dzjkzkciao .gt_subtitle {
+#lequhmukso .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1940,7 +1952,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-top-width: 0;
 }
 
-#dzjkzkciao .gt_heading {
+#lequhmukso .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1952,13 +1964,13 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#dzjkzkciao .gt_bottom_border {
+#lequhmukso .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#dzjkzkciao .gt_col_headings {
+#lequhmukso .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1973,7 +1985,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#dzjkzkciao .gt_col_heading {
+#lequhmukso .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1993,7 +2005,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   overflow-x: hidden;
 }
 
-#dzjkzkciao .gt_column_spanner_outer {
+#lequhmukso .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2005,15 +2017,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 4px;
 }
 
-#dzjkzkciao .gt_column_spanner_outer:first-child {
+#lequhmukso .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#dzjkzkciao .gt_column_spanner_outer:last-child {
+#lequhmukso .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#dzjkzkciao .gt_column_spanner {
+#lequhmukso .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2025,11 +2037,11 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   width: 100%;
 }
 
-#dzjkzkciao .gt_spanner_row {
+#lequhmukso .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#dzjkzkciao .gt_group_heading {
+#lequhmukso .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2055,7 +2067,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   text-align: left;
 }
 
-#dzjkzkciao .gt_empty_group_heading {
+#lequhmukso .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2070,15 +2082,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   vertical-align: middle;
 }
 
-#dzjkzkciao .gt_from_md > :first-child {
+#lequhmukso .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#dzjkzkciao .gt_from_md > :last-child {
+#lequhmukso .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#dzjkzkciao .gt_row {
+#lequhmukso .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2097,7 +2109,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   overflow-x: hidden;
 }
 
-#dzjkzkciao .gt_stub {
+#lequhmukso .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2110,7 +2122,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#dzjkzkciao .gt_stub_row_group {
+#lequhmukso .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2124,15 +2136,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   vertical-align: top;
 }
 
-#dzjkzkciao .gt_row_group_first td {
+#lequhmukso .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#dzjkzkciao .gt_row_group_first th {
+#lequhmukso .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#dzjkzkciao .gt_summary_row {
+#lequhmukso .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2142,16 +2154,16 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#dzjkzkciao .gt_first_summary_row {
+#lequhmukso .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#dzjkzkciao .gt_first_summary_row.thick {
+#lequhmukso .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#dzjkzkciao .gt_last_summary_row {
+#lequhmukso .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2161,7 +2173,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#dzjkzkciao .gt_grand_summary_row {
+#lequhmukso .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2171,7 +2183,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#dzjkzkciao .gt_first_grand_summary_row {
+#lequhmukso .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2181,7 +2193,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-top-color: #D3D3D3;
 }
 
-#dzjkzkciao .gt_last_grand_summary_row_top {
+#lequhmukso .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2191,11 +2203,11 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#dzjkzkciao .gt_striped {
+#lequhmukso .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#dzjkzkciao .gt_table_body {
+#lequhmukso .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2204,7 +2216,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#dzjkzkciao .gt_footnotes {
+#lequhmukso .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2218,7 +2230,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#dzjkzkciao .gt_footnote {
+#lequhmukso .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -2227,7 +2239,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#dzjkzkciao .gt_sourcenotes {
+#lequhmukso .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2241,7 +2253,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#dzjkzkciao .gt_sourcenote {
+#lequhmukso .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -2249,63 +2261,63 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#dzjkzkciao .gt_left {
+#lequhmukso .gt_left {
   text-align: left;
 }
 
-#dzjkzkciao .gt_center {
+#lequhmukso .gt_center {
   text-align: center;
 }
 
-#dzjkzkciao .gt_right {
+#lequhmukso .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#dzjkzkciao .gt_font_normal {
+#lequhmukso .gt_font_normal {
   font-weight: normal;
 }
 
-#dzjkzkciao .gt_font_bold {
+#lequhmukso .gt_font_bold {
   font-weight: bold;
 }
 
-#dzjkzkciao .gt_font_italic {
+#lequhmukso .gt_font_italic {
   font-style: italic;
 }
 
-#dzjkzkciao .gt_super {
+#lequhmukso .gt_super {
   font-size: 65%;
 }
 
-#dzjkzkciao .gt_footnote_marks {
+#lequhmukso .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#dzjkzkciao .gt_asterisk {
+#lequhmukso .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#dzjkzkciao .gt_indent_1 {
+#lequhmukso .gt_indent_1 {
   text-indent: 5px;
 }
 
-#dzjkzkciao .gt_indent_2 {
+#lequhmukso .gt_indent_2 {
   text-indent: 10px;
 }
 
-#dzjkzkciao .gt_indent_3 {
+#lequhmukso .gt_indent_3 {
   text-indent: 15px;
 }
 
-#dzjkzkciao .gt_indent_4 {
+#lequhmukso .gt_indent_4 {
   text-indent: 20px;
 }
 
-#dzjkzkciao .gt_indent_5 {
+#lequhmukso .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -3554,24 +3566,24 @@ Nome do Projeto de Pesquisa
 </div>
 <div id="quantitativa" class="section level5">
 <h5><em>Quantitativa</em></h5>
-<div id="lgbiarurjt"
+<div id="bnaipxhjwe"
 style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#lgbiarurjt table {
+<style>#bnaipxhjwe table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#lgbiarurjt thead, #lgbiarurjt tbody, #lgbiarurjt tfoot, #lgbiarurjt tr, #lgbiarurjt td, #lgbiarurjt th {
+#bnaipxhjwe thead, #bnaipxhjwe tbody, #bnaipxhjwe tfoot, #bnaipxhjwe tr, #bnaipxhjwe td, #bnaipxhjwe th {
   border-style: none;
 }
 
-#lgbiarurjt p {
+#bnaipxhjwe p {
   margin: 0;
   padding: 0;
 }
 
-#lgbiarurjt .gt_table {
+#bnaipxhjwe .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -3597,12 +3609,12 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-left-color: #D3D3D3;
 }
 
-#lgbiarurjt .gt_caption {
+#bnaipxhjwe .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#lgbiarurjt .gt_title {
+#bnaipxhjwe .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -3614,7 +3626,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-width: 0;
 }
 
-#lgbiarurjt .gt_subtitle {
+#bnaipxhjwe .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -3626,7 +3638,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-top-width: 0;
 }
 
-#lgbiarurjt .gt_heading {
+#bnaipxhjwe .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -3638,13 +3650,13 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#lgbiarurjt .gt_bottom_border {
+#bnaipxhjwe .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#lgbiarurjt .gt_col_headings {
+#bnaipxhjwe .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3659,7 +3671,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#lgbiarurjt .gt_col_heading {
+#bnaipxhjwe .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3679,7 +3691,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   overflow-x: hidden;
 }
 
-#lgbiarurjt .gt_column_spanner_outer {
+#bnaipxhjwe .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3691,15 +3703,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 4px;
 }
 
-#lgbiarurjt .gt_column_spanner_outer:first-child {
+#bnaipxhjwe .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#lgbiarurjt .gt_column_spanner_outer:last-child {
+#bnaipxhjwe .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#lgbiarurjt .gt_column_spanner {
+#bnaipxhjwe .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -3711,11 +3723,11 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   width: 100%;
 }
 
-#lgbiarurjt .gt_spanner_row {
+#bnaipxhjwe .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#lgbiarurjt .gt_group_heading {
+#bnaipxhjwe .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3741,7 +3753,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   text-align: left;
 }
 
-#lgbiarurjt .gt_empty_group_heading {
+#bnaipxhjwe .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -3756,15 +3768,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   vertical-align: middle;
 }
 
-#lgbiarurjt .gt_from_md > :first-child {
+#bnaipxhjwe .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#lgbiarurjt .gt_from_md > :last-child {
+#bnaipxhjwe .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#lgbiarurjt .gt_row {
+#bnaipxhjwe .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3783,7 +3795,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   overflow-x: hidden;
 }
 
-#lgbiarurjt .gt_stub {
+#bnaipxhjwe .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3796,7 +3808,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#lgbiarurjt .gt_stub_row_group {
+#bnaipxhjwe .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3810,15 +3822,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   vertical-align: top;
 }
 
-#lgbiarurjt .gt_row_group_first td {
+#bnaipxhjwe .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#lgbiarurjt .gt_row_group_first th {
+#bnaipxhjwe .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#lgbiarurjt .gt_summary_row {
+#bnaipxhjwe .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3828,16 +3840,16 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#lgbiarurjt .gt_first_summary_row {
+#bnaipxhjwe .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#lgbiarurjt .gt_first_summary_row.thick {
+#bnaipxhjwe .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#lgbiarurjt .gt_last_summary_row {
+#bnaipxhjwe .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3847,7 +3859,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#lgbiarurjt .gt_grand_summary_row {
+#bnaipxhjwe .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3857,7 +3869,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#lgbiarurjt .gt_first_grand_summary_row {
+#bnaipxhjwe .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3867,7 +3879,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-top-color: #D3D3D3;
 }
 
-#lgbiarurjt .gt_last_grand_summary_row_top {
+#bnaipxhjwe .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3877,11 +3889,11 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#lgbiarurjt .gt_striped {
+#bnaipxhjwe .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#lgbiarurjt .gt_table_body {
+#bnaipxhjwe .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3890,7 +3902,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#lgbiarurjt .gt_footnotes {
+#bnaipxhjwe .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3904,7 +3916,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#lgbiarurjt .gt_footnote {
+#bnaipxhjwe .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -3913,7 +3925,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#lgbiarurjt .gt_sourcenotes {
+#bnaipxhjwe .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3927,7 +3939,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#lgbiarurjt .gt_sourcenote {
+#bnaipxhjwe .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -3935,63 +3947,63 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#lgbiarurjt .gt_left {
+#bnaipxhjwe .gt_left {
   text-align: left;
 }
 
-#lgbiarurjt .gt_center {
+#bnaipxhjwe .gt_center {
   text-align: center;
 }
 
-#lgbiarurjt .gt_right {
+#bnaipxhjwe .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#lgbiarurjt .gt_font_normal {
+#bnaipxhjwe .gt_font_normal {
   font-weight: normal;
 }
 
-#lgbiarurjt .gt_font_bold {
+#bnaipxhjwe .gt_font_bold {
   font-weight: bold;
 }
 
-#lgbiarurjt .gt_font_italic {
+#bnaipxhjwe .gt_font_italic {
   font-style: italic;
 }
 
-#lgbiarurjt .gt_super {
+#bnaipxhjwe .gt_super {
   font-size: 65%;
 }
 
-#lgbiarurjt .gt_footnote_marks {
+#bnaipxhjwe .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#lgbiarurjt .gt_asterisk {
+#bnaipxhjwe .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#lgbiarurjt .gt_indent_1 {
+#bnaipxhjwe .gt_indent_1 {
   text-indent: 5px;
 }
 
-#lgbiarurjt .gt_indent_2 {
+#bnaipxhjwe .gt_indent_2 {
   text-indent: 10px;
 }
 
-#lgbiarurjt .gt_indent_3 {
+#bnaipxhjwe .gt_indent_3 {
   text-indent: 15px;
 }
 
-#lgbiarurjt .gt_indent_4 {
+#bnaipxhjwe .gt_indent_4 {
   text-indent: 20px;
 }
 
-#lgbiarurjt .gt_indent_5 {
+#bnaipxhjwe .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -4597,24 +4609,24 @@ Sucupira</strong></a></p>
 <h3><strong>1.2.1</strong></h3>
 <div id="dimensão-do-corpo-docente-permanente" class="section level4">
 <h4><strong>Dimensão do corpo Docente Permanente</strong></h4>
-<div id="shqtnfeblu"
+<div id="zgtznxwchk"
 style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#shqtnfeblu table {
+<style>#zgtznxwchk table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#shqtnfeblu thead, #shqtnfeblu tbody, #shqtnfeblu tfoot, #shqtnfeblu tr, #shqtnfeblu td, #shqtnfeblu th {
+#zgtznxwchk thead, #zgtznxwchk tbody, #zgtznxwchk tfoot, #zgtznxwchk tr, #zgtznxwchk td, #zgtznxwchk th {
   border-style: none;
 }
 
-#shqtnfeblu p {
+#zgtznxwchk p {
   margin: 0;
   padding: 0;
 }
 
-#shqtnfeblu .gt_table {
+#zgtznxwchk .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -4640,12 +4652,12 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-left-color: #D3D3D3;
 }
 
-#shqtnfeblu .gt_caption {
+#zgtznxwchk .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#shqtnfeblu .gt_title {
+#zgtznxwchk .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -4657,7 +4669,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-width: 0;
 }
 
-#shqtnfeblu .gt_subtitle {
+#zgtznxwchk .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -4669,7 +4681,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-top-width: 0;
 }
 
-#shqtnfeblu .gt_heading {
+#zgtznxwchk .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -4681,13 +4693,13 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#shqtnfeblu .gt_bottom_border {
+#zgtznxwchk .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#shqtnfeblu .gt_col_headings {
+#zgtznxwchk .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -4702,7 +4714,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#shqtnfeblu .gt_col_heading {
+#zgtznxwchk .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -4722,7 +4734,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   overflow-x: hidden;
 }
 
-#shqtnfeblu .gt_column_spanner_outer {
+#zgtznxwchk .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -4734,15 +4746,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 4px;
 }
 
-#shqtnfeblu .gt_column_spanner_outer:first-child {
+#zgtznxwchk .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#shqtnfeblu .gt_column_spanner_outer:last-child {
+#zgtznxwchk .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#shqtnfeblu .gt_column_spanner {
+#zgtznxwchk .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -4754,11 +4766,11 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   width: 100%;
 }
 
-#shqtnfeblu .gt_spanner_row {
+#zgtznxwchk .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#shqtnfeblu .gt_group_heading {
+#zgtznxwchk .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -4784,7 +4796,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   text-align: left;
 }
 
-#shqtnfeblu .gt_empty_group_heading {
+#zgtznxwchk .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -4799,15 +4811,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   vertical-align: middle;
 }
 
-#shqtnfeblu .gt_from_md > :first-child {
+#zgtznxwchk .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#shqtnfeblu .gt_from_md > :last-child {
+#zgtznxwchk .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#shqtnfeblu .gt_row {
+#zgtznxwchk .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -4826,7 +4838,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   overflow-x: hidden;
 }
 
-#shqtnfeblu .gt_stub {
+#zgtznxwchk .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -4839,7 +4851,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#shqtnfeblu .gt_stub_row_group {
+#zgtznxwchk .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -4853,15 +4865,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   vertical-align: top;
 }
 
-#shqtnfeblu .gt_row_group_first td {
+#zgtznxwchk .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#shqtnfeblu .gt_row_group_first th {
+#zgtznxwchk .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#shqtnfeblu .gt_summary_row {
+#zgtznxwchk .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -4871,16 +4883,16 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#shqtnfeblu .gt_first_summary_row {
+#zgtznxwchk .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#shqtnfeblu .gt_first_summary_row.thick {
+#zgtznxwchk .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#shqtnfeblu .gt_last_summary_row {
+#zgtznxwchk .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -4890,7 +4902,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#shqtnfeblu .gt_grand_summary_row {
+#zgtznxwchk .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -4900,7 +4912,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#shqtnfeblu .gt_first_grand_summary_row {
+#zgtznxwchk .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -4910,7 +4922,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-top-color: #D3D3D3;
 }
 
-#shqtnfeblu .gt_last_grand_summary_row_top {
+#zgtznxwchk .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -4920,11 +4932,11 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#shqtnfeblu .gt_striped {
+#zgtznxwchk .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#shqtnfeblu .gt_table_body {
+#zgtznxwchk .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -4933,7 +4945,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#shqtnfeblu .gt_footnotes {
+#zgtznxwchk .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -4947,7 +4959,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#shqtnfeblu .gt_footnote {
+#zgtznxwchk .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -4956,7 +4968,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#shqtnfeblu .gt_sourcenotes {
+#zgtznxwchk .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -4970,7 +4982,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#shqtnfeblu .gt_sourcenote {
+#zgtznxwchk .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -4978,63 +4990,63 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#shqtnfeblu .gt_left {
+#zgtznxwchk .gt_left {
   text-align: left;
 }
 
-#shqtnfeblu .gt_center {
+#zgtznxwchk .gt_center {
   text-align: center;
 }
 
-#shqtnfeblu .gt_right {
+#zgtznxwchk .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#shqtnfeblu .gt_font_normal {
+#zgtznxwchk .gt_font_normal {
   font-weight: normal;
 }
 
-#shqtnfeblu .gt_font_bold {
+#zgtznxwchk .gt_font_bold {
   font-weight: bold;
 }
 
-#shqtnfeblu .gt_font_italic {
+#zgtznxwchk .gt_font_italic {
   font-style: italic;
 }
 
-#shqtnfeblu .gt_super {
+#zgtznxwchk .gt_super {
   font-size: 65%;
 }
 
-#shqtnfeblu .gt_footnote_marks {
+#zgtznxwchk .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#shqtnfeblu .gt_asterisk {
+#zgtznxwchk .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#shqtnfeblu .gt_indent_1 {
+#zgtznxwchk .gt_indent_1 {
   text-indent: 5px;
 }
 
-#shqtnfeblu .gt_indent_2 {
+#zgtznxwchk .gt_indent_2 {
   text-indent: 10px;
 }
 
-#shqtnfeblu .gt_indent_3 {
+#zgtznxwchk .gt_indent_3 {
   text-indent: 15px;
 }
 
-#shqtnfeblu .gt_indent_4 {
+#zgtznxwchk .gt_indent_4 {
   text-indent: 20px;
 }
 
-#shqtnfeblu .gt_indent_5 {
+#zgtznxwchk .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -6423,24 +6435,24 @@ VANESSA INDIO DO BRASIL DA COSTA
 class="section level4">
 <h4><strong>Coerência acadêmica do Corpo Docente à proposta do
 PPG</strong></h4>
-<div id="pqbhlovwoc"
+<div id="axjaokvycf"
 style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#pqbhlovwoc table {
+<style>#axjaokvycf table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#pqbhlovwoc thead, #pqbhlovwoc tbody, #pqbhlovwoc tfoot, #pqbhlovwoc tr, #pqbhlovwoc td, #pqbhlovwoc th {
+#axjaokvycf thead, #axjaokvycf tbody, #axjaokvycf tfoot, #axjaokvycf tr, #axjaokvycf td, #axjaokvycf th {
   border-style: none;
 }
 
-#pqbhlovwoc p {
+#axjaokvycf p {
   margin: 0;
   padding: 0;
 }
 
-#pqbhlovwoc .gt_table {
+#axjaokvycf .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -6466,12 +6478,12 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-left-color: #D3D3D3;
 }
 
-#pqbhlovwoc .gt_caption {
+#axjaokvycf .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#pqbhlovwoc .gt_title {
+#axjaokvycf .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -6483,7 +6495,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-width: 0;
 }
 
-#pqbhlovwoc .gt_subtitle {
+#axjaokvycf .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -6495,7 +6507,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-top-width: 0;
 }
 
-#pqbhlovwoc .gt_heading {
+#axjaokvycf .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -6507,13 +6519,13 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#pqbhlovwoc .gt_bottom_border {
+#axjaokvycf .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#pqbhlovwoc .gt_col_headings {
+#axjaokvycf .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -6528,7 +6540,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#pqbhlovwoc .gt_col_heading {
+#axjaokvycf .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -6548,7 +6560,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   overflow-x: hidden;
 }
 
-#pqbhlovwoc .gt_column_spanner_outer {
+#axjaokvycf .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -6560,15 +6572,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 4px;
 }
 
-#pqbhlovwoc .gt_column_spanner_outer:first-child {
+#axjaokvycf .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#pqbhlovwoc .gt_column_spanner_outer:last-child {
+#axjaokvycf .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#pqbhlovwoc .gt_column_spanner {
+#axjaokvycf .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -6580,11 +6592,11 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   width: 100%;
 }
 
-#pqbhlovwoc .gt_spanner_row {
+#axjaokvycf .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#pqbhlovwoc .gt_group_heading {
+#axjaokvycf .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -6610,7 +6622,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   text-align: left;
 }
 
-#pqbhlovwoc .gt_empty_group_heading {
+#axjaokvycf .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -6625,15 +6637,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   vertical-align: middle;
 }
 
-#pqbhlovwoc .gt_from_md > :first-child {
+#axjaokvycf .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#pqbhlovwoc .gt_from_md > :last-child {
+#axjaokvycf .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#pqbhlovwoc .gt_row {
+#axjaokvycf .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -6652,7 +6664,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   overflow-x: hidden;
 }
 
-#pqbhlovwoc .gt_stub {
+#axjaokvycf .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -6665,7 +6677,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#pqbhlovwoc .gt_stub_row_group {
+#axjaokvycf .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -6679,15 +6691,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   vertical-align: top;
 }
 
-#pqbhlovwoc .gt_row_group_first td {
+#axjaokvycf .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#pqbhlovwoc .gt_row_group_first th {
+#axjaokvycf .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#pqbhlovwoc .gt_summary_row {
+#axjaokvycf .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -6697,16 +6709,16 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#pqbhlovwoc .gt_first_summary_row {
+#axjaokvycf .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#pqbhlovwoc .gt_first_summary_row.thick {
+#axjaokvycf .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#pqbhlovwoc .gt_last_summary_row {
+#axjaokvycf .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -6716,7 +6728,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#pqbhlovwoc .gt_grand_summary_row {
+#axjaokvycf .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -6726,7 +6738,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#pqbhlovwoc .gt_first_grand_summary_row {
+#axjaokvycf .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -6736,7 +6748,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-top-color: #D3D3D3;
 }
 
-#pqbhlovwoc .gt_last_grand_summary_row_top {
+#axjaokvycf .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -6746,11 +6758,11 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#pqbhlovwoc .gt_striped {
+#axjaokvycf .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#pqbhlovwoc .gt_table_body {
+#axjaokvycf .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -6759,7 +6771,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#pqbhlovwoc .gt_footnotes {
+#axjaokvycf .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -6773,7 +6785,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#pqbhlovwoc .gt_footnote {
+#axjaokvycf .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -6782,7 +6794,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#pqbhlovwoc .gt_sourcenotes {
+#axjaokvycf .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -6796,7 +6808,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#pqbhlovwoc .gt_sourcenote {
+#axjaokvycf .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -6804,63 +6816,63 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#pqbhlovwoc .gt_left {
+#axjaokvycf .gt_left {
   text-align: left;
 }
 
-#pqbhlovwoc .gt_center {
+#axjaokvycf .gt_center {
   text-align: center;
 }
 
-#pqbhlovwoc .gt_right {
+#axjaokvycf .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#pqbhlovwoc .gt_font_normal {
+#axjaokvycf .gt_font_normal {
   font-weight: normal;
 }
 
-#pqbhlovwoc .gt_font_bold {
+#axjaokvycf .gt_font_bold {
   font-weight: bold;
 }
 
-#pqbhlovwoc .gt_font_italic {
+#axjaokvycf .gt_font_italic {
   font-style: italic;
 }
 
-#pqbhlovwoc .gt_super {
+#axjaokvycf .gt_super {
   font-size: 65%;
 }
 
-#pqbhlovwoc .gt_footnote_marks {
+#axjaokvycf .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#pqbhlovwoc .gt_asterisk {
+#axjaokvycf .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#pqbhlovwoc .gt_indent_1 {
+#axjaokvycf .gt_indent_1 {
   text-indent: 5px;
 }
 
-#pqbhlovwoc .gt_indent_2 {
+#axjaokvycf .gt_indent_2 {
   text-indent: 10px;
 }
 
-#pqbhlovwoc .gt_indent_3 {
+#axjaokvycf .gt_indent_3 {
   text-indent: 15px;
 }
 
-#pqbhlovwoc .gt_indent_4 {
+#axjaokvycf .gt_indent_4 {
   text-indent: 20px;
 }
 
-#pqbhlovwoc .gt_indent_5 {
+#axjaokvycf .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -7459,24 +7471,24 @@ ao PPG</strong></h4>
 class="section level4 tabset">
 <h4 class="tabset"><strong>Capacidade de captação de
 recursos</strong></h4>
-<div id="cuqwyrsnix"
+<div id="cjweusbepm"
 style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#cuqwyrsnix table {
+<style>#cjweusbepm table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#cuqwyrsnix thead, #cuqwyrsnix tbody, #cuqwyrsnix tfoot, #cuqwyrsnix tr, #cuqwyrsnix td, #cuqwyrsnix th {
+#cjweusbepm thead, #cjweusbepm tbody, #cjweusbepm tfoot, #cjweusbepm tr, #cjweusbepm td, #cjweusbepm th {
   border-style: none;
 }
 
-#cuqwyrsnix p {
+#cjweusbepm p {
   margin: 0;
   padding: 0;
 }
 
-#cuqwyrsnix .gt_table {
+#cjweusbepm .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -7502,12 +7514,12 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-left-color: #D3D3D3;
 }
 
-#cuqwyrsnix .gt_caption {
+#cjweusbepm .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#cuqwyrsnix .gt_title {
+#cjweusbepm .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -7519,7 +7531,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-width: 0;
 }
 
-#cuqwyrsnix .gt_subtitle {
+#cjweusbepm .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -7531,7 +7543,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-top-width: 0;
 }
 
-#cuqwyrsnix .gt_heading {
+#cjweusbepm .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -7543,13 +7555,13 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#cuqwyrsnix .gt_bottom_border {
+#cjweusbepm .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#cuqwyrsnix .gt_col_headings {
+#cjweusbepm .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -7564,7 +7576,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#cuqwyrsnix .gt_col_heading {
+#cjweusbepm .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -7584,7 +7596,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   overflow-x: hidden;
 }
 
-#cuqwyrsnix .gt_column_spanner_outer {
+#cjweusbepm .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -7596,15 +7608,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 4px;
 }
 
-#cuqwyrsnix .gt_column_spanner_outer:first-child {
+#cjweusbepm .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#cuqwyrsnix .gt_column_spanner_outer:last-child {
+#cjweusbepm .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#cuqwyrsnix .gt_column_spanner {
+#cjweusbepm .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -7616,11 +7628,11 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   width: 100%;
 }
 
-#cuqwyrsnix .gt_spanner_row {
+#cjweusbepm .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#cuqwyrsnix .gt_group_heading {
+#cjweusbepm .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -7646,7 +7658,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   text-align: left;
 }
 
-#cuqwyrsnix .gt_empty_group_heading {
+#cjweusbepm .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -7661,15 +7673,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   vertical-align: middle;
 }
 
-#cuqwyrsnix .gt_from_md > :first-child {
+#cjweusbepm .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#cuqwyrsnix .gt_from_md > :last-child {
+#cjweusbepm .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#cuqwyrsnix .gt_row {
+#cjweusbepm .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -7688,7 +7700,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   overflow-x: hidden;
 }
 
-#cuqwyrsnix .gt_stub {
+#cjweusbepm .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -7701,7 +7713,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#cuqwyrsnix .gt_stub_row_group {
+#cjweusbepm .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -7715,15 +7727,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   vertical-align: top;
 }
 
-#cuqwyrsnix .gt_row_group_first td {
+#cjweusbepm .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#cuqwyrsnix .gt_row_group_first th {
+#cjweusbepm .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#cuqwyrsnix .gt_summary_row {
+#cjweusbepm .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -7733,16 +7745,16 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#cuqwyrsnix .gt_first_summary_row {
+#cjweusbepm .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#cuqwyrsnix .gt_first_summary_row.thick {
+#cjweusbepm .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#cuqwyrsnix .gt_last_summary_row {
+#cjweusbepm .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -7752,7 +7764,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#cuqwyrsnix .gt_grand_summary_row {
+#cjweusbepm .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -7762,7 +7774,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#cuqwyrsnix .gt_first_grand_summary_row {
+#cjweusbepm .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -7772,7 +7784,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-top-color: #D3D3D3;
 }
 
-#cuqwyrsnix .gt_last_grand_summary_row_top {
+#cjweusbepm .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -7782,11 +7794,11 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#cuqwyrsnix .gt_striped {
+#cjweusbepm .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#cuqwyrsnix .gt_table_body {
+#cjweusbepm .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -7795,7 +7807,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#cuqwyrsnix .gt_footnotes {
+#cjweusbepm .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -7809,7 +7821,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#cuqwyrsnix .gt_footnote {
+#cjweusbepm .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -7818,7 +7830,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#cuqwyrsnix .gt_sourcenotes {
+#cjweusbepm .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -7832,7 +7844,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#cuqwyrsnix .gt_sourcenote {
+#cjweusbepm .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -7840,63 +7852,63 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#cuqwyrsnix .gt_left {
+#cjweusbepm .gt_left {
   text-align: left;
 }
 
-#cuqwyrsnix .gt_center {
+#cjweusbepm .gt_center {
   text-align: center;
 }
 
-#cuqwyrsnix .gt_right {
+#cjweusbepm .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#cuqwyrsnix .gt_font_normal {
+#cjweusbepm .gt_font_normal {
   font-weight: normal;
 }
 
-#cuqwyrsnix .gt_font_bold {
+#cjweusbepm .gt_font_bold {
   font-weight: bold;
 }
 
-#cuqwyrsnix .gt_font_italic {
+#cjweusbepm .gt_font_italic {
   font-style: italic;
 }
 
-#cuqwyrsnix .gt_super {
+#cjweusbepm .gt_super {
   font-size: 65%;
 }
 
-#cuqwyrsnix .gt_footnote_marks {
+#cjweusbepm .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#cuqwyrsnix .gt_asterisk {
+#cjweusbepm .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#cuqwyrsnix .gt_indent_1 {
+#cjweusbepm .gt_indent_1 {
   text-indent: 5px;
 }
 
-#cuqwyrsnix .gt_indent_2 {
+#cjweusbepm .gt_indent_2 {
   text-indent: 10px;
 }
 
-#cuqwyrsnix .gt_indent_3 {
+#cjweusbepm .gt_indent_3 {
   text-indent: 15px;
 }
 
-#cuqwyrsnix .gt_indent_4 {
+#cjweusbepm .gt_indent_4 {
   text-indent: 20px;
 }
 
-#cuqwyrsnix .gt_indent_5 {
+#cjweusbepm .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -8043,6 +8055,7 @@ autoavaliação do Programa</strong></h4>
 <p><em>Em construção</em></p>
 <p><a style="float:right" href="#top"><b>Início  </b>⬆️</a></p>
 <p><br></p>
+<div style="page-break-after: always;"></div>
 </div>
 </div>
 </div>
@@ -8887,6 +8900,7 @@ Sucupira</strong></a></p>
 <p><em>Em construção</em></p>
 <p><a style="float:right" href="#top"><b>Início  </b>⬆️</a></p>
 <p><br></p>
+<div style="page-break-after: always;"></div>
 </div>
 </div>
 </div>
@@ -8910,24 +8924,24 @@ Acadêmico</strong></h4>
 <div id="produção-do-programa" class="section level4">
 <h4><strong>Produção do Programa</strong></h4>
 <p><br></p>
-<div id="blzofpnhxo"
+<div id="ycblwrnoue"
 style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#blzofpnhxo table {
+<style>#ycblwrnoue table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#blzofpnhxo thead, #blzofpnhxo tbody, #blzofpnhxo tfoot, #blzofpnhxo tr, #blzofpnhxo td, #blzofpnhxo th {
+#ycblwrnoue thead, #ycblwrnoue tbody, #ycblwrnoue tfoot, #ycblwrnoue tr, #ycblwrnoue td, #ycblwrnoue th {
   border-style: none;
 }
 
-#blzofpnhxo p {
+#ycblwrnoue p {
   margin: 0;
   padding: 0;
 }
 
-#blzofpnhxo .gt_table {
+#ycblwrnoue .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -8953,12 +8967,12 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-left-color: #D3D3D3;
 }
 
-#blzofpnhxo .gt_caption {
+#ycblwrnoue .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#blzofpnhxo .gt_title {
+#ycblwrnoue .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -8970,7 +8984,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-width: 0;
 }
 
-#blzofpnhxo .gt_subtitle {
+#ycblwrnoue .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -8982,7 +8996,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-top-width: 0;
 }
 
-#blzofpnhxo .gt_heading {
+#ycblwrnoue .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -8994,13 +9008,13 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#blzofpnhxo .gt_bottom_border {
+#ycblwrnoue .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#blzofpnhxo .gt_col_headings {
+#ycblwrnoue .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -9015,7 +9029,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#blzofpnhxo .gt_col_heading {
+#ycblwrnoue .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -9035,7 +9049,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   overflow-x: hidden;
 }
 
-#blzofpnhxo .gt_column_spanner_outer {
+#ycblwrnoue .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -9047,15 +9061,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 4px;
 }
 
-#blzofpnhxo .gt_column_spanner_outer:first-child {
+#ycblwrnoue .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#blzofpnhxo .gt_column_spanner_outer:last-child {
+#ycblwrnoue .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#blzofpnhxo .gt_column_spanner {
+#ycblwrnoue .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -9067,11 +9081,11 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   width: 100%;
 }
 
-#blzofpnhxo .gt_spanner_row {
+#ycblwrnoue .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#blzofpnhxo .gt_group_heading {
+#ycblwrnoue .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -9097,7 +9111,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   text-align: left;
 }
 
-#blzofpnhxo .gt_empty_group_heading {
+#ycblwrnoue .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -9112,15 +9126,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   vertical-align: middle;
 }
 
-#blzofpnhxo .gt_from_md > :first-child {
+#ycblwrnoue .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#blzofpnhxo .gt_from_md > :last-child {
+#ycblwrnoue .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#blzofpnhxo .gt_row {
+#ycblwrnoue .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -9139,7 +9153,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   overflow-x: hidden;
 }
 
-#blzofpnhxo .gt_stub {
+#ycblwrnoue .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -9152,7 +9166,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#blzofpnhxo .gt_stub_row_group {
+#ycblwrnoue .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -9166,15 +9180,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   vertical-align: top;
 }
 
-#blzofpnhxo .gt_row_group_first td {
+#ycblwrnoue .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#blzofpnhxo .gt_row_group_first th {
+#ycblwrnoue .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#blzofpnhxo .gt_summary_row {
+#ycblwrnoue .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -9184,16 +9198,16 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#blzofpnhxo .gt_first_summary_row {
+#ycblwrnoue .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#blzofpnhxo .gt_first_summary_row.thick {
+#ycblwrnoue .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#blzofpnhxo .gt_last_summary_row {
+#ycblwrnoue .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -9203,7 +9217,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#blzofpnhxo .gt_grand_summary_row {
+#ycblwrnoue .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -9213,7 +9227,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#blzofpnhxo .gt_first_grand_summary_row {
+#ycblwrnoue .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -9223,7 +9237,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-top-color: #D3D3D3;
 }
 
-#blzofpnhxo .gt_last_grand_summary_row_top {
+#ycblwrnoue .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -9233,11 +9247,11 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#blzofpnhxo .gt_striped {
+#ycblwrnoue .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#blzofpnhxo .gt_table_body {
+#ycblwrnoue .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -9246,7 +9260,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#blzofpnhxo .gt_footnotes {
+#ycblwrnoue .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -9260,7 +9274,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#blzofpnhxo .gt_footnote {
+#ycblwrnoue .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -9269,7 +9283,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#blzofpnhxo .gt_sourcenotes {
+#ycblwrnoue .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -9283,7 +9297,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#blzofpnhxo .gt_sourcenote {
+#ycblwrnoue .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -9291,63 +9305,63 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#blzofpnhxo .gt_left {
+#ycblwrnoue .gt_left {
   text-align: left;
 }
 
-#blzofpnhxo .gt_center {
+#ycblwrnoue .gt_center {
   text-align: center;
 }
 
-#blzofpnhxo .gt_right {
+#ycblwrnoue .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#blzofpnhxo .gt_font_normal {
+#ycblwrnoue .gt_font_normal {
   font-weight: normal;
 }
 
-#blzofpnhxo .gt_font_bold {
+#ycblwrnoue .gt_font_bold {
   font-weight: bold;
 }
 
-#blzofpnhxo .gt_font_italic {
+#ycblwrnoue .gt_font_italic {
   font-style: italic;
 }
 
-#blzofpnhxo .gt_super {
+#ycblwrnoue .gt_super {
   font-size: 65%;
 }
 
-#blzofpnhxo .gt_footnote_marks {
+#ycblwrnoue .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#blzofpnhxo .gt_asterisk {
+#ycblwrnoue .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#blzofpnhxo .gt_indent_1 {
+#ycblwrnoue .gt_indent_1 {
   text-indent: 5px;
 }
 
-#blzofpnhxo .gt_indent_2 {
+#ycblwrnoue .gt_indent_2 {
   text-indent: 10px;
 }
 
-#blzofpnhxo .gt_indent_3 {
+#ycblwrnoue .gt_indent_3 {
   text-indent: 15px;
 }
 
-#blzofpnhxo .gt_indent_4 {
+#ycblwrnoue .gt_indent_4 {
   text-indent: 20px;
 }
 
-#blzofpnhxo .gt_indent_5 {
+#ycblwrnoue .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
