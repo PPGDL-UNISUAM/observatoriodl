@@ -160,6 +160,8 @@ navbar:
           href: [galeria.html#videos]
         - text: "Podcasts"
           href: [galeria.html#podcasts]
+    - text: "Downloads"
+      href: [downloads.html]
     - text: "Autoavaliação"
       href: [autoavaliacao.html]
       menu:
@@ -189,23 +191,29 @@ navbar:
         - text: "Relatório quadrienal"
           icon: "fa-file-pdf"
           href: [autoavaliacao.pdf]
-    - text: "Downloads"
-      href: [downloads.html]
     - text: "Links"
       href: [links.html]
     - text: ""
-      icon: "fa-envelope"
-      href: [mailto:desenvolvimentolocal@souunisuam.com.br]
+      icon: "fa-binoculars"
+      href: [https://sucupira-beta.capes.gov.br/sucupira4/observatorio/detalhamento/programas/202691]
     - text: ""
       icon: "fa-share-nodes"
       menu:
-        - text: ""
+        - text: "E-mail"
+          icon: "fa-envelope"
+          href: [mailto:desenvolvimentolocal@souunisuam.com.br]
+        - text: "Site institucional"
+          icon: "fa-globe"
+          href: [https://www.unisuam.edu.br/programa-pos-graduacao-desenvolvimento-local/]
+        - text: "Instagram"
           icon: "fa-instagram"
           href: [https://www.instagram.com/ppgdl_unisuam/]
   right:
     - text: ""
       icon: "fa-github"
       href: [https://github.com/FerreiraAS/observatorio]
+
+href: https://ppgdl-unisuam.github.io/observatoriodl/
 
 output:
   html_document:
