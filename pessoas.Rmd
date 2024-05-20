@@ -12,7 +12,7 @@ output:
       - ./CSS/responsive.css
 ---
 
-<!--install and/or load all R packages-->
+<!--set up-->
 ```{r setup, include = FALSE, echo = FALSE, warning = FALSE, message = FALSE, fig.align = 'center', out.width = "100%", results = "hide"}
 knitr::opts_chunk$set(
   echo = FALSE,
@@ -87,7 +87,7 @@ print(
 )
 
 cat('\n\n')
-cat('*Fontes:* [**Plataforma Sucupira**](https://sucupira.capes.gov.br/sucupira/)')
+cat('**Fontes**: [**Plataforma Sucupira**](https://sucupira.capes.gov.br/sucupira/)')
 cat('\n\n')
 cat('<br><a style="float:right" href="#top"><b>Início &nbsp;</b>', fontawesome::fa("circle-arrow-up"), '</a><br>')
 ```
@@ -268,52 +268,26 @@ cat('\n\n')
 
 <br>
 
-```{r docentes-credenciados-grafico, eval = has.sucupira.files}
-# Generate plot of docentes per information
-layout(matrix(seq(1:2), ncol = 2, byrow = TRUE))
-par(oma = c(2, 0.1, 2, 0.1), mar = c(1, 1, 1, 1))
+### **IDs** {.tabset}
 
-# Total by category
-total.categoria <- table(docentes$Categoria)
-pie(
-  total.categoria,
-  labels = NA,
-  col = RColorBrewer::brewer.pal(n = length(names(total.categoria)), name = "Set3"),
-  init.angle = 90,
-  main = names(docentes$Categoria)
-)
-legend(
-  "topleft",
-  legend = names(total.categoria),
-  fill = RColorBrewer::brewer.pal(n = length(names(total.categoria)), name = "Set3"),
-  box.lwd = 0,
-  cex = 1,
-  bg = NA
-)
+```{r ids-externos-docentes, cache = TRUE, cache.path = "cache/external-ids/", eval = has.sucupira.files}
+# Keep active professors and remove duplicated data
+sucupira <- sucupira.raw[is.na(sucupira.raw$`Data de Desligamento`),]
+sucupira.unique <- sucupira[!duplicated(sucupira$`Nome Docente`) & !is.na(sucupira$ORCID),]
 
-# Total by regime
-total.regime <- table(docentes$`Regime de Trabalho`)
-pie(
-  total.regime,
-  labels = NA,
-  col = RColorBrewer::brewer.pal(n = length(names(total.regime)), name = "Set3"),
-  init.angle = 90,
-  main = names(docentes$`Regime de Trabalho`)
-)
-legend(
-  "topleft",
-  legend = names(total.regime),
-  fill = RColorBrewer::brewer.pal(n = length(names(total.regime)), name = "Set3"),
-  box.lwd = 0,
-  cex = 1,
-  bg = NA
-)
+# Format ORCID
+my_orcid <- gsub("(.{14})(.*)$", "\\1-\\2", gsub("(.{9})(.*)$", "\\1-\\2", gsub("(.{4})(.*)$", "\\1-\\2", sucupira.unique$ORCID)))
 
-# Add title
-title("Descrição do Corpo Docente - Credenciados", outer = TRUE)
+# Compile external identifiers
+source("Scripts/external-identifiers.R", local = knitr::knit_global())
 
-cat('\n\n')
-cat('<br><a style="float:right" href="#top"><b>Início &nbsp;</b>', fontawesome::fa("circle-arrow-up"), '</a><br>')
+# Print tables
+source("Scripts/table-with-buttons.R", local = knitr::knit_global())
+create_dt(external.ids, title = "Pessoas - IDs externos")
+
+cat('<br>')
+cat('**Fontes**: [**Plataforma Sucupira**](https://sucupira.capes.gov.br/sucupira/), [**ORCID**](https://orcid.org)')
+cat('<br>')
 ```
 
 <br>
@@ -360,164 +334,14 @@ for (i in 1:dim(docentes)[1]) {
   }
   cat('\n</center>')
   cat('\n\n<!-- -->\n\n')
-  cat(paste0('*Fontes:* [**Diretório dos Grupos de Pesquisa no Brasil**](https://dgp.cnpq.br/dgp/espelhorh/', docentes$`Número do currículo Lattes`[i]),')')
+  cat(paste0('**Fontes**: [**Diretório dos Grupos de Pesquisa no Brasil**](https://dgp.cnpq.br/dgp/espelhorh/', docentes$`Número do currículo Lattes`[i]),')')
   cat('\n\n<!-- -->\n\n')
   cat('<br><a style="float:right" href="#top"><b>Início &nbsp;</b>', fontawesome::fa("circle-arrow-up"), '</a><br>')
 }
 
 # Additional sources
 cat('\n\n')
-cat('*Fontes:* [**Diretório dos Grupos de Pesquisa no Brasil**](https://lattes.cnpq.br/web/dgp)')
-cat('\n\n')
-cat('<br><a style="float:right" href="#top"><b>Início &nbsp;</b>', fontawesome::fa("circle-arrow-up"), '</a><br>')
-```
-
-<br>
-
-### **IDs** {.tabset}
-
-```{r ids-externos-docentes, cache = TRUE, cache.path = "cache/external-ids/", eval = has.sucupira.files}
-# Keep active professors and remove duplicated data
-sucupira <- sucupira.raw[is.na(sucupira.raw$`Data de Desligamento`),]
-sucupira.unique <- sucupira[!duplicated(sucupira$`Nome Docente`) & !is.na(sucupira$ORCID),]
-
-# Format ORCID
-my_orcid <- gsub("(.{14})(.*)$", "\\1-\\2", gsub("(.{9})(.*)$", "\\1-\\2", gsub("(.{4})(.*)$", "\\1-\\2", sucupira.unique$ORCID)))
-
-# Compile external identifiers
-source("Scripts/external-identifiers.R", local = knitr::knit_global())
-```
-
-<br>
-
-<br>
-
-```{r docentes-2024-2021-tabela, eval = has.2024.2021}
-# Initialize empty data frame
-table.2 <- data.frame(matrix(NA, nrow = 0, ncol = 7))
-
-# Iterate through rows to construct table
-for (i in 1:dim(docentes)[1]) {
-  table <- cbind(
-    paste0(
-      '<a href=\"mailto:',
-      docentes$"E-mail"[i],
-      '\">',
-      docentes$'Nome Docente'[i],
-      '</a>'
-    ),
-    docentes$Categoria[i],
-    paste0(
-      docentes$'Data de Admissão'[i],
-      "-",
-      docentes$'Data de Desligamento'[i]
-    ),
-    ifelse(
-      !is.na(docentes$'Número do currículo Lattes'[i]),
-      paste0(
-        '<a href=\"http://lattes.cnpq.br/',
-        docentes$'Número do currículo Lattes'[i],
-        '\">',
-        docentes$'Número do currículo Lattes'[i],
-        '</a>'
-      ),
-      docentes$'Número do currículo Lattes'[i]
-    ),
-    ifelse(
-      !is.na(docentes$ORCID[i]),
-      paste0(
-        '<a href=\"https://orcid.org/',
-        paste0(sapply(seq(
-          from = 1,
-          to = nchar(docentes$ORCID[i]),
-          by = 4
-        ),
-        function(j)
-          substr(docentes$ORCID[i], j, j + 3)), collapse = "-"),
-        '\">',
-        paste0(sapply(seq(
-          from = 1,
-          to = nchar(docentes$ORCID[i]),
-          by = 4
-        ),
-        function(j)
-          substr(docentes$ORCID[i], j, j + 3)), collapse = "-"),
-        '</a>'
-      ),
-      docentes$ORCID[i]
-    ),
-    docentes$País[i]
-  )
-  table.2 <- rbind(table.2, table)
-}
-
-# Set column names
-colnames(table.2) <-
-  c("Nome",
-    "Categoria",
-    "Credenciamento",
-    "Lattes ID",
-    "ORCID",
-    "País")
-rownames(table.2) <- NULL
-
-# Order table
-ids <- order(table.2$'Nome', decreasing = FALSE)
-table <- table.2[ids,]
-
-# Print tables
-source("Scripts/table-with-buttons.R", local = knitr::knit_global())
-create_dt(table, title = "Pessoas - Docentes - 2024-2021")
-
-cat('\n\n')
-```
-
-<br>
-
-```{r docentes-2024-2021-grafico, eval = has.2024.2021}
-# Generate plot of docentes per information
-layout(matrix(seq(1:4), ncol = 2, byrow = TRUE))
-par(oma = c(2, 0.1, 2, 0.1), mar = c(1, 1, 1, 1))
-
-# Total by category
-total.categoria <- table(docentes$Categoria)
-pie(
-  total.categoria,
-  labels = NA,
-  col = RColorBrewer::brewer.pal(n = length(names(total.categoria)), name = "Set3"),
-  init.angle = 90,
-  main = names(docentes$Categoria)
-)
-legend(
-  "topleft",
-  legend = names(total.categoria),
-  fill = RColorBrewer::brewer.pal(n = length(names(total.categoria)), name = "Set3"),
-  box.lwd = 0,
-  cex = 1,
-  bg = NA
-)
-
-# Total by regime
-total.regime <- table(docentes$`Regime de Trabalho`)
-pie(
-  total.regime,
-  labels = NA,
-  col = RColorBrewer::brewer.pal(n = length(names(total.regime)), name = "Set3"),
-  init.angle = 90,
-  main = names(docentes$`Regime de Trabalho`)
-)
-legend(
-  "topleft",
-  legend = names(total.regime),
-  fill = RColorBrewer::brewer.pal(n = length(names(total.regime)), name = "Set3"),
-  box.lwd = 0,
-  cex = 1,
-  bg = NA
-)
-
-# Add title
-title("Descrição do Corpo Docente", outer = TRUE)
-
+cat('**Fontes**: [**Diretório dos Grupos de Pesquisa**](https://lattes.cnpq.br/web/dgp)')
 cat('\n\n')
 cat('<br><a style="float:right" href="#top"><b>Início &nbsp;</b>', fontawesome::fa("circle-arrow-up"), '</a><br>')
 ```
@@ -640,56 +464,6 @@ source("Scripts/table-with-buttons.R", local = knitr::knit_global())
 create_dt(table, title = "Docentes - Histórico")
 
 cat('\n\n')
-```
-
-<br>
-
-```{r docentes-historico-grafico, eval = has.sucupira.files}
-# Generate plot of docentes per information
-layout(matrix(seq(1:2), ncol = 2, byrow = TRUE))
-par(oma = c(2, 0.1, 2, 0.1), mar = c(1, 1, 1, 1))
-
-# Total by category
-total.categoria <- table(docentes$Categoria)
-pie(
-  total.categoria,
-  labels = NA,
-  col = RColorBrewer::brewer.pal(n = length(names(total.categoria)), name = "Set3"),
-  init.angle = 90,
-  main = names(docentes$Categoria)
-)
-legend(
-  "topleft",
-  legend = names(total.categoria),
-  fill = RColorBrewer::brewer.pal(n = length(names(total.categoria)), name = "Set3"),
-  box.lwd = 0,
-  cex = 1,
-  bg = NA
-)
-
-# Total by regime
-total.regime <- table(docentes$`Regime de Trabalho`)
-pie(
-  total.regime,
-  labels = NA,
-  col = RColorBrewer::brewer.pal(n = length(names(total.regime)), name = "Set3"),
-  init.angle = 90,
-  main = names(docentes$`Regime de Trabalho`)
-)
-legend(
-  "topleft",
-  legend = names(total.regime),
-  fill = RColorBrewer::brewer.pal(n = length(names(total.regime)), name = "Set3"),
-  box.lwd = 0,
-  cex = 1,
-  bg = NA
-)
-
-# Add title
-title("Corpo Docente - Histórico", outer = TRUE)
-
-cat('\n\n')
-cat('<br><a style="float:right" href="#top"><b>Início &nbsp;</b>', fontawesome::fa("circle-arrow-up"), '</a><br>')
 ```
 
 <br>
@@ -1555,91 +1329,55 @@ source("Scripts/fonte-sucupira.R", local = knitr::knit_global())
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:black;background-color:black">
 
-### **Ativos** {.tabset}
-
-```{r grupos-de-pesquisa-ativos, eval = has.grupos.pesquisa}
-grupos.raw <-
-  readxl::read_excel("PPG/Grupos de Pesquisa.xlsx", sheet = "GP.ativos")
-
-# print tables
-print(
-  knitr::kable(grupos.raw, align = c("l", rep(
-    "c", ncol(grupos.raw) - 2
-  ), "r"), escape = FALSE, format = ifelse(knitr::is_html_output(), "html", "latex")) %>% kableExtra::kable_styling(
-    bootstrap_options = c("striped", "hover", "condensed", "responsive"),
-    full_width = T,
-    position = "center"
-  )
-)
-
-cat('\n\n')
-cat('*Fontes:* [**CNPq**](http://lattes.cnpq.br/web/dgp)')
-cat('\n\n')
-cat('<br><a style="float:right" href="#top"><b>Início &nbsp;</b>', fontawesome::fa("circle-arrow-up"), '</a><br>')
+```{r, eval = !has.grupos.pesquisa}
+cat('<br>')
 ```
 
-<br>
+```{r grupos-pesquisa, eval = has.grupos.pesquisa}
+# initialize all sheets
+abas <- readxl::excel_sheets("PPG/Grupos de Pesquisa.xlsx")
 
-### **Inativos** {.tabset}
-
-```{r grupos-de-pesquisa-inativos, eval = has.grupos.pesquisa}
-grupos.raw <- readxl::read_excel("PPG/Grupos de Pesquisa.xlsx", sheet = "GP.inativos")
-
-# print tables
-print(knitr::kable(grupos.raw, align = c("l", rep("c", ncol(grupos.raw)-2), "r"), escape = FALSE, format = ifelse(knitr::is_html_output(), "html", "latex")) %>% kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = T, position = "center"))
-
-cat('\n\n')
-cat('*Fontes:* [**CNPq**](http://lattes.cnpq.br/web/dgp)')
-cat('\n\n')
-cat('<br><a style="float:right" href="#top"><b>Início &nbsp;</b>', fontawesome::fa("circle-arrow-up"), '</a><br>')
-```
-
-<br>
-
-### **Membros**
-
-```{r grupos-de-pesquisa-membros, eval = has.grupos.pesquisa}
-membros.raw <-
-  readxl::read_excel("PPG/Grupos de Pesquisa.xlsx", sheet = "Membros")
-
-# print tables
-print(
-  knitr::kable(membros.raw, align = c("l", rep(
-    "c", ncol(membros.raw) - 2
-  ), "r"), escape = FALSE, format = ifelse(knitr::is_html_output(), "html", "latex")) %>% kableExtra::kable_styling(
-    bootstrap_options = c("striped", "hover", "condensed", "responsive"),
-    full_width = T,
-    position = "center"
-  )
-)
-
-cat('\n\n')
-cat('*Fontes:* [**CNPq**](http://lattes.cnpq.br/web/dgp)')
-cat('\n\n')
-cat('<br><a style="float:right" href="#top"><b>Início &nbsp;</b>', fontawesome::fa("circle-arrow-up"), '</a><br>')
-```
-
-<br>
-
-### **Externos** {#grupos-externos .tabset}
-
-```{r grupos-de-pesquisa-externos, eval = has.grupos.pesquisa}
-grupos.raw <-
-  readxl::read_excel("PPG/Grupos de Pesquisa.xlsx", sheet = "GP.externos")
-
-# print tables
-print(
-  knitr::kable(grupos.raw, align = c("l", rep(
-    "c", ncol(grupos.raw) - 2
-  ), "r"), escape = FALSE, format = ifelse(knitr::is_html_output(), "html", "latex")) %>% kableExtra::kable_styling(
-    bootstrap_options = c("striped", "hover", "condensed", "responsive"),
-    full_width = T,
-    position = "center"
-  )
-)
-
-cat('\n\n')
-cat('<br><a style="float:right" href="#top"><b>Início &nbsp;</b>', fontawesome::fa("circle-arrow-up"), '</a><br>')
+# display each sheet in a tab
+for (j in 1:length(abas)) {
+  cat('\n\n<!-- -->\n\n')
+  cat(paste0('### **', abas[j], '**'))
+  cat('\n\n<!-- -->\n\n')
+  grupos.raw <-
+    readxl::read_excel("PPG/Grupos de Pesquisa.xlsx",
+                       sheet = abas[j],
+                       col_types = c("text"))
+  
+  # replace the link by a tag
+  Abrir <- matrix(NA, nrow = dim(grupos.raw)[1])
+  colnames(Abrir) <- "Abrir"
+  # add hyperlinks
+  for (i in 1:dim(grupos.raw)[1]) {
+    if (!is.na(grupos.raw[i, ncol(grupos.raw)])) {
+      Abrir[i] <-
+        paste0('<a href="',
+               grupos.raw[i, ncol(grupos.raw)],
+               '" target="_blank"',
+               '>',
+               # fontawesome icon
+               fontawesome::fa("up-right-from-square"),
+               '</a>')
+    }
+  }
+  grupos <- cbind(grupos.raw[, -ncol(grupos.raw)], Abrir)
+  
+  # print table
+  if (dim(grupos)[1] != 0) {
+    source("Scripts/table-with-buttons.R", local = knitr::knit_global())
+    cat(knitr::knit_print(create_dt(grupos, title = paste0("Pessoas - Grupos de Pesquisa - ", abas[j]))))
+  } else {
+    cat("*Sem dados para exibir*")
+  }
+  
+  # print end of tab rows
+  cat('\n\n')
+  cat('**Fontes**: [**Diretório de Grupos de Pesquisa**](https://lattes.cnpq.br/web/dgp)')
+  cat('<br><a style="float:right" href="#top"><b>Início &nbsp;</b>', fontawesome::fa("circle-arrow-up"), '</a><br>')
+}
 ```
 
 <br>

@@ -13,7 +13,7 @@
 
 <title>Destaques</title>
 
-<script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -51,6 +51,13 @@
 <script src="site_libs/dt-ext-buttons-1.13.6/js/buttons.print.min.js"></script>
 <link href="site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet" />
 <script src="site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+<link href="site_libs/dt-ext-colreorder-1.13.6/css/colReorder.dataTables.min.css" rel="stylesheet" />
+<script src="site_libs/dt-ext-colreorder-1.13.6/js/dataTables.colReorder.min.js"></script>
+<link href="site_libs/dt-ext-responsive-1.13.6/css/responsive.dataTables.min.css" rel="stylesheet" />
+<script src="site_libs/dt-ext-responsive-1.13.6/js/dataTables.responsive.min.js"></script>
+<link href="site_libs/dt-plugin-searchhighlight-1.13.6/source.css" rel="stylesheet" />
+<script src="site_libs/dt-plugin-searchhighlight-1.13.6/jquery.highlight.js"></script>
+<script src="site_libs/dt-plugin-searchhighlight-1.13.6/source.min.js"></script>
 <link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 <link rel="shortcut icon" href="favicon_io/android-chrome-192x192.png" sizes="192x192" type="image/png">
@@ -397,25 +404,31 @@ div.tocify {
       <a href="programa.html#agendas-pesquisa">Agendas de pesquisa</a>
     </li>
     <li>
-      <a href="programa.html#cursos">Cursos</a>
-    </li>
-    <li>
-      <a href="programa.html#estrutura-curricular">Estrutura curricular</a>
-    </li>
-    <li>
-      <a href="programa.html#turmas">Turmas</a>
-    </li>
-    <li>
-      <a href="programa.html#calendarios">Calendários</a>
-    </li>
-    <li>
-      <a href="programa.html#editais">Editais de processo seletivo</a>
+      <a href="programa.html#financiadores">Financiadores</a>
     </li>
     <li>
       <a href="programa.html#infraestrutura">Infraestrutura</a>
     </li>
     <li>
       <a href="programa.html#laboratorios-pesquisa">Laboratórios de pesquisa</a>
+    </li>
+    <li>
+      <a href="programa.html#cursos">Cursos</a>
+    </li>
+    <li>
+      <a href="programa.html#estrutura-curricular">Estrutura curricular</a>
+    </li>
+    <li>
+      <a href="programa.html#editais">Processo seletivo para ingresso</a>
+    </li>
+    <li>
+      <a href="programa.html#bolsas">Bolsas de estudo</a>
+    </li>
+    <li>
+      <a href="programa.html#calendarios">Calendários</a>
+    </li>
+    <li>
+      <a href="programa.html#turmas">Turmas</a>
     </li>
     <li>
       <a href="programa.html#convenios">Convênios institucionais</a>
@@ -425,12 +438,6 @@ div.tocify {
     </li>
     <li>
       <a href="programa.html#internacional">Internacionalização</a>
-    </li>
-    <li>
-      <a href="programa.html#financiadores">Financiadores</a>
-    </li>
-    <li>
-      <a href="programa.html#bolsas">Bolsas de estudo</a>
     </li>
   </ul>
 </li>
@@ -484,25 +491,19 @@ div.tocify {
       <a href="producoes.html">-Produções-</a>
     </li>
     <li>
+      <a href="producoes.html#repositorio">Repositório</a>
+    </li>
+    <li>
       <a href="producoes.html#tese">Tese</a>
     </li>
     <li>
       <a href="producoes.html#dissertacao">Dissertação</a>
     </li>
     <li>
-      <a href="producoes.html#repositorio">Repositório</a>
-    </li>
-    <li>
-      <a href="producoes.html#artigo-completo">Artigo completo</a>
-    </li>
-    <li>
-      <a href="producoes.html#artigo-resumo">Artigo resumo</a>
+      <a href="producoes.html#artigo-periodico">Artigo em periódico</a>
     </li>
     <li>
       <a href="producoes.html#preprint">Preprint</a>
-    </li>
-    <li>
-      <a href="producoes.html#retratacao">Retratação</a>
     </li>
     <li>
       <a href="producoes.html#editoria">Editoria</a>
@@ -533,6 +534,9 @@ div.tocify {
     </li>
     <li>
       <a href="producoes.html#aplicativo">Aplicativo</a>
+    </li>
+    <li>
+      <a href="producoes.html#retratacao">Retratação</a>
     </li>
   </ul>
 </li>
@@ -568,7 +572,7 @@ div.tocify {
       <a href="destaques.html#representatividade">Representatividade</a>
     </li>
     <li>
-      <a href="destaques.html#divulgacao">Divulgação</a>
+      <a href="destaques.html#divulgacao">Divulgação científica</a>
     </li>
   </ul>
 </li>
@@ -583,16 +587,16 @@ div.tocify {
       <a href="impactos.html">-Impactos-</a>
     </li>
     <li>
-      <a href="impactos.html#impacto-educacional">Educacional</a>
+      <a href="impactos.html#impacto-educacional">Impacto educacional</a>
     </li>
     <li>
-      <a href="impactos.html#impacto-cientifico">Científico</a>
+      <a href="impactos.html#impacto-cientifico">Impacto científico</a>
     </li>
     <li>
-      <a href="impactos.html#impacto-sociocultural">Sociocultural</a>
+      <a href="impactos.html#impacto-tecnologico">Impacto tecnológico/econômico</a>
     </li>
     <li>
-      <a href="impactos.html#impacto-tecnologico">Tecnológico/Econômico</a>
+      <a href="impactos.html#impacto-sociocultural">Impacto sociocultural</a>
     </li>
     <li>
       <a href="impactos.html#acoes-pandemia">Ações durante a pandemia</a>
@@ -631,13 +635,16 @@ div.tocify {
       <a href="autoavaliacao.html">-Autoavaliação-</a>
     </li>
     <li>
-      <a href="autoavaliacao.html#procedimentos">Procedimentos</a>
+      <a href="autoavaliacao.html#metodologia">Metodologia</a>
     </li>
     <li>
-      <a href="autoavaliacao.html#documentos">Documentos</a>
+      <a href="autoavaliacao.html#autoavaliacao-ppg">Autoavaliação PPG</a>
     </li>
     <li>
-      <a href="autoavaliacao.html#coleta">Preenchimento do Coleta</a>
+      <a href="autoavaliacao.html#avaliacao-capes">Avaliação CAPES</a>
+    </li>
+    <li>
+      <a href="autoavaliacao.html#coleta">Dados do Coleta</a>
     </li>
     <li>
       <a href="autoavaliacao.html#ficha-avaliacao">Ficha de avaliação</a>
@@ -749,7 +756,7 @@ function googleTranslateElementInit() {
 </div>
 
 
-<!--install and/or load all R packages-->
+<!--set up-->
 <!--script for inserting LOGO ABOVE THE TOC-->
 <script>
 $(document).ready(function() {
@@ -789,8 +796,8 @@ href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://github.com
 <h2 class="tabset"><strong>Produções: Visibilidade</strong></h2>
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:black;background-color:black">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-92bf13d7b0d976dbab93" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-92bf13d7b0d976dbab93">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["55","41","12","1","2","44","21","53","13","54","22","27","51","3","35","7","10","5","45","28"],["55","41","12","1","2","44","21","53","13","54","22","27","51","3","35","7","10","5","45","28"],["Damasceno GM, Ferreira AS, Nogueira LAC, Reis FJJ, Andrade ICS, Meziat-Filho N. Text neck and neck pain in 18–21-year-old young adults. European Spine Journal. 2018;27(6):1249-1254. doi:10.1007/s00586-017-5444-5\n","Pinto TP, Inácio JC, de Aguiar E, et al. Prefrontal tDCS modulates autonomic responses in COVID-19 inpatients. Brain Stimulation. 2023;16(2):657-666. doi:10.1016/j.brs.2023.03.001\n","Lima M, Ferreira AS, Reis FJJ, Paes V, Meziat-Filho N. Chronic low back pain and back muscle activity during functional tasks. Gait &amp; Posture. 2018;61:250-256. doi:10.1016/j.gaitpost.2018.01.021\n","Meziat-Filho N, Ferreira AS, Nogueira LAC, Reis FJJ. “Text-neck”: an epidemic of the modern era of cell phones? The Spine Journal. 2018;18(4):714-715. doi:10.1016/j.spinee.2017.11.022\n","Fernandes LGV, Avelar KES, Romero EC, Heinemann MB, Kirchgatter K, Nascimento ALTO. A New Recombinant Multiepitope Chimeric Protein of Leptospira interrogans Is a Promising Marker for the Serodiagnosis of Leptospirosis. Tropical Medicine and Infectious Disease. 2022;7(11):362. doi:10.3390/tropicalmed7110362\n","Damasceno GM, Ferreira AS, Nogueira LAC, Reis FJJ, Lara RW, Meziat-Filho N. Reliability of two pragmatic tools for assessing text neck. Journal of Bodywork and Movement Therapies. 2018;22(4):963-967. doi:10.1016/j.jbmt.2018.01.007\n","Maciel L, de Oliveira DF, Monnerat G, Campos de Carvalho AC, Nascimento JHM. Exogenous 10 kDa-Heat Shock Protein Preserves Mitochondrial Function After Hypoxia/Reoxygenation. Frontiers in Pharmacology. 2020;11. doi:10.3389/fphar.2020.00545\n","Hasner C, Lima AA de, Winter E. Technology advances in sugarcane propagation: A patent citation study. World Patent Information. 2019;56:9-16. doi:10.1016/j.wpi.2018.09.001\n","Luz F, Garcia Filho F, Oliveira M, Nascimento L, Monteiro S. Composites with Natural Fibers and Conventional Materials Applied in a Hard Armor: A Comparison. Polymers. 2020;12(9):1920. doi:10.3390/polym12091920\n","Souza ROL de, Ferreira MLSS, Vasconcellos CAB de. TELHADO VERDE DE BAIXO INVESTIMENTO COMPOSTO POR PLANTAS MEDICINAIS E AROMÁTICAS. Semioses. 2016;9(2). doi:10.15202/1981996x.2015v9n2p48\n","Reis FJJ, Bittencourt JV, Calestini L, de Sá Ferreira A, Meziat-Filho N, Nogueira LC. Exploratory analysis of 5 supervised machine learning models for predicting the efficacy of the endogenous pain inhibitory pathway in patients with musculoskeletal pain. Musculoskeletal Science and Practice. 2023;66:102788. doi:10.1016/j.msksp.2023.102788\n","de Alegria SG, Azevedo BLPA, Oliveira JGM, et al. Home-based rehabilitation improves functional capacity and quality of life in women with systemic sclerosis: A preliminary study. Journal of Back and Musculoskeletal Rehabilitation. 2023;36(2):455-463. doi:10.3233/bmr-220077\n","dos Santos Bento AP, Filho NM, Ferreira A de S, Cassetta AP, de Almeida RS. Sleep quality and polysomnographic changes in patients with chronic pain with and without central sensitization signs. Brazilian Journal of Physical Therapy. 2023;27(3):100504. doi:10.1016/j.bjpt.2023.100504\n","Ferreira APA, Zanier JFC, Santos EBG, Ferreira AS. Accuracy of Palpation Procedures for Locating the C1 Transverse Process and Masseter Muscle as Confirmed by Computed Tomography Images. Journal of Manipulative and Physiological Therapeutics. 2022;45(5):337-345. doi:10.1016/j.jmpt.2022.07.005\n","Michalski AC, Ferreira AS, Midgley AW, et al. Mixed circuit training acutely reduces arterial stiffness in patients with chronic stroke: a crossover randomized controlled trial. European Journal of Applied Physiology. 2022;123(1):121-134. doi:10.1007/s00421-022-05061-8\n","Parisotto G, Reis LFF, Junior MS, Papathanasiou J, Lopes AJ, Ferreira AS. Association of Multiple Cardiovascular Risk Factors with Musculoskeletal Function in Acute Coronary Syndrome Ward Inpatients. Healthcare. 2023;11(7):954. doi:10.3390/healthcare11070954\n","Omar A, Ferreira A de S, Hegazy FA, Alaparthi GK. Cardiorespiratory Response to Six-Minute Step Test in Post COVID-19 Patients—A Cross Sectional Study. Healthcare. 2023;11(10):1386. doi:10.3390/healthcare11101386\n","Silva S de O, Barbosa JB, Lemos T, Oliveira LAS, Ferreira A de S. Agreement and predictive performance of fall risk assessment methods and factors associated with falls in hospitalized older adults: A longitudinal study. Geriatric Nursing. 2023;49:109-114. doi:10.1016/j.gerinurse.2022.11.016\n","Ribeiro CO, Lopes AJ, Melo PL de. Respiratory Oscillometry in Chronic Obstructive Pulmonary Disease: Association with Functional Capacity as Evaluated by Adl Glittre Test and Hand Grip Strength Test. International Journal of Chronic Obstructive Pulmonary Disease. 2022;Volume 17:1017-1030. doi:10.2147/copd.s353912\n","Lopes AJ, Mafort TT, da Cal MS, et al. Impulse Oscillometry Findings and Their Associations With Lung Ultrasound Signs in COVID-19 Survivors. Respiratory Care. 2021;66(11):1691-1698. doi:10.4187/respcare.09193\n"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>V1<\/th>\n      <th>formatted_citations<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":0,"scrolX":false,"dom":"B","buttons":[{"extend":"copy"},{"extend":"csv"},{"extend":"pdf","title":"Produção de destaque - Atenção e visibilidade","filename":"Produção de destaque - Atenção e visibilidade"}],"searchHighlight":false,"headerCallback":"function(thead, display){\n$(thead).remove();\n}","columnDefs":[{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"V1","targets":1},{"name":"formatted_citations","targets":2}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[0,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":["options.headerCallback"],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-1b5c42d38b099e5b316f" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-1b5c42d38b099e5b316f">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["57","43","14","1","2","46","27","22","55","15","56","10","23","53","3","36","8","12","35","5"],["57","43","14","1","2","46","27","22","55","15","56","10","23","53","3","36","8","12","35","5"],["Damasceno GM, Ferreira AS, Nogueira LAC, Reis FJJ, Andrade ICS, Meziat-Filho N. Text neck and neck pain in 18–21-year-old young adults. European Spine Journal. 2018;27(6):1249-1254. doi:10.1007/s00586-017-5444-5\n","Pinto TP, Inácio JC, de Aguiar E, et al. Prefrontal tDCS modulates autonomic responses in COVID-19 inpatients. Brain Stimulation. 2023;16(2):657-666. doi:10.1016/j.brs.2023.03.001\n","Lima M, Ferreira AS, Reis FJJ, Paes V, Meziat-Filho N. Chronic low back pain and back muscle activity during functional tasks. Gait &amp; Posture. 2018;61:250-256. doi:10.1016/j.gaitpost.2018.01.021\n","Meziat-Filho N, Ferreira AS, Nogueira LAC, Reis FJJ. “Text-neck”: an epidemic of the modern era of cell phones? The Spine Journal. 2018;18(4):714-715. doi:10.1016/j.spinee.2017.11.022\n","Fernandes LGV, Avelar KES, Romero EC, Heinemann MB, Kirchgatter K, Nascimento ALTO. A New Recombinant Multiepitope Chimeric Protein of Leptospira interrogans Is a Promising Marker for the Serodiagnosis of Leptospirosis. Tropical Medicine and Infectious Disease. 2022;7(11):362. doi:10.3390/tropicalmed7110362\n","Damasceno GM, Ferreira AS, Nogueira LAC, Reis FJJ, Lara RW, Meziat-Filho N. Reliability of two pragmatic tools for assessing text neck. Journal of Bodywork and Movement Therapies. 2018;22(4):963-967. doi:10.1016/j.jbmt.2018.01.007\n","Neto RBD, Reis LFF, Ferreira A de S, Alexandre DJ de A, Almeida RS de. Hospital admission is associated with disability and late musculoskeletal pain in individuals with long COVID. Frontiers in Rehabilitation Sciences. 2023;4. doi:10.3389/fresc.2023.1186499\n","Maciel L, de Oliveira DF, Monnerat G, Campos de Carvalho AC, Nascimento JHM. Exogenous 10 kDa-Heat Shock Protein Preserves Mitochondrial Function After Hypoxia/Reoxygenation. Frontiers in Pharmacology. 2020;11. doi:10.3389/fphar.2020.00545\n","Hasner C, Lima AA de, Winter E. Technology advances in sugarcane propagation: A patent citation study. World Patent Information. 2019;56:9-16. doi:10.1016/j.wpi.2018.09.001\n","Luz F, Garcia Filho F, Oliveira M, Nascimento L, Monteiro S. Composites with Natural Fibers and Conventional Materials Applied in a Hard Armor: A Comparison. Polymers. 2020;12(9):1920. doi:10.3390/polym12091920\n","Souza ROL de, Ferreira MLSS, Vasconcellos CAB de. TELHADO VERDE DE BAIXO INVESTIMENTO COMPOSTO POR PLANTAS MEDICINAIS E AROMÁTICAS. Semioses. 2016;9(2). doi:10.15202/1981996x.2015v9n2p48\n","Casagrande CMZ, Farias JP, Meziat-Filho N, Nogueira LAC, Ferreira AS. Better Work Ability Is Associated With Lower Levels of Both Occupational Stress and Occupational Physical Activity in Professional Drivers. Journal of Occupational &amp; Environmental Medicine. 2023;65(10):846-852. doi:10.1097/jom.0000000000002918\n","Reis FJJ, Bittencourt JV, Calestini L, de Sá Ferreira A, Meziat-Filho N, Nogueira LC. Exploratory analysis of 5 supervised machine learning models for predicting the efficacy of the endogenous pain inhibitory pathway in patients with musculoskeletal pain. Musculoskeletal Science and Practice. 2023;66:102788. doi:10.1016/j.msksp.2023.102788\n","dos Santos Bento AP, Filho NM, Ferreira A de S, Cassetta AP, de Almeida RS. Sleep quality and polysomnographic changes in patients with chronic pain with and without central sensitization signs. Brazilian Journal of Physical Therapy. 2023;27(3):100504. doi:10.1016/j.bjpt.2023.100504\n","Ferreira APA, Zanier JFC, Santos EBG, Ferreira AS. Accuracy of Palpation Procedures for Locating the C1 Transverse Process and Masseter Muscle as Confirmed by Computed Tomography Images. Journal of Manipulative and Physiological Therapeutics. 2022;45(5):337-345. doi:10.1016/j.jmpt.2022.07.005\n","Michalski AC, Ferreira AS, Midgley AW, et al. Mixed circuit training acutely reduces arterial stiffness in patients with chronic stroke: a crossover randomized controlled trial. European Journal of Applied Physiology. 2022;123(1):121-134. doi:10.1007/s00421-022-05061-8\n","Parisotto G, Reis LFF, Junior MS, Papathanasiou J, Lopes AJ, Ferreira AS. Association of Multiple Cardiovascular Risk Factors with Musculoskeletal Function in Acute Coronary Syndrome Ward Inpatients. Healthcare. 2023;11(7):954. doi:10.3390/healthcare11070954\n","Omar A, Ferreira A de S, Hegazy FA, Alaparthi GK. Cardiorespiratory Response to Six-Minute Step Test in Post COVID-19 Patients—A Cross Sectional Study. Healthcare. 2023;11(10):1386. doi:10.3390/healthcare11101386\n","Ribeiro Moço VJ, Gulart AA, Lopes AJ, de Sá Ferreira A, da Fonseca Reis LF. Minimal-Resource Home Exercise Program Improves Activities of Daily Living, Perceived Health Status, and Shortness of Breath in Individuals with COPD Stages GOLD II to IV. COPD: Journal of Chronic Obstructive Pulmonary Disease. 2023;20(1):298-306. doi:10.1080/15412555.2023.2253907\n","Silva S de O, Barbosa JB, Lemos T, Oliveira LAS, Ferreira A de S. Agreement and predictive performance of fall risk assessment methods and factors associated with falls in hospitalized older adults: A longitudinal study. Geriatric Nursing. 2023;49:109-114. doi:10.1016/j.gerinurse.2022.11.016\n"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>V1<\/th>\n      <th>formatted_citations<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":0,"scrolX":false,"dom":"B","buttons":[{"extend":"copy"},{"extend":"csv"},{"extend":"pdf","title":"Produção de destaque - Atenção e visibilidade","filename":"Produção de destaque - Atenção e visibilidade"}],"searchHighlight":false,"headerCallback":"function(thead, display){\n$(thead).remove();\n}","columnDefs":[{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"V1","targets":1},{"name":"formatted_citations","targets":2}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[0,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":["options.headerCallback"],"jsHooks":[]}</script>
 <!-- -->
 <p><strong>Produtos (n = 20) e Impactos (Altmetric<sup>1</sup>,
 Dimensions<sup>2</sup>, PlumX<sup>3</sup>, CiteScore<sup>4</sup>,
@@ -1089,6 +1096,54 @@ Qualis <br>A2</a></nobr>
 </tr>
 <tr>
 <td valign=top;>
+<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.3389/fresc.2023.1186499" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
+<a href="http://dx.doi.org/10.3389/fresc.2023.1186499"
+target="_blank"><strong>Hospital admission is associated with disability
+and late musculoskeletal pain in individuals with long
+COVID</strong></a><br>Ricardo Bezerra Duarte Neto, Luis Felipe Fonseca
+Reis, Arthur de Sá Ferreira, Dângelo José de Andrade Alexandre, Renato
+Santos de Almeida<br>2023  -  <em>Frontiers in Rehabilitation
+Sciences</em><br>
+<div style="vertical-align: middle; display: inline-block;">
+<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.3389/fresc.2023.1186499"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.3389/fresc.2023.1186499" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.5em 0.3em 0.5em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.3389/fresc.2023.1186499" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/?dgcid=sc_widget_citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<div
+style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
+<div style="padding: 0px 16px;">
+<div style="padding-top:3px;line-height:1;">
+<div style="float:left;font-size:28px">
+<span id="citescoreVal"
+style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">?</span>
+</div>
+<div
+style="float:right;font-size:14px;padding-top:3px;text-align: right;">
+<span id="citescoreYearVal" style="display:block;">?</span>CiteScore
+</div>
+</div>
+<div style="clear:both;">
+
+</div>
+<div style="padding-top:3px;">
+<div style="height:4px;background-color:#DCDCDC;">
+<div id="percentActBar"
+style="height: 4px; background-color: rgb(0, 115, 152); width:?%;">
+ 
+</div>
+</div>
+<div style="font-size:11px;">
+<span id="citescorePerVal">?</span>
+</div>
+</div>
+<div style="font-size:12px;text-align:right;">
+
+</div>
+</div>
+</div>
+</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=0?&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=0" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
+Qualis <br>?</a></nobr>
+</div>
+</tr>
+<tr>
+<td valign=top;>
 <br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.3389/fphar.2020.00545" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
 <a href="http://dx.doi.org/10.3389/fphar.2020.00545"
 target="_blank"><strong>Exogenous 10 kDa-Heat Shock Protein Preserves
@@ -1275,6 +1330,53 @@ Qualis <br>B3</a></nobr>
 </tr>
 <tr>
 <td valign=top;>
+<br> <a href="http://dx.doi.org/10.1097/jom.0000000000002918"
+target="_blank"><strong>Better Work Ability Is Associated With Lower
+Levels of Both Occupational Stress and Occupational Physical Activity in
+Professional Drivers</strong></a><br>Cynthia Mara Zilli Casagrande, Jean
+Paulo Farias, Ney Meziat-Filho, Leandro Alberto Calazans Nogueira,
+Arthur Sá Ferreira<br>2023  -  <em>Journal of Occupational &amp;
+Environmental Medicine</em><br>
+<div style="vertical-align: middle; display: inline-block;">
+<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1097/jom.0000000000002918"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1097/jom.0000000000002918" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.5em 0.3em 0.5em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1097/jom.0000000000002918" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/15986?dgcid=sc_widget_citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<div
+style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
+<div style="padding: 0px 16px;">
+<div style="padding-top:3px;line-height:1;">
+<div style="float:left;font-size:28px">
+<span id="citescoreVal"
+style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">3.40</span>
+</div>
+<div
+style="float:right;font-size:14px;padding-top:3px;text-align: right;">
+<span id="citescoreYearVal" style="display:block;">2022</span>CiteScore
+</div>
+</div>
+<div style="clear:both;">
+
+</div>
+<div style="padding-top:3px;">
+<div style="height:4px;background-color:#DCDCDC;">
+<div id="percentActBar"
+style="height: 4px; background-color: rgb(0, 115, 152); width:67%;">
+ 
+</div>
+</div>
+<div style="font-size:11px;">
+<span id="citescorePerVal">67th percentile</span>
+</div>
+</div>
+<div style="font-size:12px;text-align:right;">
+
+</div>
+</div>
+</div>
+</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=15986&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=15986" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
+Qualis <br>A2</a></nobr>
+</div>
+</tr>
+<tr>
+<td valign=top;>
 <br> <a href="http://dx.doi.org/10.1016/j.msksp.2023.102788"
 target="_blank"><strong>Exploratory analysis of 5 supervised machine
 learning models for predicting the efficacy of the endogenous pain
@@ -1318,54 +1420,6 @@ style="height: 4px; background-color: rgb(0, 115, 152); width:71%;">
 </div>
 </a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=21100801200&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=21100801200" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
 Qualis <br>A2</a></nobr>
-</div>
-</tr>
-<tr>
-<td valign=top;>
-<br> <a href="http://dx.doi.org/10.3233/bmr-220077"
-target="_blank"><strong>Home-based rehabilitation improves functional
-capacity and quality of life in women with systemic sclerosis: A
-preliminary study.</strong></a><br>Samantha Gomes de Alegria, Beatriz
-Luiza Pinheiro Alves Azevedo, Jéssica Gabriela Messias Oliveira, Matheus
-Mello da Silva, Damara Guedes Gardel, Thiago Thomaz Mafort, Agnaldo José
-Lopes<br>2023  -  <em>Journal of Back &amp; Musculoskeletal
-Rehabilitation</em><br>
-<div style="vertical-align: middle; display: inline-block;">
-<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.3233/bmr-220077"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.3233/bmr-220077" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.5em 0.3em 0.5em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.3233/bmr-220077" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/12192?dgcid=sc_widget_citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
-<div
-style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
-<div style="padding: 0px 16px;">
-<div style="padding-top:3px;line-height:1;">
-<div style="float:left;font-size:28px">
-<span id="citescoreVal"
-style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">2.40</span>
-</div>
-<div
-style="float:right;font-size:14px;padding-top:3px;text-align: right;">
-<span id="citescoreYearVal" style="display:block;">2022</span>CiteScore
-</div>
-</div>
-<div style="clear:both;">
-
-</div>
-<div style="padding-top:3px;">
-<div style="height:4px;background-color:#DCDCDC;">
-<div id="percentActBar"
-style="height: 4px; background-color: rgb(0, 115, 152); width:56%;">
- 
-</div>
-</div>
-<div style="font-size:11px;">
-<span id="citescorePerVal">56th percentile</span>
-</div>
-</div>
-<div style="font-size:12px;text-align:right;">
-
-</div>
-</div>
-</div>
-</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=12192&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=12192" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
-Qualis <br>A4</a></nobr>
 </div>
 </tr>
 <tr>
@@ -1605,6 +1659,55 @@ Qualis <br>A3</a></nobr>
 </tr>
 <tr>
 <td valign=top;>
+<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.1080/15412555.2023.2253907" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
+<a href="http://dx.doi.org/10.1080/15412555.2023.2253907"
+target="_blank"><strong>Minimal-Resource Home Exercise Program Improves
+Activities of Daily Living, Perceived Health Status, and Shortness of
+Breath in Individuals with COPD Stages GOLD II to
+IV</strong></a><br>Vanessa Joaquim Ribeiro Moço, Aline Almeida Gulart,
+Agnaldo José Lopes, Arthur de Sá Ferreira, Luis Felipe da Fonseca
+Reis<br>2023  -  <em>COPD: Journal of Chronic Obstructive Pulmonary
+Disease</em><br>
+<div style="vertical-align: middle; display: inline-block;">
+<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1080/15412555.2023.2253907"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1080/15412555.2023.2253907" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.5em 0.3em 0.5em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1080/15412555.2023.2253907" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/130077?dgcid=sc_widget_citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<div
+style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
+<div style="padding: 0px 16px;">
+<div style="padding-top:3px;line-height:1;">
+<div style="float:left;font-size:28px">
+<span id="citescoreVal"
+style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">3.50</span>
+</div>
+<div
+style="float:right;font-size:14px;padding-top:3px;text-align: right;">
+<span id="citescoreYearVal" style="display:block;">2022</span>CiteScore
+</div>
+</div>
+<div style="clear:both;">
+
+</div>
+<div style="padding-top:3px;">
+<div style="height:4px;background-color:#DCDCDC;">
+<div id="percentActBar"
+style="height: 4px; background-color: rgb(0, 115, 152); width:67%;">
+ 
+</div>
+</div>
+<div style="font-size:11px;">
+<span id="citescorePerVal">67th percentile</span>
+</div>
+</div>
+<div style="font-size:12px;text-align:right;">
+
+</div>
+</div>
+</div>
+</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=130077&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=130077" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
+Qualis <br>A3</a></nobr>
+</div>
+</tr>
+<tr>
+<td valign=top;>
 <br> <a href="http://dx.doi.org/10.1016/j.gerinurse.2022.11.016"
 target="_blank"><strong>Agreement and predictive performance of fall
 risk assessment methods and factors associated with falls in
@@ -1650,104 +1753,8 @@ style="height: 4px; background-color: rgb(0, 115, 152); width:62%;">
 Qualis <br>A2</a></nobr>
 </div>
 </tr>
-<tr>
-<td valign=top;>
-<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.2147/copd.s353912" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
-<a href="http://dx.doi.org/10.2147/copd.s353912"
-target="_blank"><strong>Respiratory Oscillometry in Chronic Obstructive
-Pulmonary Disease: Association with Functional Capacity as Evaluated by
-Adl Glittre Test and Hand Grip Strength Test</strong></a><br>Caroline
-Oliveira Ribeiro, Agnaldo José Lopes, Pedro Lopes de Melo<br>2022  -
- <em>International Journal of Chronic Obstructive Pulmonary
-Disease</em><br>
-<div style="vertical-align: middle; display: inline-block;">
-<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.2147/copd.s353912"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.2147/copd.s353912" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.5em 0.3em 0.5em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.2147/copd.s353912" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/6200180178?dgcid=sc_widget_citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
-<div
-style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
-<div style="padding: 0px 16px;">
-<div style="padding-top:3px;line-height:1;">
-<div style="float:left;font-size:28px">
-<span id="citescoreVal"
-style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">4.80</span>
-</div>
-<div
-style="float:right;font-size:14px;padding-top:3px;text-align: right;">
-<span id="citescoreYearVal" style="display:block;">2022</span>CiteScore
-</div>
-</div>
-<div style="clear:both;">
-
-</div>
-<div style="padding-top:3px;">
-<div style="height:4px;background-color:#DCDCDC;">
-<div id="percentActBar"
-style="height: 4px; background-color: rgb(0, 115, 152); width:78%;">
- 
-</div>
-</div>
-<div style="font-size:11px;">
-<span id="citescorePerVal">78th percentile</span>
-</div>
-</div>
-<div style="font-size:12px;text-align:right;">
-
-</div>
-</div>
-</div>
-</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=6200180178&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=6200180178" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
-Qualis <br>A1</a></nobr>
-</div>
-</tr>
-<tr>
-<td valign=top;>
-<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.4187/respcare.09193" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
-<a href="http://dx.doi.org/10.4187/respcare.09193"
-target="_blank"><strong>Impulse Oscillometry Findings and Their
-Associations With Lung Ultrasound Signs in COVID-19
-Survivors.</strong></a><br>Agnaldo J Lopes, Thiago T Mafort, Mariana S
-da Cal, Laura B Monnerat, Patrícia F Litrento, Ingrid Ramos, Raphael F J
-de Oliveira, Claudia H da Costa, Rogério Rufino<br>2021  -
- <em>Respiratory Care</em><br>
-<div style="vertical-align: middle; display: inline-block;">
-<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.4187/respcare.09193"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.4187/respcare.09193" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.5em 0.3em 0.5em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.4187/respcare.09193" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/18635?dgcid=sc_widget_citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
-<div
-style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
-<div style="padding: 0px 16px;">
-<div style="padding-top:3px;line-height:1;">
-<div style="float:left;font-size:28px">
-<span id="citescoreVal"
-style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">4.10</span>
-</div>
-<div
-style="float:right;font-size:14px;padding-top:3px;text-align: right;">
-<span id="citescoreYearVal" style="display:block;">2022</span>CiteScore
-</div>
-</div>
-<div style="clear:both;">
-
-</div>
-<div style="padding-top:3px;">
-<div style="height:4px;background-color:#DCDCDC;">
-<div id="percentActBar"
-style="height: 4px; background-color: rgb(0, 115, 152); width:73%;">
- 
-</div>
-</div>
-<div style="font-size:11px;">
-<span id="citescorePerVal">73th percentile</span>
-</div>
-</div>
-<div style="font-size:12px;text-align:right;">
-
-</div>
-</div>
-</div>
-</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=18635&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=18635" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
-Qualis <br>A3</a></nobr>
-</div>
-</tr>
 </table>
-<p><br><em>Fontes:</em><sup>1</sup> <a
+<p><br><strong>Fontes</strong>:<sup>1</sup> <a
 href="https://www.altmetric.com"><strong>Altmetric</strong></a>,
 <sup>2</sup> <a
 href="https://www.dimensions.ai"><strong>Dimensions</strong></a>,
@@ -1769,8 +1776,8 @@ href="https://doaj.org"><strong>DOAJ</strong></a><br><br><br><a style="float:rig
 <h2 class="tabset"><strong>Produções: Prestígio</strong></h2>
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:black;background-color:black">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-998f5ce4e8f950111050" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-998f5ce4e8f950111050">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["37","15","69","4","117","61","66","85","60","84","100","21","119","17","42","1","115","29","30","59"],["37","15","69","4","117","61","66","85","60","84","100","21","119","17","42","1","115","29","30","59"],["Deus CAL, Vigário PS, Guimarães FS, Lopes AJ. Nitrogen single-breath washout test for evaluating exercise tolerance and quality of life in patients with chronic obstructive pulmonary disease. Brazilian Journal of Medical and Biological Research. 2018;51(4). doi:10.1590/1414-431x20177059\n","Souza MF, Ferreira AS. Education of traditional medicine for people with visual impairments in Brazil: Challenges and strategies. Integrative Medicine Research. 2021;10(2):100687. doi:10.1016/j.imr.2020.100687\n","Baptista OGS, Nascimento LFC. Água potável: escassez e gestão do consumo em condomínios residenciais metropolitanos  / Drinking water: scarcity and consumption management in metropolitan residential buildings. Brazilian Journal of Development. 2022;8(1):8384-8397. doi:10.34117/bjdv8n1-563\n","Monnerat G, Seara FAC, Evaristo JAM, et al. Aging-related compensated hypogonadism: Role of metabolomic analysis in physiopathological and therapeutic evaluation. The Journal of Steroid Biochemistry and Molecular Biology. 2018;183:39-50. doi:10.1016/j.jsbmb.2018.05.005\n","Almeida A de PF, Lopez FG, Seixas Filho JT de. DIAGNÓSTICO DO PRODUTOR FAMILIAR: DESENVOLVIMENTO LOCAL PELO ASSOCIATIVISMO EM RANICULTURA NO MUNICÍPIO DE ITAGUAÍ NO ESTADO DO RIO DE JANEIRO. Semioses. 2017;11(2). doi:10.15202/1981996x.2017v11n2p17\n","Lima MM, De Miranda MG, Dusek PM, Avelar KES. A QUARTA REVOLUÇÃO INDUSTRIAL SOB O TRIPÉ DA SUSTENTABILIDADE. Semioses. 2019;13(3):76-86. doi:10.15202/1981996x.2019v13n3p76-86\n","Cordeiro FAV, Friede R, De Miranda MG. A VIOLÊNCIA SIMBÓLICA NA SOCIEDADE DO CANSAÇO DO SÉCULO XXI. Revista Augustus. 2018;23(46):30-53. doi:10.15202/1981896.2018v23n46p30\n","Silva JF da, Nascimento LFC. Aspectos técnicos, sociais e ambientais do sistema de fornecimento de água e saneamento básico do Estado do Rio de Janeiro / Technical social and environmental aspects of the water supply and sanitation system in the State of Rio de Janeiro. Brazilian Journal of Development. 2021;7(12):121362-121379. doi:10.34117/bjdv7n12-754\n","Silva JF da, Nascimento LFC. A AÇÃO DO HOMEM SOBRE AS LAGOAS DE JACAREPAGUÁ, RIO DE JANEIRO. Lex Cult Revista do CCJF. 2021;5(2):15-31. doi:10.30749/2594-8261.v5n2p15-31\n","Mello SCRP, Oliveira EDCP de, Seixas Filho JT de. ASPECTOS DA AQUICULTURA E SUA IMPORTÂNCIA NA PRODUÇÃO DE ALIMENTOS DE ALTO VALOR BIOLÓGICO. Semioses. 2017;11(2). doi:10.15202/1981996x.2017v11n2p28\n","Stefnia P de S, Simone SV, Nathalia FC, et al. Chemical composition and antinociceptive activity of the essential oil of Piper mollicomum and Piper rivinoides. Journal of Medicinal Plants Research. 2014;8(22):788-793. doi:10.5897/jmpr2013.4425\n","Maciel L, de Oliveira DF, Monnerat G, Campos de Carvalho AC, Nascimento JHM. Exogenous 10 kDa-Heat Shock Protein Preserves Mitochondrial Function After Hypoxia/Reoxygenation. Frontiers in Pharmacology. 2020;11. doi:10.3389/fphar.2020.00545\n","Salomé DGM, Da Silva NG, Orsini M, Trajano ETL, Dusek PM, De Seixas Filho JT. DOENÇA DE CUSHING POR MACROADENOMA: RELATO DE CASO. Semioses. 2018;12(3):93-102. doi:10.15202/1981996x.2018v12n3p93\n","da Silva DCL, Lemos T, de Sá Ferreira A, et al. Effects of Acute Transcranial Direct Current Stimulation on Gait Kinematics of Individuals With Parkinson Disease. Topics in Geriatric Rehabilitation. 2018;34(4):262-268. doi:10.1097/tgr.0000000000000203\n","Lindoso RS, Kasai-Brunswick TH, Monnerat Cahli G, et al. Proteomics in the World of Induced Pluripotent Stem Cells. Cells. 2019;8(7):703. doi:10.3390/cells8070703\n","Meziat-Filho N, Ferreira AS, Nogueira LAC, Reis FJJ. “Text-neck”: an epidemic of the modern era of cell phones? The Spine Journal. 2018;18(4):714-715. doi:10.1016/j.spinee.2017.11.022\n","Mello SCRP, Oliveira RR de, Pereira MM, Rodrigues E, Silva WN, Seixas Filho JT de. Development of a water recirculating system for bullfrog production: technological innovation for small farmers. Ciência e Agrotecnologia. 2016;40(1):67-75. doi:10.1590/s1413-70542016000100006\n","Ferreira APA, Póvoa LC, Zanier JFC, Ferreira AS. Locating the Seventh Cervical Spinous Process: Accuracy of the Thorax-Rib Static Method and the Effects of Clinical Data on Its Performance. Journal of Manipulative and Physiological Therapeutics. 2017;40(2):98-105. doi:10.1016/j.jmpt.2016.10.011\n","Ferreira APA, Póvoa LC, Zanier JFC, Ferreira AS. Locating the Seventh Cervical Spinous Process: Development and Validation of a Multivariate Model Using Palpation and Personal Information. Journal of Manipulative and Physiological Therapeutics. 2017;40(2):89-97. doi:10.1016/j.jmpt.2016.10.012\n","Seixas Filho JT de, Hipólito M, Pereira MM, Martins AMCRP da F, Rodrigues E, Mello SCRP. &lt;b&gt;Liver histopathological changes in breeding bullfrogs&lt;/b&gt; - doi: 10.4025/actascibiolsci.v35i4.15981. Acta Scientiarum Biological Sciences. 2013;35(4). doi:10.4025/actascibiolsci.v35i4.15981\n"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>V1<\/th>\n      <th>formatted_citations<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":0,"scrolX":false,"dom":"B","buttons":[{"extend":"copy"},{"extend":"csv"},{"extend":"pdf","title":"Produção de destaque - Prestígio do peridódico","filename":"Produção de destaque - Prestígio do peridódico"}],"searchHighlight":false,"headerCallback":"function(thead, display){\n$(thead).remove();\n}","columnDefs":[{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"V1","targets":1},{"name":"formatted_citations","targets":2}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[0,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":["options.headerCallback"],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-2cbacc1ce0f34eee02cc" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-2cbacc1ce0f34eee02cc">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["37","16","71","4","120","62","67","88","61","87","103","20","122","17","42","1","118","27","28","60"],["37","16","71","4","120","62","67","88","61","87","103","20","122","17","42","1","118","27","28","60"],["Justo AC, Guimarães FS, Ferreira AS, Soares MS, Bunn PS, Lopes AJ. Muscle function in women with systemic sclerosis: Association with fatigue and general physical function. Clinical Biomechanics. 2017;47:33-39. doi:10.1016/j.clinbiomech.2017.05.011\n","Fonseca GF, Farinatti PTV, Midgley AW, et al. Continuous and Accumulated Bouts of Cycling Matched by Intensity and Energy Expenditure Elicit Similar Acute Blood Pressure Reductions in Prehypertensive Men. Journal of Strength and Conditioning Research. 2018;32(3):857-866. doi:10.1519/jsc.0000000000002317\n","Cordeiro FAV, Friede R, De Miranda MG. A VIOLÊNCIA SIMBÓLICA NA SOCIEDADE DO CANSAÇO DO SÉCULO XXI. Revista Augustus. 2018;23(46):30-53. doi:10.15202/1981896.2018v23n46p30\n","Monnerat G, Seara FAC, Evaristo JAM, et al. Aging-related compensated hypogonadism: Role of metabolomic analysis in physiopathological and therapeutic evaluation. The Journal of Steroid Biochemistry and Molecular Biology. 2018;183:39-50. doi:10.1016/j.jsbmb.2018.05.005\n","Cardozo M, Souza SP de, Lima K dos SC, et al. Degradation of Phenylethylamine and Tyramine by Gamma Radiation Process and Docking Studies of its Radiolytes. Journal of the Brazilian Chemical Society. Published online 2014. doi:10.5935/0103-5053.20140100\n","Seixas Filho JT de, Hipólito M, Pereira MM, Martins AMCRP da F, Rodrigues E, Mello SCRP. &lt;b&gt;Liver histopathological changes in breeding bullfrogs&lt;/b&gt; - doi: 10.4025/actascibiolsci.v35i4.15981. Acta Scientiarum Biological Sciences. 2013;35(4). doi:10.4025/actascibiolsci.v35i4.15981\n","Coração SA, De Miranda MG, Dusek PM, Avelar KES. A RELEVÂNCIA DO PROGRAMA ACADEMIA CARIOCA DE SAÚDE PARA A POPULAÇÃO IDOSA. Semioses. 2019;13(1):147-158. doi:10.15202/1981996x.2019v13n1p147\n","Mesquita Machado T, Winter E. Artificial intelligence and patents in Brazil: Overview on patentability and comparative study on patent filings. World Patent Information. 2023;72:102177. doi:10.1016/j.wpi.2023.102177\n","Castagna AA, Seixas Filho JT, Rodrigues E, Mello SCRP, Lima JLP, Pereira MM. &lt;b&gt;Influence of the number of feeding environments on the performance of bullfrog tadpoles&lt;/b&gt; - doi: 10.4025/actascibiolsci.v36i1.16757. Acta Scientiarum Biological Sciences. 2014;36(1). doi:10.4025/actascibiolsci.v36i1.16757\n","Mesquita IB, Silva CAF da, Ghayebzadeh S, Mataruna-Dos-Santos L, Ribeiro T. Are there opportunities for women as head coaches in Brazil’s national teams? The case of handball. Motriz: Revista de Educação Física. 2022;28(spe1). doi:10.1590/s1980-657420220014021\n","Ferreira L, Meregui AGM, Mainenti MRM, Vigário PS, Neves AN. Brazilian Portuguese Version of the Amputee Body Image Scale: Cultural Adaptation and a Psychometric Analysis. Perceptual and Motor Skills. Published online April 9, 2018:003151251876775. doi:10.1177/0031512518767755\n","Silva dos Santos D, Brasil GV, Ramos IPR, et al. Embryonic stem cell-derived cardiomyocytes for the treatment of doxorubicin-induced cardiomyopathy. Stem Cell Research &amp; Therapy. 2018;9(1). doi:10.1186/s13287-018-0788-2\n","Cineglaglia MN, Miranda MG de, Friede R, Cavalcanti MT. DESAFIOS DO EMPREENDEDORISMO. Lex Cult Revista do CCJF. 2021;5(3):59-76. doi:10.30749/2594-8261.v5n3p59-76\n","Souza MF, Ferreira AS. Education of traditional medicine for people with visual impairments in Brazil: Challenges and strategies. Integrative Medicine Research. 2021;10(2):100687. doi:10.1016/j.imr.2020.100687\n","Palugan MJA, Assis ACB, Bessa EJC, Ferreira AS, Lopes AJ. Predictors of functional capacity as measured by the Glittre activities of daily living test in women with rheumatoid arthritis. Brazilian Journal of Medical and Biological Research. 2021;54(5). doi:10.1590/1414-431x202010040\n","Meziat-Filho N, Ferreira AS, Nogueira LAC, Reis FJJ. “Text-neck”: an epidemic of the modern era of cell phones? The Spine Journal. 2018;18(4):714-715. doi:10.1016/j.spinee.2017.11.022\n","Juarez EJ, Yonemoto HW, Bilotta P, Silva CAF da. Crédito de carbono e suas implicações para a área contábil das empresas. Peer Review. 2023;5(15):286-309. doi:10.53660/715.prw1913\n","Neto RBD, Reis LFF, Ferreira A de S, Alexandre DJ de A, Almeida RS de. Hospital admission is associated with disability and late musculoskeletal pain in individuals with long COVID. Frontiers in Rehabilitation Sciences. 2023;4. doi:10.3389/fresc.2023.1186499\n","Lopes AJ, Mafort TT, da Cal MS, et al. Impulse Oscillometry Findings and Their Associations With Lung Ultrasound Signs in COVID-19 Survivors. Respiratory Care. 2021;66(11):1691-1698. doi:10.4187/respcare.09193\n","Castro P, Ferreira A de S, Lopes AJ, et al. Validity of the Polar V800 heart rate monitor for assessing cardiac autonomic control in individuals with spinal cord injury. Motriz: Revista de Educação Física. 2021;27. doi:10.1590/s1980-65742021003221\n"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>V1<\/th>\n      <th>formatted_citations<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":0,"scrolX":false,"dom":"B","buttons":[{"extend":"copy"},{"extend":"csv"},{"extend":"pdf","title":"Produção de destaque - Prestígio do peridódico","filename":"Produção de destaque - Prestígio do peridódico"}],"searchHighlight":false,"headerCallback":"function(thead, display){\n$(thead).remove();\n}","columnDefs":[{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"V1","targets":1},{"name":"formatted_citations","targets":2}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[0,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":["options.headerCallback"],"jsHooks":[]}</script>
 <!-- -->
 <p><strong>Produtos (n = 20) e Impactos (Altmetric<sup>1</sup>,
 Dimensions<sup>2</sup>, PlumX<sup>3</sup>, CiteScore<sup>4</sup>,
@@ -2753,7 +2760,7 @@ Qualis <br>A2</a></nobr>
 </td>
 </tr>
 </table>
-<p><br><em>Fontes:</em><sup>1</sup> <a
+<p><br><strong>Fontes</strong>:<sup>1</sup> <a
 href="https://www.altmetric.com"><strong>Altmetric</strong></a>,
 <sup>2</sup> <a
 href="https://www.dimensions.ai"><strong>Dimensions</strong></a>,
@@ -2785,8 +2792,8 @@ href="https://doaj.org"><strong>DOAJ</strong></a><br><br><br><a style="float:rig
 <p><br></p>
 <p><br></p>
 </div>
-<div id="representatividade" class="section level2">
-<h2><strong>Representatividade</strong></h2>
+<div id="representatividade" class="section level2 tabset">
+<h2 class="tabset"><strong>Representatividade</strong></h2>
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:black;background-color:black">
 <div id="associações" class="section level3 tabset">
@@ -2862,11 +2869,10 @@ Associado
 </tr>
 </tbody>
 </table>
-<br><em>Fontes:</em> <a
+<br><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><a href="#fn1"
-class="footnote-ref" id="fnref1"><sup>1</sup></a><br>
+href="https://orcid.org"><strong>ORCID</strong></a><br>
 <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
@@ -2889,11 +2895,10 @@ Editor for the Evidence-Based Complementary and Alternative Medicine
 </tr>
 </tbody>
 </table>
-<p><br><em>Fontes:</em> <a
+<p><br><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><a href="#fn2"
-class="footnote-ref" id="fnref2"><sup>2</sup></a><br></p>
+href="https://orcid.org"><strong>ORCID</strong></a><br></p>
 <!-- -->
 <p><br><a style="float:right" href="#top"><b>Início  </b>
 <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
@@ -3130,21 +3135,6 @@ Academic Editor
 </tr>
 <tr>
 <td style="text-align:left;">
-Evidence-Based Complementary and Alternative Medicine
-</td>
-<td style="text-align:left;">
-Academic Editor
-</td>
-<td style="text-align:left;">
-</td>
-<td style="text-align:left;">
-3.5
-</td>
-<td style="text-align:left;">
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
 Chinese Journal of Integrative Medicine
 </td>
 <td style="text-align:left;">
@@ -3191,13 +3181,27 @@ Editor assistente
 B3
 </td>
 </tr>
+<tr>
+<td style="text-align:left;">
+Evidence-Based Complementary and Alternative Medicine
+</td>
+<td style="text-align:left;">
+Academic Editor
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+3.5
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
 </tbody>
 </table>
-<p><br><em>Fontes:</em> <a
+<p><br><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><a href="#fn3"
-class="footnote-ref" id="fnref3"><sup>3</sup></a><br></p>
+href="https://orcid.org"><strong>ORCID</strong></a><br></p>
 <!-- -->
 <p><br><a style="float:right" href="#top"><b>Início  </b>
 <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
@@ -3262,11 +3266,10 @@ Journal of Physical Education
 </tr>
 </tbody>
 </table>
-<p><br><em>Fontes:</em> <a
+<p><br><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><a href="#fn4"
-class="footnote-ref" id="fnref4"><sup>4</sup></a><br></p>
+href="https://orcid.org"><strong>ORCID</strong></a><br></p>
 <!-- -->
 <p><br><a style="float:right" href="#top"><b>Início  </b>
 <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
@@ -3336,7 +3339,6 @@ class="footnote-ref" id="fnref4"><sup>4</sup></a><br></p>
 <p><br><a style="float:right" href="#top"><b>Início  </b>
 <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
 </a><br></p>
-<p><br></p>
 </div>
 </div>
 </div>
@@ -3350,7 +3352,7 @@ class="footnote-ref" id="fnref4"><sup>4</sup></a><br></p>
 <h5><strong>KÁTIA ELIANE SANTOS AVELAR</strong></h5>
 <!-- -->
 <!-- -->
-<p><em>Fontes:</em> <a
+<p><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
 href="https://orcid.org"><strong>ORCID</strong></a></p>
@@ -3368,7 +3370,7 @@ href="https://orcid.org"><strong>ORCID</strong></a></p>
 <h5><strong>MARIA GERALDA DE MIRANDA</strong></h5>
 <!-- -->
 <!-- -->
-<p><em>Fontes:</em> <a
+<p><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
 href="https://orcid.org"><strong>ORCID</strong></a></p>
@@ -3787,12 +3789,12 @@ Longhua Chinese Medicine
 </tr>
 </tbody>
 </table>
-<p><br><em>Fontes:</em> <a
+<p><br><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
 href="https://orcid.org"><strong>ORCID</strong></a><br></p>
 <!-- -->
-<p><em>Fontes:</em> <a
+<p><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
 href="https://orcid.org"><strong>ORCID</strong></a></p>
@@ -3839,12 +3841,12 @@ Journal of Bodywork and Movement Therapies
 </tr>
 </tbody>
 </table>
-<p><br><em>Fontes:</em> <a
+<p><br><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
 href="https://orcid.org"><strong>ORCID</strong></a><br></p>
 <!-- -->
-<p><em>Fontes:</em> <a
+<p><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
 href="https://orcid.org"><strong>ORCID</strong></a></p>
@@ -3862,7 +3864,7 @@ href="https://orcid.org"><strong>ORCID</strong></a></p>
 <h5><strong>PATRICIA MARIA DUSEK</strong></h5>
 <!-- -->
 <!-- -->
-<p><em>Fontes:</em> <a
+<p><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
 href="https://orcid.org"><strong>ORCID</strong></a></p>
@@ -3900,12 +3902,12 @@ Qeios
 </tr>
 </tbody>
 </table>
-<p><br><em>Fontes:</em> <a
+<p><br><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
 href="https://orcid.org"><strong>ORCID</strong></a><br></p>
 <!-- -->
-<p><em>Fontes:</em> <a
+<p><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
 href="https://orcid.org"><strong>ORCID</strong></a></p>
@@ -3944,12 +3946,12 @@ Research on Biomedical Engineering
 </tr>
 </tbody>
 </table>
-<p><br><em>Fontes:</em> <a
+<p><br><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
 href="https://orcid.org"><strong>ORCID</strong></a><br></p>
 <!-- -->
-<p><em>Fontes:</em> <a
+<p><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
 href="https://orcid.org"><strong>ORCID</strong></a></p>
@@ -3967,7 +3969,7 @@ href="https://orcid.org"><strong>ORCID</strong></a></p>
 <h5><strong>AGNALDO JOSE LOPES</strong></h5>
 <!-- -->
 <!-- -->
-<p><em>Fontes:</em> <a
+<p><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
 href="https://orcid.org"><strong>ORCID</strong></a></p>
@@ -4006,12 +4008,12 @@ Environmental Science and Pollution Research
 </tr>
 </tbody>
 </table>
-<p><br><em>Fontes:</em> <a
+<p><br><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
 href="https://orcid.org"><strong>ORCID</strong></a><br></p>
 <!-- -->
-<p><em>Fontes:</em> <a
+<p><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
 href="https://orcid.org"><strong>ORCID</strong></a></p>
@@ -4024,71 +4026,21 @@ href="https://orcid.org"><strong>ORCID</strong></a></p>
 </div>
 </div>
 </div>
-<div id="divulgacao" class="section level2">
-<h2><strong>Divulgação</strong></h2>
+<div id="divulgacao" class="section level2 tabset">
+<h2 class="tabset"><strong>Divulgação científica</strong></h2>
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:black;background-color:black">
 <div id="blog-institucional" class="section level3 tabset">
 <h3 class="tabset"><strong>Blog institucional</strong></h3>
-<p><br></p>
 </div>
 <div id="blogs-externos" class="section level3 tabset">
 <h3 class="tabset"><strong>Blogs externos</strong></h3>
-<!-- -->
-<div id="section-27" class="section level4">
-<h4><strong>2023</strong></h4>
-<!-- -->
-<table class="table table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;">
-Documento
-</th>
-<th style="text-align:right;">
-Abrir
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Doutorandos em Desenvolvimento Local apresentam trabalhos em Simpósio
-Internacional
-</td>
-<td style="text-align:right;">
-<a href="https://site.ucdb.br/noticias/mestrados-e-doutorados/13/doutorandos-em-desenvolvimento-local-apresentam-trabalhos-em-simposio-internacional/61574/" target="_blank"><svg aria-hidden="true" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V32c0-17.7-14.3-32-32-32H352zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"></path></svg></a>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- -->
+<div class="datatables html-widget html-fill-item" id="htmlwidget-9dfb539ded3be5847540" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-9dfb539ded3be5847540">{"x":{"filter":"none","vertical":false,"extensions":["Buttons","ColReorder","Responsive"],"caption":"<caption>20/05/2024<\/caption>","data":[["24/05/2023"],["Doutorandos em Desenvolvimento Local apresentam trabalhos em Simpósio Internacional"],["<a href=\"https://site.ucdb.br/noticias/mestrados-e-doutorados/13/doutorandos-em-desenvolvimento-local-apresentam-trabalhos-em-simposio-internacional/61574/\" target=\"_blank\"><svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 512 512\" style=\"height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;\"><path d=\"M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V32c0-17.7-14.3-32-32-32H352zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z\"/><\/svg><\/a>"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Publicação<\/th>\n      <th>Documento<\/th>\n      <th>Abrir<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"colReorder":false,"pageLength":4,"scrolX":false,"dom":"Bftip","searchHighlight":true,"buttons":[{"extend":"copy","text":"Copiar","filename":"Destaques - Blogs externos"},{"extend":"csv","text":"CSV","filename":"Destaques - Blogs externos"},{"extend":"pdf","text":"PDF","title":"Destaques - Blogs externos","filename":"Destaques - Blogs externos"}],"language":{"info":"Mostrando de _START_ até _END_ de _TOTAL_","zeroRecords":"Nenhum registro encontrado","search":"Pesquisar","paginate":{"next":"Próximo","previous":"Anterior"}},"columnDefs":[{"name":"Publicação","targets":0},{"name":"Documento","targets":1},{"name":"Abrir","targets":2}],"order":[],"autoWidth":false,"orderClasses":false,"responsive":true,"lengthMenu":[4,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 <p><br><a style="float:right" href="#top"><b>Início  </b>
 <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
 </a><br></p>
-<p><br></p>
 </div>
-</div>
-</div>
-<div class="footnotes footnotes-end-of-document">
-<hr />
-<ol>
-<li id="fn1"><p><a
-href="https://info.orcid.org/new-to-the-orcid-record-interface-professional-activities/"
-class="uri">https://info.orcid.org/new-to-the-orcid-record-interface-professional-activities/</a><a
-href="#fnref1" class="footnote-back">↩︎</a></p></li>
-<li id="fn2"><p><a
-href="https://info.orcid.org/new-to-the-orcid-record-interface-professional-activities/"
-class="uri">https://info.orcid.org/new-to-the-orcid-record-interface-professional-activities/</a><a
-href="#fnref2" class="footnote-back">↩︎</a></p></li>
-<li id="fn3"><p><a
-href="https://info.orcid.org/new-to-the-orcid-record-interface-professional-activities/"
-class="uri">https://info.orcid.org/new-to-the-orcid-record-interface-professional-activities/</a><a
-href="#fnref3" class="footnote-back">↩︎</a></p></li>
-<li id="fn4"><p><a
-href="https://info.orcid.org/new-to-the-orcid-record-interface-professional-activities/"
-class="uri">https://info.orcid.org/new-to-the-orcid-record-interface-professional-activities/</a><a
-href="#fnref4" class="footnote-back">↩︎</a></p></li>
-</ol>
 </div>
 
 <!--script for generating HORIZONTAL LINE-->
