@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.9)  12 JUN 2024 00:30
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.14)  14 JUN 2024 22:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **autoavaliacao.tex
 (./autoavaliacao.tex
-LaTeX2e <2024-06-01>
+LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2024/02/08 v1.4n Standard LaTeX document class
@@ -1346,7 +1346,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 [6]
 
 [7]
-Overfull \vbox (262.12755pt too high) has occurred while \output is active []
+Overfull \vbox (248.70493pt too high) has occurred while \output is active []
 
 
 
@@ -1365,7 +1365,7 @@ Missing character: There is no ” ("201D) in font ec-lmr10!
 Missing character: There is no “ ("201C) in font ec-lmr10!
 Missing character: There is no ” ("201D) in font ec-lmr10!
 
-Overfull \vbox (739.95013pt too high) has occurred while \output is active []
+Overfull \vbox (726.52751pt too high) has occurred while \output is active []
 
 
 
@@ -1767,7 +1767,7 @@ Overfull \hbox (16.42857pt too wide) in paragraph at lines 510--510
  []
 
 
-Overfull \vbox (3725.73735pt too high) has occurred while \output is active []
+Overfull \vbox (3712.31473pt too high) has occurred while \output is active []
 
 
 
@@ -1919,7 +1919,7 @@ Overfull \hbox (23.1537pt too wide) in paragraph at lines 544--544
  []
 
 
-Overfull \vbox (457.93231pt too high) has occurred while \output is active []
+Overfull \vbox (444.50969pt too high) has occurred while \output is active []
 
 
 
@@ -2656,7 +2656,7 @@ Overfull \hbox (6.50003pt too wide) in paragraph at lines 764--764
  []
 
 
-Overfull \vbox (8450.05054pt too high) has occurred while \output is active []
+Overfull \vbox (8436.62791pt too high) has occurred while \output is active []
 
 
 
@@ -2741,7 +2741,7 @@ Overfull \hbox (20.72008pt too wide) in paragraph at lines 1128--1161
 
 [52] (./autoavaliacao.aux)
  ***********
-LaTeX2e <2024-06-01>
+LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
  ***********
 
@@ -2749,10 +2749,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 37363 strings out of 474256
- 722536 string characters out of 5742728
- 2112543 words of memory out of 5000000
- 59458 multiletter control sequences out of 15000+600000
+ 37361 strings out of 474256
+ 722516 string characters out of 5742727
+ 2112557 words of memory out of 5000000
+ 59456 multiletter control sequences out of 15000+600000
  594537 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,19n,122p,1446b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
