@@ -129,40 +129,27 @@ cat('<br>')
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:black;background-color:black">
 
-```{r, eval = !any(has.producao.sucupira, has.producao.ppg)}
+```{r, eval = !any(has.metricas.doi.sucupira, has.metricas.doi.ppg)}
 cat('<br>')
 ```
 
-```{r destaque-visibilidade, eval = any(has.producao.sucupira, has.producao.ppg)}
+```{r destaque-visibilidade, eval = FALSE}
 # Sources
 doi_with_altmetric <- doi_with_altmetric_all
 doi_without_altmetric <- data.frame() # do not have Altmetric score anyway
-references <- references_all
 
 # Sort columns by Altmetric then year
 ordering <-
   order(
     as.numeric(doi_with_altmetric$altmetric_score),
-    as.numeric(doi_with_altmetric$published_on),
+    as.numeric(doi_with_altmetric$"Ano da Produção"),
     decreasing = TRUE
   )
 doi_with_altmetric <- doi_with_altmetric[ordering, ]
-references <- references[ordering, ]
 
 # TOP (removing papers with no Altmetric)
 top <- min(dim(doi_with_altmetric)[1], 20)
 doi_with_altmetric <- doi_with_altmetric[1:top, ]
-references <- references[1:top, ]
-
-# Check if there are DOIs
-if (max(dim(doi_with_altmetric)[1], 0) == 0 &
-    max(dim(doi_without_altmetric)[1], 0) == 0) {
-  cat('\n')
-} else {
-  # Print export buttons
-  source("Scripts/print-only-buttons.R", local = knitr::knit_global())
-  print_buttons_dt(references, title = "Produção de destaque - Atenção e visibilidade")
-}
 
 # Check if there are DOIs
 if (max(dim(doi_with_altmetric)[1], 0) == 0 &
@@ -220,41 +207,29 @@ if (max(dim(doi_with_altmetric)[1], 0) == 0 &
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:black;background-color:black">
 
-```{r, eval = !any(has.producao.sucupira, has.producao.ppg)}
+```{r, eval = !any(has.metricas.doi.sucupira, has.metricas.doi.ppg)}
 cat('<br>')
 ```
 
-```{r destaque-prestigio, eval = any(has.producao.sucupira, has.producao.ppg)}
+```{r destaque-prestigio, eval = FALSE}
 # Sources
-doi_all_sorted <- doi_all[!is.na(doi_all$CiteScore), ]
+doi_all_sorted <- metricas_all[!is.na(metricas_all$CiteScore), ]
 
 ordering <- order(
   as.numeric(doi_all_sorted$CiteScore),
-  as.numeric(doi_all_sorted$published_on),
+  as.numeric(doi_all_sorted$"Ano da Produção"),
   decreasing = TRUE
   )
 
 doi_all_sorted <- doi_all_sorted[ordering, ]
-references_all <- references_all[ordering, ]
 
 # TOP CiteScore
 top <- min(dim(doi_all_sorted)[1], 20)
 doi_all_sorted <- doi_all_sorted[1:top, ]
-references <- references_all[1:top, ]
 
 # Split into papers with/without Altmetric
 doi_with_altmetric <- doi_all_sorted[!is.na(doi_all_sorted$altmetric_score),]
 doi_without_altmetric <- doi_all_sorted[is.na(doi_all_sorted$altmetric_score),]
-
-# Check if there are DOIs
-if (max(dim(doi_with_altmetric)[1], 0) == 0 &
-    max(dim(doi_without_altmetric)[1], 0) == 0) {
-  cat('\n')
-} else {
-  # Print export buttons
-  source("Scripts/print-only-buttons.R", local = knitr::knit_global())
-  print_buttons_dt(references, title = "Produção de destaque - Prestígio do peridódico")
-}
 
 # Check if there are DOIs
 if (max(dim(doi_with_altmetric)[1], 0) == 0 &
@@ -442,7 +417,7 @@ for (id in 1:length(orcids)) {
   cat('\n\n<!-- -->\n\n')
   cat('##### **', assoc.name, '**', sep = "")
   cat('\n\n<!-- -->\n\n')
-  source("Scripts/memberships-services.R", local = knitr::knit_global())
+  source("Scripts/orcid-memberships-services.R", local = knitr::knit_global())
   cat('\n\n<!-- -->\n\n')
   cat('<br><a style="float:right" href="#top"><b>Início &nbsp;</b>', fontawesome::fa("circle-arrow-up"), '</a><br>')
 }
@@ -474,7 +449,7 @@ for (id in 1:length(orcids)) {
   cat('\n\n<!-- -->\n\n')
   cat('##### **', editor.name, '**', sep = "")
   cat('\n\n<!-- -->\n\n')
-  source("Scripts/invited-positions.R", local = knitr::knit_global())
+  source("Scripts/orcid-invited-positions.R", local = knitr::knit_global())
   cat('\n\n<!-- -->\n\n')
   cat('<br><a style="float:right" href="#top"><b>Início &nbsp;</b>', fontawesome::fa("circle-arrow-up"), '</a><br>')
 }
@@ -506,7 +481,7 @@ for (id in 1:length(orcids)) {
   cat('\n\n<!-- -->\n\n')
   cat('##### **', reviewer.name, '**', sep = "")
   cat('\n\n<!-- -->\n\n')
-  source("Scripts/reviewer-board.R", local = knitr::knit_global())
+  source("Scripts/orcid-reviewer-board.R", local = knitr::knit_global())
   cat('\n\n<!-- -->\n\n')
   cat(
     "**Fontes**: [**Plataforma Sucupira**](https://sucupira.capes.gov.br/sucupira/), [**ORCID**](https://orcid.org)"

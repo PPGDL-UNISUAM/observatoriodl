@@ -11,6 +11,12 @@ doi_cleaner <- function(dois) {
       if (length(grep("doi:", clean_doi$DOI[j])) != 0) {
         clean_doi$DOI[j] <- gsub("doi:", "", clean_doi$DOI[j])
       }
+      if (length(grep("DOI:", clean_doi$DOI[j])) != 0) {
+        clean_doi$DOI[j] <- gsub("DOI:", "", clean_doi$DOI[j])
+      }
+      if (length(grep("DOI ", clean_doi$DOI[j])) != 0) {
+        clean_doi$DOI[j] <- gsub("DOI:", "", clean_doi$DOI[j])
+      }
       # remove 'http://dx.doi.org/' prefix
       if (length(grep("http://dx.doi.org/", clean_doi$DOI[j])) != 0) {
         clean_doi$DOI[j] <-
@@ -33,6 +39,13 @@ doi_cleaner <- function(dois) {
       if (length(grep("^www.", clean_doi$DOI[j])) != 0) {
         clean_doi$DOI[j] <- NA
       }
+      # remove elements starting with https://www.doi.org/
+      if (length(grep("^https://www.doi.org/", clean_doi$DOI[j])) != 0) {
+        clean_doi$DOI[j] <- NA
+      }
+      
+      # trim spaces
+      clean_doi$DOI[j] <- trimws(clean_doi$DOI[j])
     }
   }
   return(clean_doi)
