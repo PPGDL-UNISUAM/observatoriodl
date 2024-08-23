@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.9)  19 AUG 2024 02:04
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.22)  23 AUG 2024 03:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -337,7 +337,7 @@ Package graphics Info: Driver file: xetex.def on input line 106.
 \Gin@req@height=\dimen182
 \Gin@req@width=\dimen183
 ) (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2024/06/26 v24.7 The Babel package
+Package: babel 2024/08/18 v24.8 The Babel package
 \babel@savecnt=\count312
 \U@D=\dimen184
 \l@unhyphenated=\language89
@@ -1570,7 +1570,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 [5]
 
 [6]
-Overfull \hbox (111.38318pt too wide) in paragraph at lines 349--359
+Overfull \hbox (111.38318pt too wide) in paragraph at lines 349--358
  [][] 
  []
 
@@ -1579,7 +1579,7 @@ Overfull \hbox (111.38318pt too wide) in paragraph at lines 349--359
 [7]
 
 [8]
-Overfull \hbox (51.06317pt too wide) in paragraph at lines 378--396
+Overfull \hbox (41.06317pt too wide) in paragraph at lines 377--390
  [][] 
  []
 
@@ -1588,7 +1588,7 @@ Overfull \hbox (51.06317pt too wide) in paragraph at lines 378--396
 [9]
 
 [10]
-Overfull \hbox (41.06317pt too wide) in paragraph at lines 415--437
+Overfull \hbox (41.06317pt too wide) in paragraph at lines 409--426
  [][] 
  []
 
@@ -1615,617 +1615,617 @@ Overfull \hbox (41.06317pt too wide) in paragraph at lines 415--437
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 ASSOCIATIVISMO,
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 608--608
+Underfull \hbox (badness 1292) in paragraph at lines 597--597
 \TU/lmr/m/n/10 COOPERATIVISMO E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 BIOÉTICA E MEIO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 CONTEXTO EMPRE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 ECONOMIA CRIA-
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 608--608
+Underfull \hbox (badness 4403) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 EDUCAÇÃO, TRABA-
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 608--608
+Underfull \hbox (badness 2302) in paragraph at lines 597--597
 \TU/lmr/m/n/10 LHO E MEIO AMBI-
  []
 
 
-Overfull \hbox (5.69579pt too wide) in paragraph at lines 608--608
+Overfull \hbox (5.69579pt too wide) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 EMPREENDEDORISMO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 ESPAÇO URBANO,
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 608--608
+Underfull \hbox (badness 4660) in paragraph at lines 597--597
 \TU/lmr/m/n/10 MOBILIDADE E CO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 ESTATÍSTICA APLI-
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 608--608
+Underfull \hbox (badness 4266) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 GESTÃO DA INOVA-
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 608--608
+Underfull \hbox (badness 1546) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 GESTÃO DE RECUR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 SOS HÍDRICOS E
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 608--608
+Underfull \hbox (badness 1546) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 GESTÃO DE RECUR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 SOS HÍDRICOS E
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 608--608
+Underfull \hbox (badness 1028) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 JUSTIÇA, SUSTENTA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 BILIDADE E MEIO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 METODOLOGIA DA
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 608--608
+Underfull \hbox (badness 5359) in paragraph at lines 597--597
 \TU/lmr/m/n/10 PESQUISA QUALITA-
  []
 
 
-Underfull \hbox (badness 8151) in paragraph at lines 608--608
+Underfull \hbox (badness 8151) in paragraph at lines 597--597
 \TU/lmr/m/n/10 TIVA E QUANTITA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 POLÍTICAS PÚBLI-
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 608--608
+Underfull \hbox (badness 2961) in paragraph at lines 597--597
 \TU/lmr/m/n/10 CAS DE DESENVOL-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 PROPRIEDADE DOS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 MATERIAIS E DE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 SENVOLVIMENTO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 SAÚDE E SEGU-
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 608--608
+Underfull \hbox (badness 5696) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 SEMINARIO DE DE-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 608--608
+Underfull \hbox (badness 1424) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 608--608
+Underfull \hbox (badness 1424) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 608--608
+Underfull \hbox (badness 2781) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 TECNOLOGIAS SOCI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 E DESENVOLVI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 MENTO SUSTENTÁ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 ASSOCIATIVISMO,
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 608--608
+Underfull \hbox (badness 1292) in paragraph at lines 597--597
 \TU/lmr/m/n/10 COOPERATIVISMO E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 BIOÉTICA E MEIO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 CONTEXTO EMPRE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 ECONOMIA CRIA-
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 608--608
+Underfull \hbox (badness 4403) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 EDUCAÇÃO, TRABA-
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 608--608
+Underfull \hbox (badness 2302) in paragraph at lines 597--597
 \TU/lmr/m/n/10 LHO E MEIO AMBI-
  []
 
 
-Overfull \hbox (5.69579pt too wide) in paragraph at lines 608--608
+Overfull \hbox (5.69579pt too wide) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 EMPREENDEDORISMO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 ESPAÇO URBANO,
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 608--608
+Underfull \hbox (badness 4660) in paragraph at lines 597--597
 \TU/lmr/m/n/10 MOBILIDADE E CO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 ESTATÍSTICA APLI-
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 608--608
+Underfull \hbox (badness 4266) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 GESTÃO DA INOVA-
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 608--608
+Underfull \hbox (badness 1546) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 GESTÃO DE RECUR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 SOS HÍDRICOS E
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 608--608
+Underfull \hbox (badness 1546) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 GESTÃO DE RECUR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 SOS HÍDRICOS E
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 608--608
+Underfull \hbox (badness 1028) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 JUSTIÇA, SUSTENTA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 BILIDADE E MEIO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 POLÍTICAS PÚBLI-
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 608--608
+Underfull \hbox (badness 2961) in paragraph at lines 597--597
 \TU/lmr/m/n/10 CAS DE DESENVOL-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 PROPRIEDADE DOS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 MATERIAIS E DE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 SENVOLVIMENTO
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 608--608
+Underfull \hbox (badness 5696) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 SEMINARIO DE DE-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 608--608
+Underfull \hbox (badness 1424) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 608--608
+Underfull \hbox (badness 2781) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 TECNOLOGIAS SOCI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 E DESENVOLVI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 MENTO SUSTENTÁ-
  []
 
 > Step: build the whole table.
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 ASSOCIATIVISMO,
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 608--608
+Underfull \hbox (badness 1292) in paragraph at lines 597--597
 \TU/lmr/m/n/10 COOPERATIVISMO E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 BIOÉTICA E MEIO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 CONTEXTO EMPRE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 ECONOMIA CRIA-
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 608--608
+Underfull \hbox (badness 4403) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 EDUCAÇÃO, TRABA-
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 608--608
+Underfull \hbox (badness 2302) in paragraph at lines 597--597
 \TU/lmr/m/n/10 LHO E MEIO AMBI-
  []
 
 
-Overfull \hbox (5.69579pt too wide) in paragraph at lines 608--608
+Overfull \hbox (5.69579pt too wide) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 EMPREENDEDORISMO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 ESPAÇO URBANO,
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 608--608
+Underfull \hbox (badness 4660) in paragraph at lines 597--597
 \TU/lmr/m/n/10 MOBILIDADE E CO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 ESTATÍSTICA APLI-
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 608--608
+Underfull \hbox (badness 4266) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 GESTÃO DA INOVA-
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 608--608
+Underfull \hbox (badness 1546) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 GESTÃO DE RECUR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 SOS HÍDRICOS E
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 608--608
+Underfull \hbox (badness 1546) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 GESTÃO DE RECUR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 SOS HÍDRICOS E
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 608--608
+Underfull \hbox (badness 1028) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 JUSTIÇA, SUSTENTA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 BILIDADE E MEIO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 METODOLOGIA DA
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 608--608
+Underfull \hbox (badness 5359) in paragraph at lines 597--597
 \TU/lmr/m/n/10 PESQUISA QUALITA-
  []
 
 
-Underfull \hbox (badness 8151) in paragraph at lines 608--608
+Underfull \hbox (badness 8151) in paragraph at lines 597--597
 \TU/lmr/m/n/10 TIVA E QUANTITA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 POLÍTICAS PÚBLI-
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 608--608
+Underfull \hbox (badness 2961) in paragraph at lines 597--597
 \TU/lmr/m/n/10 CAS DE DESENVOL-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 PROPRIEDADE DOS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 MATERIAIS E DE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 SENVOLVIMENTO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 SAÚDE E SEGU-
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 608--608
+Underfull \hbox (badness 5696) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 SEMINARIO DE DE-
  []
 
 
 
 [18]
-Underfull \hbox (badness 1424) in paragraph at lines 608--608
+Underfull \hbox (badness 1424) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 608--608
+Underfull \hbox (badness 1424) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 608--608
+Underfull \hbox (badness 2781) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 TECNOLOGIAS SOCI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 E DESENVOLVI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 MENTO SUSTENTÁ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 ASSOCIATIVISMO,
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 608--608
+Underfull \hbox (badness 1292) in paragraph at lines 597--597
 \TU/lmr/m/n/10 COOPERATIVISMO E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 BIOÉTICA E MEIO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 CONTEXTO EMPRE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 ECONOMIA CRIA-
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 608--608
+Underfull \hbox (badness 4403) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 EDUCAÇÃO, TRABA-
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 608--608
+Underfull \hbox (badness 2302) in paragraph at lines 597--597
 \TU/lmr/m/n/10 LHO E MEIO AMBI-
  []
 
 
-Overfull \hbox (5.69579pt too wide) in paragraph at lines 608--608
+Overfull \hbox (5.69579pt too wide) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 EMPREENDEDORISMO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 ESPAÇO URBANO,
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 608--608
+Underfull \hbox (badness 4660) in paragraph at lines 597--597
 \TU/lmr/m/n/10 MOBILIDADE E CO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 ESTATÍSTICA APLI-
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 608--608
+Underfull \hbox (badness 4266) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 GESTÃO DA INOVA-
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 608--608
+Underfull \hbox (badness 1546) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 GESTÃO DE RECUR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 SOS HÍDRICOS E
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 608--608
+Underfull \hbox (badness 1546) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 GESTÃO DE RECUR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 SOS HÍDRICOS E
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 608--608
+Underfull \hbox (badness 1028) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 JUSTIÇA, SUSTENTA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 BILIDADE E MEIO
  []
 
 
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 POLÍTICAS PÚBLI-
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 608--608
+Underfull \hbox (badness 2961) in paragraph at lines 597--597
 \TU/lmr/m/n/10 CAS DE DESENVOL-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 PROPRIEDADE DOS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 MATERIAIS E DE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 SENVOLVIMENTO
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 608--608
+Underfull \hbox (badness 5696) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 SEMINARIO DE DE-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 608--608
+Underfull \hbox (badness 1424) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 608--608
+Underfull \hbox (badness 2781) in paragraph at lines 597--597
 []\TU/lmr/m/n/10 TECNOLOGIAS SOCI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 E DESENVOLVI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--608
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \TU/lmr/m/n/10 MENTO SUSTENTÁ-
  []
 
@@ -2240,707 +2240,707 @@ Underfull \hbox (badness 10000) in paragraph at lines 608--608
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 ASSOCIATIVISMO,
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 679--679
+Underfull \hbox (badness 1292) in paragraph at lines 668--668
 \TU/lmr/m/n/10 COOPERATIVISMO E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 BIOÉTICA E MEIO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 CONTEXTO EMPRE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 ECONOMIA CRIA-
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 679--679
+Underfull \hbox (badness 4403) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 EDUCAÇÃO, TRABA-
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 679--679
+Underfull \hbox (badness 2302) in paragraph at lines 668--668
 \TU/lmr/m/n/10 LHO E MEIO AMBI-
  []
 
 
-Overfull \hbox (5.69579pt too wide) in paragraph at lines 679--679
+Overfull \hbox (5.69579pt too wide) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 EMPREENDEDORISMO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 ESPAÇO URBANO,
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 679--679
+Underfull \hbox (badness 4660) in paragraph at lines 668--668
 \TU/lmr/m/n/10 MOBILIDADE E CO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 ESTATÍSTICA APLI-
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 679--679
+Underfull \hbox (badness 4266) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 GESTÃO DA INOVA-
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 679--679
+Underfull \hbox (badness 1546) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 GESTÃO DE RECUR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 SOS HÍDRICOS E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 GOVERNANÇA COR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 PORATIVA AMBIEN-
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 679--679
+Underfull \hbox (badness 1028) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 JUSTIÇA, SUSTENTA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 BILIDADE E MEIO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 METODOLOGIA DA
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 679--679
+Underfull \hbox (badness 5359) in paragraph at lines 668--668
 \TU/lmr/m/n/10 PESQUISA QUALITA-
  []
 
 
-Underfull \hbox (badness 8151) in paragraph at lines 679--679
+Underfull \hbox (badness 8151) in paragraph at lines 668--668
 \TU/lmr/m/n/10 TIVA E QUANTITA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 POLÍTICAS PÚBLI-
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 679--679
+Underfull \hbox (badness 2961) in paragraph at lines 668--668
 \TU/lmr/m/n/10 CAS DE DESENVOL-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 PROPRIEDADE DOS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 MATERIAIS E DE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 SENVOLVIMENTO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SAÚDE E SEGU-
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 679--679
+Underfull \hbox (badness 5696) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SEMINARIO DE DE-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 679--679
+Underfull \hbox (badness 1424) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 679--679
+Underfull \hbox (badness 1424) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 679--679
+Underfull \hbox (badness 1424) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 679--679
+Underfull \hbox (badness 1424) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 TECNOLOGIA SOCI-
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 679--679
+Underfull \hbox (badness 1946) in paragraph at lines 668--668
 \TU/lmr/m/n/10 AIS – ABORDAGENS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 E DESENVOLVI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 MENTO SUSTENTÁ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 ASSOCIATIVISMO,
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 679--679
+Underfull \hbox (badness 1292) in paragraph at lines 668--668
 \TU/lmr/m/n/10 COOPERATIVISMO E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 BIOÉTICA E MEIO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 CONTEXTO EMPRE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 ECONOMIA CRIA-
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 679--679
+Underfull \hbox (badness 4403) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 EDUCAÇÃO, TRABA-
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 679--679
+Underfull \hbox (badness 2302) in paragraph at lines 668--668
 \TU/lmr/m/n/10 LHO E MEIO AMBI-
  []
 
 
-Overfull \hbox (5.69579pt too wide) in paragraph at lines 679--679
+Overfull \hbox (5.69579pt too wide) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 EMPREENDEDORISMO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 ESPAÇO URBANO,
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 679--679
+Underfull \hbox (badness 4660) in paragraph at lines 668--668
 \TU/lmr/m/n/10 MOBILIDADE E CO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 ESTATÍSTICA APLI-
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 679--679
+Underfull \hbox (badness 4266) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 GESTÃO DA INOVA-
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 679--679
+Underfull \hbox (badness 1546) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 GESTÃO DE RECUR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 SOS HÍDRICOS E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 GOVERNANÇA COR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 PORATIVA AMBIEN-
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 679--679
+Underfull \hbox (badness 1028) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 JUSTIÇA, SUSTENTA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 BILIDADE E MEIO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 METODOLOGIA DA
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 679--679
+Underfull \hbox (badness 5359) in paragraph at lines 668--668
 \TU/lmr/m/n/10 PESQUISA QUALITA-
  []
 
 
-Underfull \hbox (badness 8151) in paragraph at lines 679--679
+Underfull \hbox (badness 8151) in paragraph at lines 668--668
 \TU/lmr/m/n/10 TIVA E QUANTITA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 POLÍTICAS PÚBLI-
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 679--679
+Underfull \hbox (badness 2961) in paragraph at lines 668--668
 \TU/lmr/m/n/10 CAS DE DESENVOL-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 PROPRIEDADE DOS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 MATERIAIS E DE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 SENVOLVIMENTO
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 679--679
+Underfull \hbox (badness 5696) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SEMINARIO DE DE-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 679--679
+Underfull \hbox (badness 1424) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 679--679
+Underfull \hbox (badness 1424) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 679--679
+Underfull \hbox (badness 1424) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 TECNOLOGIA SOCI-
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 679--679
+Underfull \hbox (badness 1946) in paragraph at lines 668--668
 \TU/lmr/m/n/10 AIS – ABORDAGENS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 E DESENVOLVI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 MENTO SUSTENTÁ-
  []
 
 > Step: build the whole table.
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 ASSOCIATIVISMO,
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 679--679
+Underfull \hbox (badness 1292) in paragraph at lines 668--668
 \TU/lmr/m/n/10 COOPERATIVISMO E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 BIOÉTICA E MEIO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 CONTEXTO EMPRE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 ECONOMIA CRIA-
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 679--679
+Underfull \hbox (badness 4403) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 EDUCAÇÃO, TRABA-
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 679--679
+Underfull \hbox (badness 2302) in paragraph at lines 668--668
 \TU/lmr/m/n/10 LHO E MEIO AMBI-
  []
 
 
-Overfull \hbox (5.69579pt too wide) in paragraph at lines 679--679
+Overfull \hbox (5.69579pt too wide) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 EMPREENDEDORISMO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 ESPAÇO URBANO,
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 679--679
+Underfull \hbox (badness 4660) in paragraph at lines 668--668
 \TU/lmr/m/n/10 MOBILIDADE E CO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 ESTATÍSTICA APLI-
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 679--679
+Underfull \hbox (badness 4266) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 GESTÃO DA INOVA-
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 679--679
+Underfull \hbox (badness 1546) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 GESTÃO DE RECUR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 SOS HÍDRICOS E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 GOVERNANÇA COR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 PORATIVA AMBIEN-
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 679--679
+Underfull \hbox (badness 1028) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 JUSTIÇA, SUSTENTA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 BILIDADE E MEIO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 METODOLOGIA DA
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 679--679
+Underfull \hbox (badness 5359) in paragraph at lines 668--668
 \TU/lmr/m/n/10 PESQUISA QUALITA-
  []
 
 
-Underfull \hbox (badness 8151) in paragraph at lines 679--679
+Underfull \hbox (badness 8151) in paragraph at lines 668--668
 \TU/lmr/m/n/10 TIVA E QUANTITA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 POLÍTICAS PÚBLI-
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 679--679
+Underfull \hbox (badness 2961) in paragraph at lines 668--668
 \TU/lmr/m/n/10 CAS DE DESENVOL-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 PROPRIEDADE DOS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 MATERIAIS E DE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 SENVOLVIMENTO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SAÚDE E SEGU-
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 679--679
+Underfull \hbox (badness 5696) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SEMINARIO DE DE-
  []
 
 
 
 [21]
-Underfull \hbox (badness 1424) in paragraph at lines 679--679
+Underfull \hbox (badness 1424) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 679--679
+Underfull \hbox (badness 1424) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 679--679
+Underfull \hbox (badness 1424) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 679--679
+Underfull \hbox (badness 1424) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 TECNOLOGIA SOCI-
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 679--679
+Underfull \hbox (badness 1946) in paragraph at lines 668--668
 \TU/lmr/m/n/10 AIS – ABORDAGENS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 E DESENVOLVI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 MENTO SUSTENTÁ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 ASSOCIATIVISMO,
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 679--679
+Underfull \hbox (badness 1292) in paragraph at lines 668--668
 \TU/lmr/m/n/10 COOPERATIVISMO E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 BIOÉTICA E MEIO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 CONTEXTO EMPRE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 ECONOMIA CRIA-
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 679--679
+Underfull \hbox (badness 4403) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 EDUCAÇÃO, TRABA-
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 679--679
+Underfull \hbox (badness 2302) in paragraph at lines 668--668
 \TU/lmr/m/n/10 LHO E MEIO AMBI-
  []
 
 
-Overfull \hbox (5.69579pt too wide) in paragraph at lines 679--679
+Overfull \hbox (5.69579pt too wide) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 EMPREENDEDORISMO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 ESPAÇO URBANO,
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 679--679
+Underfull \hbox (badness 4660) in paragraph at lines 668--668
 \TU/lmr/m/n/10 MOBILIDADE E CO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 ESTATÍSTICA APLI-
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 679--679
+Underfull \hbox (badness 4266) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 GESTÃO DA INOVA-
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 679--679
+Underfull \hbox (badness 1546) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 GESTÃO DE RECUR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 SOS HÍDRICOS E
  []
 
 
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 GOVERNANÇA COR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 PORATIVA AMBIEN-
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 679--679
+Underfull \hbox (badness 1028) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 JUSTIÇA, SUSTENTA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 BILIDADE E MEIO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 METODOLOGIA DA
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 679--679
+Underfull \hbox (badness 5359) in paragraph at lines 668--668
 \TU/lmr/m/n/10 PESQUISA QUALITA-
  []
 
 
-Underfull \hbox (badness 8151) in paragraph at lines 679--679
+Underfull \hbox (badness 8151) in paragraph at lines 668--668
 \TU/lmr/m/n/10 TIVA E QUANTITA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 POLÍTICAS PÚBLI-
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 679--679
+Underfull \hbox (badness 2961) in paragraph at lines 668--668
 \TU/lmr/m/n/10 CAS DE DESENVOL-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 PROPRIEDADE DOS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 MATERIAIS E DE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 SENVOLVIMENTO
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 679--679
+Underfull \hbox (badness 5696) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SEMINARIO DE DE-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 679--679
+Underfull \hbox (badness 1424) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 679--679
+Underfull \hbox (badness 1424) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 679--679
+Underfull \hbox (badness 1424) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 SEMINÁRIO DE PES-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 []\TU/lmr/m/n/10 TECNOLOGIA SOCI-
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 679--679
+Underfull \hbox (badness 1946) in paragraph at lines 668--668
 \TU/lmr/m/n/10 AIS – ABORDAGENS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 E DESENVOLVI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--679
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
 \TU/lmr/m/n/10 MENTO SUSTENTÁ-
  []
 
@@ -2979,14 +2979,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 679--679
 [38]
 
 [39]
-Overfull \hbox (118.40315pt too wide) in paragraph at lines 955--981
+Overfull \hbox (118.40315pt too wide) in paragraph at lines 948--974
  [][] 
  []
 
 
 
 [40]
-Overfull \hbox (17.84312pt too wide) in paragraph at lines 993--1010
+Overfull \hbox (17.84312pt too wide) in paragraph at lines 986--1003
  [][] 
  []
 
@@ -3003,7 +3003,7 @@ Overfull \hbox (17.84312pt too wide) in paragraph at lines 993--1010
 [45]
 
 [46]
-Overfull \hbox (27.01315pt too wide) in paragraph at lines 1063--1114
+Overfull \hbox (27.01315pt too wide) in paragraph at lines 1056--1107
  [][] 
  []
 
@@ -3012,7 +3012,7 @@ Overfull \hbox (27.01315pt too wide) in paragraph at lines 1063--1114
 [47]
 
 [48]
-Overfull \hbox (30.71313pt too wide) in paragraph at lines 1130--1153
+Overfull \hbox (30.71313pt too wide) in paragraph at lines 1123--1146
  [][] 
  []
 
@@ -3034,10 +3034,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 44018 strings out of 474235
- 922097 string characters out of 5742254
+ 44019 strings out of 474235
+ 922110 string characters out of 5742253
  1970609 words of memory out of 5000000
- 66078 multiletter control sequences out of 15000+600000
+ 66079 multiletter control sequences out of 15000+600000
  570150 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,123p,1202b,1404s stack positions out of 10000i,1000n,20000p,200000b,200000s
