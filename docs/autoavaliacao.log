@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.13)  14 SEP 2024 17:42
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.13)  15 SEP 2024 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1126,6 +1126,66 @@ File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
 ) (./autoavaliacao.aux
 
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP-landscape' multiply defined.
+
+
 LaTeX Warning: Label `tab:turmas' multiply defined.
 
 
@@ -1786,1571 +1846,32 @@ Overfull \hbox (15.0944pt too wide) in paragraph at lines 518--535
 
 
 [11]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Overfull \hbox (6.7111pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 ID 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estado, Sociedade e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Desenvolvimento Lo-
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estado, Sociedade e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Desenvolvimento Lo-
- []
-
-
-Underfull \hbox (badness 2644) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Kátia Eliane Santos
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1831) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Dimensões, Conceitos e Processos
- []
-
-
-Underfull \hbox (badness 1910) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Andre Luis Azevedo
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estado, Sociedade e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Desenvolvimento Lo-
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estado, Sociedade e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Desenvolvimento Lo-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentável e
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 10 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estado, Sociedade e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Desenvolvimento Lo-
- []
-
-
-Underfull \hbox (badness 3439) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Patricia Dos Santos
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 11 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estado, Sociedade e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Desenvolvimento Lo-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 12 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 2644) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Kátia Eliane Santos
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 13 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estado, Sociedade e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Desenvolvimento Lo-
- []
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 640--640
-\TU/lmr/m/n/10 dernização e Inovação Tecnológica:
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 14 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 15 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Underfull \hbox (badness 1931) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estratégias Em Ecossocioeconomia
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 16 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 17 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 18 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Underfull \hbox (badness 2856) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Produção, Consumo e Comporta-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 19 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estado, Sociedade e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Desenvolvimento Lo-
- []
-
-
-Underfull \hbox (badness 2644) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Kátia Eliane Santos
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 20 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produti-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 vas Sustentáveis |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 21 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 640--640
-\TU/lmr/m/n/10 | Sociedade e Ambi-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 22 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 640--640
-\TU/lmr/m/n/10 | Sociedade e Ambi-
- []
-
-
-Underfull \hbox (badness 2644) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Kátia Eliane Santos
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 23 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Inovação e Empreen-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 24 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produti-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 vas Sustentáveis |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 25 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Inovação e Empreen-
- []
-
-
-Underfull \hbox (badness 1831) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Dimensões, Conceitos e Processos
- []
-
-
-Underfull \hbox (badness 1910) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Andre Luis Azevedo
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 26 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 640--640
-\TU/lmr/m/n/10 | Sociedade e Ambi-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 27 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 640--640
-\TU/lmr/m/n/10 | Sociedade e Ambi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentável e
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 28 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produti-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 vas Sustentáveis |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 29 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 640--640
-\TU/lmr/m/n/10 | Sociedade e Ambi-
- []
-
-
-Underfull \hbox (badness 3439) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Patricia Dos Santos
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 30 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 640--640
-\TU/lmr/m/n/10 | Sociedade e Ambi-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 31 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Inovação e Empreen-
- []
-
-
-Underfull \hbox (badness 2644) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Kátia Eliane Santos
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 32 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 640--640
-\TU/lmr/m/n/10 | Sociedade e Ambi-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 33 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produti-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 vas Sustentáveis |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 34 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produti-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 vas Sustentáveis |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Underfull \hbox (badness 1931) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estratégias Em Ecossocioeconomia
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 35 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Inovação e Empreen-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 36 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produti-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 vas Sustentáveis |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 37 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produti-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 vas Sustentáveis |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Underfull \hbox (badness 2856) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Produção, Consumo e Comporta-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 38 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 640--640
-\TU/lmr/m/n/10 | Sociedade e Ambi-
- []
-
-
-Underfull \hbox (badness 2644) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Kátia Eliane Santos
- []
-
-> Step: build the whole table.
-
-Overfull \hbox (6.7111pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 ID 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estado, Sociedade e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Desenvolvimento Lo-
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estado, Sociedade e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Desenvolvimento Lo-
- []
-
-
-Underfull \hbox (badness 2644) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Kátia Eliane Santos
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1831) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Dimensões, Conceitos e Processos
- []
-
-
-Underfull \hbox (badness 1910) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Andre Luis Azevedo
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estado, Sociedade e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Desenvolvimento Lo-
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estado, Sociedade e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Desenvolvimento Lo-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentável e
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 10 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estado, Sociedade e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Desenvolvimento Lo-
- []
-
-
-Underfull \hbox (badness 3439) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Patricia Dos Santos
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 11 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estado, Sociedade e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Desenvolvimento Lo-
- []
-
-
 
 [12
 
 ]
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 12 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 2644) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Kátia Eliane Santos
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 13 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estado, Sociedade e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Desenvolvimento Lo-
- []
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 640--640
-\TU/lmr/m/n/10 dernização e Inovação Tecnológica:
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 14 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 15 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Underfull \hbox (badness 1931) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estratégias Em Ecossocioeconomia
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 16 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 17 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 18 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Underfull \hbox (badness 2856) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Produção, Consumo e Comporta-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 19 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estado, Sociedade e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Desenvolvimento Lo-
- []
-
-
-Underfull \hbox (badness 2644) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Kátia Eliane Santos
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 20 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produti-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 vas Sustentáveis |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 21 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 640--640
-\TU/lmr/m/n/10 | Sociedade e Ambi-
- []
-
-
 
 [13]
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 22 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 640--640
-\TU/lmr/m/n/10 | Sociedade e Ambi-
- []
-
-
-Underfull \hbox (badness 2644) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Kátia Eliane Santos
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 23 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Inovação e Empreen-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 24 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produti-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 vas Sustentáveis |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 25 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Inovação e Empreen-
- []
-
-
-Underfull \hbox (badness 1831) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Dimensões, Conceitos e Processos
- []
-
-
-Underfull \hbox (badness 1910) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Andre Luis Azevedo
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 26 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 640--640
-\TU/lmr/m/n/10 | Sociedade e Ambi-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 27 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 640--640
-\TU/lmr/m/n/10 | Sociedade e Ambi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentável e
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 28 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produti-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 vas Sustentáveis |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 29 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 640--640
-\TU/lmr/m/n/10 | Sociedade e Ambi-
- []
-
-
-Underfull \hbox (badness 3439) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Patricia Dos Santos
- []
-
-
 
 [14]
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 30 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 640--640
-\TU/lmr/m/n/10 | Sociedade e Ambi-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 31 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Inovação e Empreen-
- []
-
-
-Underfull \hbox (badness 2644) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Kátia Eliane Santos
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 32 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 640--640
-\TU/lmr/m/n/10 | Sociedade e Ambi-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 33 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produti-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 vas Sustentáveis |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 34 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produti-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 vas Sustentáveis |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Underfull \hbox (badness 1931) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Estratégias Em Ecossocioeconomia
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 35 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Inovação e Empreen-
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 36 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produti-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 vas Sustentáveis |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 37 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Cadeias Produti-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 vas Sustentáveis |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
-\TU/lmr/m/n/10 Cadeias Produtivas
- []
-
-
-Underfull \hbox (badness 2856) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Produção, Consumo e Comporta-
- []
-
-
 
 [15]
-Overfull \hbox (5.0311pt too wide) in paragraph at lines 640--640
-[]\TU/lmr/bx/n/10 38 
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Desenvolvimento Sustentá-
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 640--640
-\TU/lmr/m/n/10 | Sociedade e Ambi-
- []
-
-
-Underfull \hbox (badness 2644) in paragraph at lines 640--640
-[]\TU/lmr/m/n/10 Kátia Eliane Santos
- []
-
-
 
 [16]
-Overfull \hbox (3.09442pt too wide) in paragraph at lines 659--678
- [][] 
- []
 
-
-
-[17
-
-]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
-
+[17]
 
 [18]
 
 [19]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
-
 
 [20]
 
 [21]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 951--951
-[]\TU/lmr/bx/n/10 2021|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 951--951
-[]\TU/lmr/bx/n/10 2022|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 951--951
-[]\TU/lmr/bx/n/10 2023|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 951--951
-[]\TU/lmr/bx/n/10 2024|  
- []
-
-
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 934--952
- [][] 
- []
-
-
 
 [22]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 987--987
-[]\TU/lmr/bx/n/10 2021|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 987--987
-[]\TU/lmr/bx/n/10 2022|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 987--987
-[]\TU/lmr/bx/n/10 2023|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 987--987
-[]\TU/lmr/bx/n/10 2024|  
- []
-
-
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 970--988
- [][] 
- []
-
-
 
 [23]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1031--1031
-[]\TU/lmr/bx/n/10 2021|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1031--1031
-[]\TU/lmr/bx/n/10 2022|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1031--1031
-[]\TU/lmr/bx/n/10 2023|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1031--1031
-[]\TU/lmr/bx/n/10 2024|  
- []
-
-
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 1005--1032
- [][] 
- []
-
-
 
 [24]
 
@@ -3369,876 +1890,130 @@ Overfull \hbox (15.0944pt too wide) in paragraph at lines 1005--1032
 [31]
 
 [32]
+Overfull \hbox (3.09442pt too wide) in paragraph at lines 848--867
+ [][] 
+ []
 
-[33]
+
+
+[33
+
+]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+
 
 [34]
 
 [35]
-Overfull \hbox (17.06789pt too wide) in paragraph at lines 1193--1193
-[]\TU/lmr/bx/n/10 Período/Ano|  
- []
-
-
-Overfull \hbox (5.67789pt too wide) in paragraph at lines 1193--1193
-[]\TU/lmr/bx/n/10 Disciplinas 
- []
-
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
 
 
 [36]
-Overfull \hbox (17.06789pt too wide) in paragraph at lines 1233--1233
-[]\TU/lmr/bx/n/10 Período/Ano|  
- []
-
-
-Overfull \hbox (1.1379pt too wide) in paragraph at lines 1233--1233
-[]\TU/lmr/bx/n/10 Disciplina|  
- []
-
-
-Overfull \vbox (458.2241pt too high) has occurred while \output is active []
-
-
 
 [37]
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1140--1140
+[]\TU/lmr/bx/n/10 2021|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1140--1140
+[]\TU/lmr/bx/n/10 2022|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1140--1140
+[]\TU/lmr/bx/n/10 2023|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1140--1140
+[]\TU/lmr/bx/n/10 2024|  
+ []
+
+
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 1123--1141
+ [][] 
+ []
+
+
 
 [38]
-Overfull \hbox (17.06789pt too wide) in paragraph at lines 1270--1270
-[]\TU/lmr/bx/n/10 Período/Ano|  
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1176--1176
+[]\TU/lmr/bx/n/10 2021|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1176--1176
+[]\TU/lmr/bx/n/10 2022|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1176--1176
+[]\TU/lmr/bx/n/10 2023|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1176--1176
+[]\TU/lmr/bx/n/10 2024|  
+ []
+
+
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 1159--1177
+ [][] 
  []
 
 
 
 [39]
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1220--1220
+[]\TU/lmr/bx/n/10 2021|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1220--1220
+[]\TU/lmr/bx/n/10 2022|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1220--1220
+[]\TU/lmr/bx/n/10 2023|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1220--1220
+[]\TU/lmr/bx/n/10 2024|  
+ []
+
+
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 1194--1221
+ [][] 
+ []
+
+
 
 [40]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1316--1316
-[]\TU/lmr/bx/n/10 2021|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1316--1316
-[]\TU/lmr/bx/n/10 2022|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1316--1316
-[]\TU/lmr/bx/n/10 2023|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1316--1316
-[]\TU/lmr/bx/n/10 2024|  
- []
-
-
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 1294--1317
- [][] 
- []
-
-
 
 [41]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/bx/n/10 Nome
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 do
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Mem-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 bro do
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/bx/n/10 Cadeias
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Produ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 tivas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Susten-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/bx/n/10 Cadeias
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Produ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 tivas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Susten-
- []
-
-
-Underfull \hbox (badness 3439) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 táveis |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Cadeias
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Produ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 tivas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Susten-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/bx/n/10 Estado,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Socie-
- []
-
-
-Underfull \hbox (badness 4303) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 dade E
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Desen-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 volvi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 mento
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/bx/n/10 Gestão
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Empre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 endedo-
- []
-
-
-Overfull \hbox (1.90591pt too wide) in paragraph at lines 1372--1372
-[]\TU/lmr/bx/n/10 Inovação
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 E Em-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 preen-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 dedo-
- []
-
-
-Underfull \hbox (badness 4713) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 rismo |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Inova-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 ção E
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Empre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 endedo-
- []
-
-
-Overfull \hbox (7.9259pt too wide) in paragraph at lines 1372--1372
-[]\TU/lmr/bx/n/10 Sociedade
- []
-
-
-Underfull \hbox (badness 8019) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 E Am-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 biente
- []
-
-
-Underfull \hbox (badness 1635) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 | Socie-
- []
-
-
-Underfull \hbox (badness 4303) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 dade E
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Ambi-
- []
-
-
-Overfull \hbox (13.79591pt too wide) in paragraph at lines 1372--1372
-[]\TU/lmr/bx/n/10 Quadriênio 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Agnaldo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Jose
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Andre
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Luis
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Azevedo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Arthur
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 De Sa
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Carlos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Alberto
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Figuei-
- []
-
-
-Underfull \hbox (badness 6961) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 redo Da
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Eduardo
- []
-
-
-Overfull \hbox (0.79591pt too wide) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Karollyne
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Gomes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 De
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Castro
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Kátia
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Eliane
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Santos
- []
-
-
-Underfull \hbox (badness 2326) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 ano Nas-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Maria
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Geralda
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 De Mi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Mariana
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Marinho
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Lima
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Patricia
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Patricia
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Dos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Santos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Patricia
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Maria
- []
-
-
-Overfull \hbox (6.63591pt too wide) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Quadriênio 
- []
-
-> Step: build the whole table.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/bx/n/10 Nome
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 do
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Mem-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 bro do
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/bx/n/10 Cadeias
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Produ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 tivas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Susten-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/bx/n/10 Cadeias
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Produ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 tivas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Susten-
- []
-
-
-Underfull \hbox (badness 3439) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 táveis |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Cadeias
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Produ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 tivas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Susten-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/bx/n/10 Estado,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Socie-
- []
-
-
-Underfull \hbox (badness 4303) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 dade E
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Desen-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 volvi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 mento
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/bx/n/10 Gestão
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Empre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 endedo-
- []
-
-
-Overfull \hbox (1.90591pt too wide) in paragraph at lines 1372--1372
-[]\TU/lmr/bx/n/10 Inovação
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 E Em-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 preen-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 dedo-
- []
-
-
-Underfull \hbox (badness 4713) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 rismo |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Inova-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 ção E
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Empre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 endedo-
- []
-
-
-Overfull \hbox (7.9259pt too wide) in paragraph at lines 1372--1372
-[]\TU/lmr/bx/n/10 Sociedade
- []
-
-
-Underfull \hbox (badness 8019) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 E Am-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 biente
- []
-
-
-Underfull \hbox (badness 1635) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 | Socie-
- []
-
-
-Underfull \hbox (badness 4303) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 dade E
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/bx/n/10 Ambi-
- []
-
-
-Overfull \hbox (13.79591pt too wide) in paragraph at lines 1372--1372
-[]\TU/lmr/bx/n/10 Quadriênio 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Agnaldo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Jose
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Andre
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Luis
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Azevedo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Arthur
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 De Sa
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Carlos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Alberto
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Figuei-
- []
-
-
-Underfull \hbox (badness 6961) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 redo Da
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Eduardo
- []
-
-
-Overfull \hbox (0.79591pt too wide) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Karollyne
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Gomes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 De
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Castro
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Kátia
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Eliane
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Santos
- []
-
-
-Underfull \hbox (badness 2326) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 ano Nas-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Maria
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Geralda
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 De Mi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Mariana
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Marinho
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Lima
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Patricia
- []
-
-
 
 [42]
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Patricia
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Dos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Santos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Patricia
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1372
-\TU/lmr/m/n/10 Maria
- []
-
-
-Overfull \hbox (6.63591pt too wide) in paragraph at lines 1372--1372
-[]\TU/lmr/m/n/10 Quadriênio 
- []
-
-
 
 [43]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1392--1392
-[]\TU/lmr/bx/n/10 2021|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1392--1392
-[]\TU/lmr/bx/n/10 2022|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1392--1392
-[]\TU/lmr/bx/n/10 2023|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1392--1392
-[]\TU/lmr/bx/n/10 2024|  
- []
-
-
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 1386--1393
- [][] 
- []
-
-
 
 [44]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
-
 
 [45]
 
@@ -4251,26 +2026,904 @@ Overfull \hbox (15.0944pt too wide) in paragraph at lines 1386--1393
 [49]
 
 [50]
-Overfull \vbox (532.71846pt too high) has occurred while \output is active []
-
-
 
 [51]
+Overfull \hbox (17.06789pt too wide) in paragraph at lines 1382--1382
+[]\TU/lmr/bx/n/10 Período/Ano|  
+ []
+
+
+Overfull \hbox (5.67789pt too wide) in paragraph at lines 1382--1382
+[]\TU/lmr/bx/n/10 Disciplinas 
+ []
+
+
 
 [52]
-Overfull \hbox (15.09442pt too wide) in paragraph at lines 1530--1565
- [][] 
+Overfull \hbox (17.06789pt too wide) in paragraph at lines 1422--1422
+[]\TU/lmr/bx/n/10 Período/Ano|  
  []
+
+
+Overfull \hbox (1.1379pt too wide) in paragraph at lines 1422--1422
+[]\TU/lmr/bx/n/10 Disciplina|  
+ []
+
+
+Overfull \vbox (458.2241pt too high) has occurred while \output is active []
 
 
 
 [53]
 
 [54]
+Overfull \hbox (17.06789pt too wide) in paragraph at lines 1459--1459
+[]\TU/lmr/bx/n/10 Período/Ano|  
+ []
+
+
 
 [55]
 
-[56] (./autoavaliacao.aux)
+[56]
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1505--1505
+[]\TU/lmr/bx/n/10 2021|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1505--1505
+[]\TU/lmr/bx/n/10 2022|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1505--1505
+[]\TU/lmr/bx/n/10 2023|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1505--1505
+[]\TU/lmr/bx/n/10 2024|  
+ []
+
+
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 1483--1506
+ [][] 
+ []
+
+
+
+[57]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/bx/n/10 Nome
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Mem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 bro do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/bx/n/10 Cadeias
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Produ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 tivas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Susten-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/bx/n/10 Cadeias
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Produ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 tivas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Susten-
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 táveis |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Cadeias
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Produ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 tivas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Susten-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/bx/n/10 Estado,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Socie-
+ []
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 dade E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Desen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 volvi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 mento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/bx/n/10 Gestão
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Empre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 endedo-
+ []
+
+
+Overfull \hbox (1.90591pt too wide) in paragraph at lines 1561--1561
+[]\TU/lmr/bx/n/10 Inovação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 E Em-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 preen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 dedo-
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 rismo |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Inova-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 ção E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Empre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 endedo-
+ []
+
+
+Overfull \hbox (7.9259pt too wide) in paragraph at lines 1561--1561
+[]\TU/lmr/bx/n/10 Sociedade
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 E Am-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 biente
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 | Socie-
+ []
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 dade E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Ambi-
+ []
+
+
+Overfull \hbox (13.79591pt too wide) in paragraph at lines 1561--1561
+[]\TU/lmr/bx/n/10 Quadriênio 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Agnaldo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Jose
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Andre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Luis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Azevedo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Arthur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 De Sa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Carlos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Alberto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Figuei-
+ []
+
+
+Underfull \hbox (badness 6961) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 redo Da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Eduardo
+ []
+
+
+Overfull \hbox (0.79591pt too wide) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Karollyne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Gomes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Castro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Kátia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Eliane
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Santos
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 ano Nas-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Maria
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Geralda
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 De Mi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Mariana
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Marinho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Lima
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Patricia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Patricia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Santos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Patricia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Maria
+ []
+
+
+Overfull \hbox (6.63591pt too wide) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Quadriênio 
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/bx/n/10 Nome
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Mem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 bro do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/bx/n/10 Cadeias
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Produ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 tivas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Susten-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/bx/n/10 Cadeias
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Produ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 tivas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Susten-
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 táveis |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Cadeias
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Produ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 tivas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Susten-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/bx/n/10 Estado,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Socie-
+ []
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 dade E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Desen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 volvi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 mento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/bx/n/10 Gestão
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Empre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 endedo-
+ []
+
+
+Overfull \hbox (1.90591pt too wide) in paragraph at lines 1561--1561
+[]\TU/lmr/bx/n/10 Inovação
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 E Em-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 preen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 dedo-
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 rismo |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Inova-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 ção E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Empre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 endedo-
+ []
+
+
+Overfull \hbox (7.9259pt too wide) in paragraph at lines 1561--1561
+[]\TU/lmr/bx/n/10 Sociedade
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 E Am-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 biente
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 | Socie-
+ []
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 dade E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/bx/n/10 Ambi-
+ []
+
+
+Overfull \hbox (13.79591pt too wide) in paragraph at lines 1561--1561
+[]\TU/lmr/bx/n/10 Quadriênio 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Agnaldo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Jose
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Andre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Luis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Azevedo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Arthur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 De Sa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Carlos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Alberto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Figuei-
+ []
+
+
+Underfull \hbox (badness 6961) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 redo Da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Eduardo
+ []
+
+
+Overfull \hbox (0.79591pt too wide) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Karollyne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Gomes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 De
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Castro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Kátia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Eliane
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Santos
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 ano Nas-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Maria
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Geralda
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 De Mi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Mariana
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Marinho
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Lima
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Patricia
+ []
+
+
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Patricia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Santos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Patricia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1561
+\TU/lmr/m/n/10 Maria
+ []
+
+
+Overfull \hbox (6.63591pt too wide) in paragraph at lines 1561--1561
+[]\TU/lmr/m/n/10 Quadriênio 
+ []
+
+
+
+[59]
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1581--1581
+[]\TU/lmr/bx/n/10 2021|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1581--1581
+[]\TU/lmr/bx/n/10 2022|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1581--1581
+[]\TU/lmr/bx/n/10 2023|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1581--1581
+[]\TU/lmr/bx/n/10 2024|  
+ []
+
+
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 1575--1582
+ [][] 
+ []
+
+
+
+[60]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+
+
+[61]
+
+[62]
+
+[63]
+
+[64]
+
+[65]
+
+[66]
+Overfull \vbox (532.71846pt too high) has occurred while \output is active []
+
+
+
+[67]
+
+[68]
+Overfull \hbox (15.09442pt too wide) in paragraph at lines 1719--1754
+ [][] 
+ []
+
+
+
+[69]
+
+[70]
+
+[71]
+
+[72] (./autoavaliacao.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -4280,12 +2933,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 44380 strings out of 474235
- 931714 string characters out of 5742253
- 1919417 words of memory out of 5000000
- 66440 multiletter control sequences out of 15000+600000
- 583920 words of font info for 98 fonts, out of 8000000 for 9000
+ 44291 strings out of 474235
+ 928924 string characters out of 5742253
+ 1681220 words of memory out of 5000000
+ 66351 multiletter control sequences out of 15000+600000
+ 578560 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,19n,123p,1899b,1465s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,19n,123p,1899b,1348s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on autoavaliacao.pdf (59 pages).
+Output written on autoavaliacao.pdf (75 pages).
