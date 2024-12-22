@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.14)  15 NOV 2024 00:04
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.22)  22 DEC 2024 10:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **autoavaliacao.tex
 (./autoavaliacao.tex
-LaTeX2e <2024-11-01>
+LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
 (/Users/asferreira/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
@@ -96,7 +96,7 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (/Users/asferreira/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 ) (/Users/asferreira/Library/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/Users/asferreira/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2024-11-02 L3 programming layer (loader) 
 (/Users/asferreira/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
@@ -293,7 +293,7 @@ Package graphics Info: Driver file: xetex.def on input line 106.
 \Gin@req@height=\dimen181
 \Gin@req@width=\dimen182
 ) (/Users/asferreira/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2024/11/08 v24.13 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
+Package: babel 2024/11/30 v24.14 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
 \babel@savecnt=\count312
 \U@D=\dimen183
 \l@unhyphenated=\language6
@@ -913,7 +913,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 ) (/Users/asferreira/Library/TinyTeX/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
 Package: draftwatermark 2024/03/04 3.3 Put a gray textual watermark on document pages
 ) (/Users/asferreira/Library/TinyTeX/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2024-09-30 v3.3.22 A comprehensive (SI) units package
+Package: siunitx 2024-12-06 v3.4.0 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count395
 \l__siunitx_number_exponent_fixed_int=\count396
 \l__siunitx_number_min_decimal_int=\count397
@@ -947,6 +947,12 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \BKM@id=\count409
 )) (./autoavaliacao.aux
+
+LaTeX Warning: Label `tab:2-2-1-list-tables' multiply defined.
+
+
+LaTeX Warning: Label `tab:2-2-1-list-tables' multiply defined.
+
 
 LaTeX Warning: Label `tab:turmas' multiply defined.
 
@@ -1335,50 +1341,50 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Overfull \hbox (7.67752pt too wide) in paragraph at lines 294--294
+Overfull \hbox (7.67752pt too wide) in paragraph at lines 265--265
 []\TU/lmr/bx/n/10 Doutorado 
  []
 
 
-Overfull \hbox (1.69751pt too wide) in paragraph at lines 294--294
+Overfull \hbox (1.69751pt too wide) in paragraph at lines 265--265
 []\TU/lmr/bx/n/10 Mestrado 
  []
 
 > Step: build the whole table.
 
-Overfull \hbox (7.67752pt too wide) in paragraph at lines 294--294
+Overfull \hbox (7.67752pt too wide) in paragraph at lines 265--265
 []\TU/lmr/bx/n/10 Doutorado 
  []
 
 
-Overfull \hbox (1.69751pt too wide) in paragraph at lines 294--294
+Overfull \hbox (1.69751pt too wide) in paragraph at lines 265--265
 []\TU/lmr/bx/n/10 Mestrado 
  []
 
 
 
 [2]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 317--317
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 288--288
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 317--317
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 288--288
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 317--317
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 288--288
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 317--317
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 288--288
 []\TU/lmr/bx/n/10 2024|  
  []
 
 
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 306--318
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 277--289
  [][] 
  []
 
@@ -1393,40 +1399,40 @@ Overfull \hbox (15.0944pt too wide) in paragraph at lines 306--318
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Overfull \hbox (7.62837pt too wide) in paragraph at lines 343--343
+Overfull \hbox (7.62837pt too wide) in paragraph at lines 308--308
 []\TU/lmr/m/n/10 01/01/2006 
  []
 
 > Step: build the whole table.
 
-Overfull \hbox (7.62837pt too wide) in paragraph at lines 343--343
+Overfull \hbox (7.62837pt too wide) in paragraph at lines 308--308
 []\TU/lmr/m/n/10 01/01/2006 
  []
 
 
 
 [4]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 374--374
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 339--339
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 374--374
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 339--339
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 374--374
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 339--339
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 374--374
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 339--339
 []\TU/lmr/bx/n/10 2024|  
  []
 
 
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 355--375
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 320--340
  [][] 
  []
 
@@ -1441,62 +1447,62 @@ Overfull \hbox (15.0944pt too wide) in paragraph at lines 355--375
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Overfull \hbox (7.62837pt too wide) in paragraph at lines 404--404
+Overfull \hbox (7.62837pt too wide) in paragraph at lines 361--361
 []\TU/lmr/m/n/10 01/01/2012 
  []
 
 
-Overfull \hbox (7.62837pt too wide) in paragraph at lines 404--404
+Overfull \hbox (7.62837pt too wide) in paragraph at lines 361--361
 []\TU/lmr/m/n/10 01/01/2012 
  []
 
 
-Overfull \hbox (7.62837pt too wide) in paragraph at lines 404--404
+Overfull \hbox (7.62837pt too wide) in paragraph at lines 361--361
 []\TU/lmr/m/n/10 01/05/2018 
  []
 
 > Step: build the whole table.
 
-Overfull \hbox (7.62837pt too wide) in paragraph at lines 404--404
+Overfull \hbox (7.62837pt too wide) in paragraph at lines 361--361
 []\TU/lmr/m/n/10 01/01/2012 
  []
 
 
 
 [6]
-Overfull \hbox (7.62837pt too wide) in paragraph at lines 404--404
+Overfull \hbox (7.62837pt too wide) in paragraph at lines 361--361
 []\TU/lmr/m/n/10 01/01/2012 
  []
 
 
-Overfull \hbox (7.62837pt too wide) in paragraph at lines 404--404
+Overfull \hbox (7.62837pt too wide) in paragraph at lines 361--361
 []\TU/lmr/m/n/10 01/05/2018 
  []
 
 
 
 [7]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 445--445
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 402--402
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 445--445
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 402--402
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 445--445
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 402--402
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 445--445
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 402--402
 []\TU/lmr/bx/n/10 2024|  
  []
 
 
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 416--446
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 373--403
  [][] 
  []
 
@@ -1511,23 +1517,23 @@ Overfull \hbox (15.0944pt too wide) in paragraph at lines 416--446
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Underfull \hbox (badness 5607) in paragraph at lines 475--475
+Underfull \hbox (badness 5607) in paragraph at lines 424--424
 []\TU/lmr/m/n/10 (1) Empresa De Pesquisa
  []
 
 
-Underfull \hbox (badness 4242) in paragraph at lines 475--475
+Underfull \hbox (badness 4242) in paragraph at lines 424--424
 \TU/lmr/m/n/10 quisa Agropecuaria Estado
  []
 
 > Step: build the whole table.
 
-Underfull \hbox (badness 5607) in paragraph at lines 475--475
+Underfull \hbox (badness 5607) in paragraph at lines 424--424
 []\TU/lmr/m/n/10 (1) Empresa De Pesquisa
  []
 
 
-Underfull \hbox (badness 4242) in paragraph at lines 475--475
+Underfull \hbox (badness 4242) in paragraph at lines 424--424
 \TU/lmr/m/n/10 quisa Agropecuaria Estado
  []
 
@@ -1539,43 +1545,43 @@ Underfull \hbox (badness 4242) in paragraph at lines 475--475
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Underfull \hbox (badness 1845) in paragraph at lines 508--508
+Underfull \hbox (badness 1845) in paragraph at lines 446--446
 []\TU/lmr/m/n/10 Desenvolvimento e Aplicação
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 508--508
+Underfull \hbox (badness 4072) in paragraph at lines 446--446
 \TU/lmr/m/n/10 De Novas Tecnologias Para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--508
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
 []\TU/lmr/m/n/10 Andre Luis Azevedo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--508
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
 []\TU/lmr/m/n/10 Kátia Eliane Santos
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 508--508
+Underfull \hbox (badness 2582) in paragraph at lines 446--446
 \TU/lmr/m/n/10 entifico e Tecnologico; (6)
  []
 
 > Step: build the whole table.
 
-Underfull \hbox (badness 1845) in paragraph at lines 508--508
+Underfull \hbox (badness 1845) in paragraph at lines 446--446
 []\TU/lmr/m/n/10 Desenvolvimento e Aplicação
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 508--508
+Underfull \hbox (badness 4072) in paragraph at lines 446--446
 \TU/lmr/m/n/10 De Novas Tecnologias Para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--508
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
 []\TU/lmr/m/n/10 Andre Luis Azevedo
  []
 
@@ -1584,12 +1590,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 508--508
 [9
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 508--508
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
 []\TU/lmr/m/n/10 Kátia Eliane Santos
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 508--508
+Underfull \hbox (badness 2582) in paragraph at lines 446--446
 \TU/lmr/m/n/10 entifico e Tecnologico; (6)
  []
 
@@ -1601,42 +1607,42 @@ Underfull \hbox (badness 2582) in paragraph at lines 508--508
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--547
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
 []\TU/lmr/m/n/10 Desenvolvimento De No-
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 547--547
+Underfull \hbox (badness 2384) in paragraph at lines 471--471
 \TU/lmr/m/n/10 vas Tecnologias Aplicadas à
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--547
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
 []\TU/lmr/m/n/10 Kátia Eliane Santos
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 547--547
+Underfull \hbox (badness 1365) in paragraph at lines 471--471
 \TU/lmr/m/n/10 facig; (2) Fundação Carlos
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 547--547
+Underfull \hbox (badness 3029) in paragraph at lines 471--471
 []\TU/lmr/m/n/10 Lucio Fabio Cassiano
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--547
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
 []\TU/lmr/m/n/10 Educação, Esporte, Saúde,
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 547--547
+Underfull \hbox (badness 5924) in paragraph at lines 471--471
 \TU/lmr/m/n/10 Inclusão e Meio Ambiente:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--547
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
 []\TU/lmr/m/n/10 Kátia Eliane Santos
  []
 
@@ -1644,44 +1650,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 547--547
 
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 547--547
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
 []\TU/lmr/m/n/10 Desenvolvimento De No-
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 547--547
+Underfull \hbox (badness 2384) in paragraph at lines 471--471
 \TU/lmr/m/n/10 vas Tecnologias Aplicadas à
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--547
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
 []\TU/lmr/m/n/10 Kátia Eliane Santos
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 547--547
+Underfull \hbox (badness 1365) in paragraph at lines 471--471
 \TU/lmr/m/n/10 facig; (2) Fundação Carlos
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 547--547
+Underfull \hbox (badness 3029) in paragraph at lines 471--471
 []\TU/lmr/m/n/10 Lucio Fabio Cassiano
  []
 
 
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 547--547
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
 []\TU/lmr/m/n/10 Educação, Esporte, Saúde,
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 547--547
+Underfull \hbox (badness 5924) in paragraph at lines 471--471
 \TU/lmr/m/n/10 Inclusão e Meio Ambiente:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--547
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
 []\TU/lmr/m/n/10 Kátia Eliane Santos
  []
 
@@ -1696,23 +1702,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 547--547
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Overfull \hbox (7.67752pt too wide) in paragraph at lines 576--576
+Overfull \hbox (7.67752pt too wide) in paragraph at lines 496--496
 []\TU/lmr/bx/n/10 Doutorado 
  []
 
 
-Overfull \hbox (1.69751pt too wide) in paragraph at lines 576--576
+Overfull \hbox (1.69751pt too wide) in paragraph at lines 496--496
 []\TU/lmr/bx/n/10 Mestrado 
  []
 
 > Step: build the whole table.
 
-Overfull \hbox (7.67752pt too wide) in paragraph at lines 576--576
+Overfull \hbox (7.67752pt too wide) in paragraph at lines 496--496
 []\TU/lmr/bx/n/10 Doutorado 
  []
 
 
-Overfull \hbox (1.69751pt too wide) in paragraph at lines 576--576
+Overfull \hbox (1.69751pt too wide) in paragraph at lines 496--496
 []\TU/lmr/bx/n/10 Mestrado 
  []
 
@@ -1721,7 +1727,7 @@ Overfull \hbox (1.69751pt too wide) in paragraph at lines 576--576
 [13
 
 ]
-Overfull \hbox (3.09442pt too wide) in paragraph at lines 588--607
+Overfull \hbox (3.09442pt too wide) in paragraph at lines 508--527
  [][] 
  []
 
@@ -1736,33 +1742,33 @@ Overfull \hbox (3.09442pt too wide) in paragraph at lines 588--607
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Overfull \hbox (4.77612pt too wide) in paragraph at lines 718--718
+Overfull \hbox (4.77612pt too wide) in paragraph at lines 589--589
 []\TU/lmr/bx/n/10 Periodicidade 
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 718--718
+Underfull \hbox (badness 1168) in paragraph at lines 589--589
 []\TU/lmr/bx/n/10 Empreendedorismo e Plano De
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 718--718
+Underfull \hbox (badness 1168) in paragraph at lines 589--589
 []\TU/lmr/bx/n/10 Empreendedorismo e Plano De
  []
 
 > Step: build the whole table.
 
-Overfull \hbox (4.77612pt too wide) in paragraph at lines 718--718
+Overfull \hbox (4.77612pt too wide) in paragraph at lines 589--589
 []\TU/lmr/bx/n/10 Periodicidade 
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 718--718
+Underfull \hbox (badness 1168) in paragraph at lines 589--589
 []\TU/lmr/bx/n/10 Empreendedorismo e Plano De
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 718--718
+Underfull \hbox (badness 1168) in paragraph at lines 589--589
 []\TU/lmr/bx/n/10 Empreendedorismo e Plano De
  []
 
@@ -1779,33 +1785,33 @@ Underfull \hbox (badness 1168) in paragraph at lines 718--718
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Overfull \hbox (4.77612pt too wide) in paragraph at lines 841--841
+Overfull \hbox (4.77612pt too wide) in paragraph at lines 657--657
 []\TU/lmr/bx/n/10 Periodicidade 
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 841--841
+Underfull \hbox (badness 1168) in paragraph at lines 657--657
 []\TU/lmr/bx/n/10 Empreendedorismo e Plano De
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 841--841
+Underfull \hbox (badness 1168) in paragraph at lines 657--657
 []\TU/lmr/bx/n/10 Empreendedorismo e Plano De
  []
 
 > Step: build the whole table.
 
-Overfull \hbox (4.77612pt too wide) in paragraph at lines 841--841
+Overfull \hbox (4.77612pt too wide) in paragraph at lines 657--657
 []\TU/lmr/bx/n/10 Periodicidade 
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 841--841
+Underfull \hbox (badness 1168) in paragraph at lines 657--657
 []\TU/lmr/bx/n/10 Empreendedorismo e Plano De
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 841--841
+Underfull \hbox (badness 1168) in paragraph at lines 657--657
 []\TU/lmr/bx/n/10 Empreendedorismo e Plano De
  []
 
@@ -1814,81 +1820,81 @@ Underfull \hbox (badness 1168) in paragraph at lines 841--841
 [17]
 
 [18]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 876--876
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 692--692
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 876--876
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 692--692
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 876--876
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 692--692
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 876--876
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 692--692
 []\TU/lmr/bx/n/10 2024|  
  []
 
 
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 859--877
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 675--693
  [][] 
  []
 
 
 
 [19]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 910--910
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 726--726
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 910--910
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 726--726
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 910--910
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 726--726
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 910--910
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 726--726
 []\TU/lmr/bx/n/10 2024|  
  []
 
 
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 893--911
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 709--727
  [][] 
  []
 
 
 
 [20]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 952--952
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 768--768
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 952--952
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 768--768
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 952--952
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 768--768
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 952--952
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 768--768
 []\TU/lmr/bx/n/10 2024|  
  []
 
 
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 926--953
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 742--769
  [][] 
  []
 
@@ -1897,22 +1903,22 @@ Overfull \hbox (15.0944pt too wide) in paragraph at lines 926--953
 [21]
 
 [22]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1030--1030
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 846--846
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1030--1030
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 846--846
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1030--1030
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 846--846
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1030--1030
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 846--846
 []\TU/lmr/bx/n/10 2024|  
  []
 
@@ -1923,31 +1929,6 @@ Overfull \hbox (1.66045pt too wide) in paragraph at lines 1030--1030
 [24]
 
 [25]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1081--1081
-[]\TU/lmr/bx/n/10 2021|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1081--1081
-[]\TU/lmr/bx/n/10 2022|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1081--1081
-[]\TU/lmr/bx/n/10 2023|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1081--1081
-[]\TU/lmr/bx/n/10 2024|  
- []
-
-
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 1064--1082
- [][] 
- []
-
-
 
 [26]
 > Step: init table outer spec.
@@ -1958,269 +1939,72 @@ Overfull \hbox (15.0944pt too wide) in paragraph at lines 1064--1082
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 PositiveLRC 
+Underfull \hbox (badness 5607) in paragraph at lines 889--889
+[]\TU/lmr/m/n/10 (1) Empresa De Pesquisa
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Overfull \hbox (18.06705pt too wide) in paragraph at lines 1260--1260
-[]\TU/lmr/m/n/10 REAPROVEITAMENTO 
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 4242) in paragraph at lines 889--889
+\TU/lmr/m/n/10 quisa Agropecuaria Estado
  []
 
 > Step: build the whole table.
 
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 PositiveLRC 
+Underfull \hbox (badness 5607) in paragraph at lines 889--889
+[]\TU/lmr/m/n/10 (1) Empresa De Pesquisa
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 4242) in paragraph at lines 889--889
+\TU/lmr/m/n/10 quisa Agropecuaria Estado
+ []
+
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 1845) in paragraph at lines 911--911
+[]\TU/lmr/m/n/10 Desenvolvimento e Aplicação
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 4072) in paragraph at lines 911--911
+\TU/lmr/m/n/10 De Novas Tecnologias Para
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 10000) in paragraph at lines 911--911
+[]\TU/lmr/m/n/10 Andre Luis Azevedo
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 10000) in paragraph at lines 911--911
+[]\TU/lmr/m/n/10 Kátia Eliane Santos
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 2582) in paragraph at lines 911--911
+\TU/lmr/m/n/10 entifico e Tecnologico; (6)
+ []
+
+> Step: build the whole table.
+
+Underfull \hbox (badness 1845) in paragraph at lines 911--911
+[]\TU/lmr/m/n/10 Desenvolvimento e Aplicação
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 4072) in paragraph at lines 911--911
+\TU/lmr/m/n/10 De Novas Tecnologias Para
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 10000) in paragraph at lines 911--911
+[]\TU/lmr/m/n/10 Andre Luis Azevedo
  []
 
 
@@ -2228,834 +2012,223 @@ Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
 [27
 
 ]
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 10000) in paragraph at lines 911--911
+[]\TU/lmr/m/n/10 Kátia Eliane Santos
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 2582) in paragraph at lines 911--911
+\TU/lmr/m/n/10 entifico e Tecnologico; (6)
+ []
+
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Underfull \hbox (badness 10000) in paragraph at lines 936--936
+[]\TU/lmr/m/n/10 Desenvolvimento De No-
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 2384) in paragraph at lines 936--936
+\TU/lmr/m/n/10 vas Tecnologias Aplicadas à
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 10000) in paragraph at lines 936--936
+[]\TU/lmr/m/n/10 Kátia Eliane Santos
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 1365) in paragraph at lines 936--936
+\TU/lmr/m/n/10 facig; (2) Fundação Carlos
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 3029) in paragraph at lines 936--936
+[]\TU/lmr/m/n/10 Lucio Fabio Cassiano
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 10000) in paragraph at lines 936--936
+[]\TU/lmr/m/n/10 Educação, Esporte, Saúde,
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 5924) in paragraph at lines 936--936
+\TU/lmr/m/n/10 Inclusão e Meio Ambiente:
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 10000) in paragraph at lines 936--936
+[]\TU/lmr/m/n/10 Kátia Eliane Santos
  []
 
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
+> Step: build the whole table.
 
 
 [28]
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 10000) in paragraph at lines 936--936
+[]\TU/lmr/m/n/10 Desenvolvimento De No-
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 2384) in paragraph at lines 936--936
+\TU/lmr/m/n/10 vas Tecnologias Aplicadas à
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 10000) in paragraph at lines 936--936
+[]\TU/lmr/m/n/10 Kátia Eliane Santos
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 1365) in paragraph at lines 936--936
+\TU/lmr/m/n/10 facig; (2) Fundação Carlos
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Overfull \hbox (18.06705pt too wide) in paragraph at lines 1260--1260
-[]\TU/lmr/m/n/10 REAPROVEITAMENTO 
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 3029) in paragraph at lines 936--936
+[]\TU/lmr/m/n/10 Lucio Fabio Cassiano
  []
 
 
 
 [29]
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 10000) in paragraph at lines 936--936
+[]\TU/lmr/m/n/10 Educação, Esporte, Saúde,
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Underfull \hbox (badness 5924) in paragraph at lines 936--936
+\TU/lmr/m/n/10 Inclusão e Meio Ambiente:
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1260--1260
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1304--1304
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1304--1304
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1304--1304
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1304--1304
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1304--1304
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1304--1304
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1304--1304
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-> Step: build the whole table.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1304--1304
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1304--1304
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1304--1304
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1304--1304
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1304--1304
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1304--1304
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1304--1304
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1348--1348
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1348--1348
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1348--1348
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1348--1348
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1348--1348
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1348--1348
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1348--1348
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-> Step: build the whole table.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1348--1348
-[]\TU/lmr/bx/n/10 PositiveLRC 
+Underfull \hbox (badness 10000) in paragraph at lines 936--936
+[]\TU/lmr/m/n/10 Kátia Eliane Santos
  []
 
 
 
 [30]
-Underfull \hbox (badness 5316) in paragraph at lines 1348--1348
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+
+[31
+
+]
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 972--972
+[]\TU/lmr/bx/n/10 2021|  
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1348--1348
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 972--972
+[]\TU/lmr/bx/n/10 2022|  
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1348--1348
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 972--972
+[]\TU/lmr/bx/n/10 2023|  
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1348--1348
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 972--972
+[]\TU/lmr/bx/n/10 2024|  
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1348--1348
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 991--991
+[]\TU/lmr/bx/n/10 2021|  
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1348--1348
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1386--1386
-[]\TU/lmr/bx/n/10 PositiveLRC 
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 991--991
+[]\TU/lmr/bx/n/10 2022|  
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1386--1386
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 991--991
+[]\TU/lmr/bx/n/10 2023|  
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1386--1386
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 991--991
+[]\TU/lmr/bx/n/10 2024|  
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1386--1386
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1006--1006
+[]\TU/lmr/bx/n/10 2021|  
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1386--1386
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-> Step: build the whole table.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1386--1386
-[]\TU/lmr/bx/n/10 PositiveLRC 
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1006--1006
+[]\TU/lmr/bx/n/10 2022|  
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1386--1386
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1006--1006
+[]\TU/lmr/bx/n/10 2023|  
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1386--1386
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1386--1386
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1386--1386
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1415--1415
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-> Step: build the whole table.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1415--1415
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-
-
-[31]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1462--1462
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-
-Overfull \hbox (8.61705pt too wide) in paragraph at lines 1462--1462
-[]\TU/lmr/m/n/10 SUSTENTABILIDADE 
- []
-
-> Step: build the whole table.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1462--1462
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-
-Overfull \hbox (8.61705pt too wide) in paragraph at lines 1462--1462
-[]\TU/lmr/m/n/10 SUSTENTABILIDADE 
- []
-
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1491--1491
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-> Step: build the whole table.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1491--1491
-[]\TU/lmr/bx/n/10 PositiveLRC 
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1006--1006
+[]\TU/lmr/bx/n/10 2024|  
  []
 
 
 
 [32]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1538--1538
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-> Step: build the whole table.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1538--1538
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1570--1570
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-> Step: build the whole table.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1570--1570
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-
 
 [33]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1614--1614
-[]\TU/lmr/bx/n/10 PositiveLRC 
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1044--1044
+[]\TU/lmr/bx/n/10 2021|  
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1614--1614
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1044--1044
+[]\TU/lmr/bx/n/10 2022|  
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1614--1614
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1044--1044
+[]\TU/lmr/bx/n/10 2023|  
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 1614--1614
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1614--1614
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1614--1614
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1614--1614
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-> Step: build the whole table.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1614--1614
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1614--1614
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1614--1614
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1614--1614
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1614--1614
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1614--1614
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1614--1614
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1652--1652
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1652--1652
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1652--1652
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1652--1652
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1652--1652
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-> Step: build the whole table.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1652--1652
-[]\TU/lmr/bx/n/10 PositiveLRC 
+Overfull \hbox (21.30045pt too wide) in paragraph at lines 1044--1044
+[]\TU/lmr/bx/n/10 Subtotal|  
  []
 
 
 
 [34]
-Underfull \hbox (badness 5316) in paragraph at lines 1652--1652
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1652--1652
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1652--1652
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1652--1652
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1696--1696
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1696--1696
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1696--1696
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1696--1696
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1696--1696
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1696--1696
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1696--1696
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-> Step: build the whole table.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1696--1696
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1696--1696
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1696--1696
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1696--1696
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1696--1696
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1696--1696
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 1696--1696
-[]\TU/lmr/bx/n/10 Inovação E Empreendedo-
- []
-
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1755--1755
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-
-Overfull \hbox (1.94705pt too wide) in paragraph at lines 1755--1755
-[]\TU/lmr/m/n/10 ADMINISTRATIVOS 
- []
-
-> Step: build the whole table.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1755--1755
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-
 
 [35]
-Overfull \hbox (1.94705pt too wide) in paragraph at lines 1755--1755
-[]\TU/lmr/m/n/10 ADMINISTRATIVOS 
- []
-
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1832--1832
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-
-Overfull \hbox (3.89705pt too wide) in paragraph at lines 1832--1832
-[]\TU/lmr/m/n/10 APROVEITAMENTO 
- []
-
-
-Overfull \hbox (1.94705pt too wide) in paragraph at lines 1832--1832
-[]\TU/lmr/m/n/10 ADMINISTRATIVOS 
- []
-
-> Step: build the whole table.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1832--1832
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-
 
 [36]
-Overfull \hbox (3.89705pt too wide) in paragraph at lines 1832--1832
-[]\TU/lmr/m/n/10 APROVEITAMENTO 
- []
-
-
-Overfull \hbox (1.94705pt too wide) in paragraph at lines 1832--1832
-[]\TU/lmr/m/n/10 ADMINISTRATIVOS 
- []
-
-
 
 [37]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1864--1864
-[]\TU/lmr/bx/n/10 PositiveLRC 
- []
-
-> Step: build the whole table.
-
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 1864--1864
-[]\TU/lmr/bx/n/10 PositiveLRC 
+Overfull \hbox (19.17752pt too wide) in paragraph at lines 1076--1087
+ [][] 
  []
 
 
 
-[38]
-
-[39
+[38
 
 ]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1900--1900
-[]\TU/lmr/bx/n/10 2021|  
+Overfull \hbox (19.17752pt too wide) in paragraph at lines 1097--1123
+ [][] 
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1900--1900
-[]\TU/lmr/bx/n/10 2022|  
- []
 
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1900--1900
-[]\TU/lmr/bx/n/10 2023|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1900--1900
-[]\TU/lmr/bx/n/10 2024|  
- []
-
-
-Overfull \hbox (27.09439pt too wide) in paragraph at lines 1888--1901
+[39]
+Overfull \hbox (19.17752pt too wide) in paragraph at lines 1133--1156
  [][] 
  []
 
@@ -3064,86 +2237,33 @@ Overfull \hbox (27.09439pt too wide) in paragraph at lines 1888--1901
 [40]
 
 [41]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1938--1938
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1197--1197
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1938--1938
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1197--1197
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1938--1938
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1197--1197
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (21.30045pt too wide) in paragraph at lines 1938--1938
-[]\TU/lmr/bx/n/10 Subtotal|  
- []
-
-
-
-[42]
-
-[43]
-
-[44]
-
-[45]
-Overfull \hbox (19.17752pt too wide) in paragraph at lines 1970--1981
- [][] 
- []
-
-
-
-[46
-
-]
-Overfull \hbox (19.17752pt too wide) in paragraph at lines 1991--2017
- [][] 
- []
-
-
-
-[47]
-Overfull \hbox (19.17752pt too wide) in paragraph at lines 2027--2050
- [][] 
- []
-
-
-
-[48]
-
-[49]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 2091--2091
-[]\TU/lmr/bx/n/10 2021|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 2091--2091
-[]\TU/lmr/bx/n/10 2022|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 2091--2091
-[]\TU/lmr/bx/n/10 2023|  
- []
-
-
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 2091--2091
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1197--1197
 []\TU/lmr/bx/n/10 2024|  
  []
 
 
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 2069--2092
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 1175--1198
  [][] 
  []
 
 
 
-[50
+[42
 
 ]
 > Step: init table outer spec.
@@ -3154,465 +2274,465 @@ Overfull \hbox (15.0944pt too wide) in paragraph at lines 2069--2092
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/bx/n/10 Nome do
  []
 
 
-Underfull \hbox (badness 6792) in paragraph at lines 2147--2147
+Underfull \hbox (badness 6792) in paragraph at lines 1230--1230
 []\TU/lmr/bx/n/10 Cadeias Pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 dutivas Sus-
  []
 
 
-Underfull \hbox (badness 6792) in paragraph at lines 2147--2147
+Underfull \hbox (badness 6792) in paragraph at lines 1230--1230
 []\TU/lmr/bx/n/10 Cadeias Pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 dutivas Sus-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 tentáveis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 | Cadeias
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 Produtivas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/bx/n/10 Estado, So-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 ciedade E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 Desenvolvi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/bx/n/10 Gestão Da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 Inovação E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 Empreende-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/bx/n/10 Inovação E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 Empreen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 dedorismo |
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 Inovação E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 Empreende-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/bx/n/10 Sociedade E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 Ambiente |
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 Sociedade E
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 2147--2147
+Underfull \hbox (badness 1466) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Agnaldo Jose
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Andre Luis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/m/n/10 Azevedo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Carlos Al-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/m/n/10 berto Fi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/m/n/10 gueiredo Da
  []
 
 
-Underfull \hbox (badness 8000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 8000) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Kátia Eliane
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Lucio Fabio
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/m/n/10 Cassiano
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Maria Ge-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/m/n/10 ralda De
  []
 
 
-Underfull \hbox (badness 2809) in paragraph at lines 2147--2147
+Underfull \hbox (badness 2809) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Mariana Ma-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/m/n/10 rinho Da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/m/n/10 Costa Lima
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Patricia Bi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Patricia Dos
  []
 
 
-Underfull \hbox (badness 6559) in paragraph at lines 2147--2147
+Underfull \hbox (badness 6559) in paragraph at lines 1230--1230
 \TU/lmr/m/n/10 Santos Viga-
  []
 
 
-Underfull \hbox (badness 7925) in paragraph at lines 2147--2147
+Underfull \hbox (badness 7925) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Patricia Ma-
  []
 
 > Step: build the whole table.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/bx/n/10 Nome do
  []
 
 
-Underfull \hbox (badness 6792) in paragraph at lines 2147--2147
+Underfull \hbox (badness 6792) in paragraph at lines 1230--1230
 []\TU/lmr/bx/n/10 Cadeias Pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 dutivas Sus-
  []
 
 
-Underfull \hbox (badness 6792) in paragraph at lines 2147--2147
+Underfull \hbox (badness 6792) in paragraph at lines 1230--1230
 []\TU/lmr/bx/n/10 Cadeias Pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 dutivas Sus-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 tentáveis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 | Cadeias
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 Produtivas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/bx/n/10 Estado, So-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 ciedade E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 Desenvolvi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/bx/n/10 Gestão Da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 Inovação E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 Empreende-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/bx/n/10 Inovação E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 Empreen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 dedorismo |
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 Inovação E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 Empreende-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/bx/n/10 Sociedade E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 Ambiente |
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/bx/n/10 Sociedade E
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 2147--2147
+Underfull \hbox (badness 1466) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Agnaldo Jose
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Andre Luis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/m/n/10 Azevedo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Carlos Al-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/m/n/10 berto Fi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/m/n/10 gueiredo Da
  []
 
 
-Underfull \hbox (badness 8000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 8000) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Kátia Eliane
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Lucio Fabio
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/m/n/10 Cassiano
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Maria Ge-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/m/n/10 ralda De
  []
 
 
 
-[51
+[43
 
 ]
-Underfull \hbox (badness 2809) in paragraph at lines 2147--2147
+Underfull \hbox (badness 2809) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Mariana Ma-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/m/n/10 rinho Da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 \TU/lmr/m/n/10 Costa Lima
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Patricia Bi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2147--2147
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Patricia Dos
  []
 
 
-Underfull \hbox (badness 6559) in paragraph at lines 2147--2147
+Underfull \hbox (badness 6559) in paragraph at lines 1230--1230
 \TU/lmr/m/n/10 Santos Viga-
  []
 
 
-Underfull \hbox (badness 7925) in paragraph at lines 2147--2147
+Underfull \hbox (badness 7925) in paragraph at lines 1230--1230
 []\TU/lmr/m/n/10 Patricia Ma-
  []
 
 
 
-[52]
+[44]
 
-[53
+[45
 
 ]
 
-[54]
+[46]
 
-[55]
+[47]
 
-[56]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 2237--2237
+[48]
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1327--1327
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 2237--2237
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1327--1327
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 2237--2237
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1327--1327
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 2237--2237
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1327--1327
 []\TU/lmr/bx/n/10 2024|  
  []
 
 
-Overfull \hbox (27.09439pt too wide) in paragraph at lines 2190--2238
+Overfull \hbox (27.09439pt too wide) in paragraph at lines 1273--1328
  [][] 
  []
 
 
 
-[57]
-Overfull \hbox (15.09442pt too wide) in paragraph at lines 2254--2289
+[49]
+Overfull \hbox (15.09442pt too wide) in paragraph at lines 1344--1382
  [][] 
  []
 
 
 
-[58]
+[50]
 
-[59]
+[51]
 
-[60]
+[52]
 
-[61] (./autoavaliacao.aux)
+[53] (./autoavaliacao.aux)
  ***********
-LaTeX2e <2024-11-01>
+LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
  ***********
 
@@ -3620,12 +2740,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 41832 strings out of 475978
- 876503 string characters out of 5777099
- 1655750 words of memory out of 5000000
- 64048 multiletter control sequences out of 15000+600000
- 617465 words of font info for 150 fonts, out of 8000000 for 9000
+ 41715 strings out of 475948
+ 872347 string characters out of 5775956
+ 1624549 words of memory out of 5000000
+ 63957 multiletter control sequences out of 15000+600000
+ 590580 words of font info for 113 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 99i,19n,123p,1899b,1300s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,19n,123p,1899b,1379s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on autoavaliacao.pdf (64 pages).
+Output written on autoavaliacao.pdf (56 pages).
