@@ -219,6 +219,8 @@ navbar:
           href: [autoavaliacao-2017-2020.html]
         - text: "2013-2016"
           href: [autoavaliacao-2013-2016.html]
+        - text: "2010-2012"
+          href: [autoavaliacao-2010-2012.html]
     - text: "Relatórios"
       menu:
         - text: "2025-2028"
@@ -233,6 +235,9 @@ navbar:
         - text: "2013-2016"
           icon: "fa-file-pdf"
           href: [autoavaliacao-2013-2016.pdf]
+        - text: "2010-2012"
+          icon: "fa-file-pdf"
+          href: [autoavaliacao-2010-2012.pdf]
   right:
     - text: ""
       icon: "fa-share-nodes"
@@ -242,7 +247,7 @@ navbar:
           href: [mailto:desenvolvimentolocal@souunisuam.com.br]
         - text: "Site institucional"
           icon: "fa-globe"
-          href: [https://www.unisuam.edu.br/programa-pos-graduacao-desenvolvimento-local/]
+          href: [https://hs.unisuam.edu.br/ppgdl-desenvolvimento-local]
         - text: "Instagram"
           icon: "fa-instagram"
           href: [https://www.instagram.com/ppgdl_unisuam/]
