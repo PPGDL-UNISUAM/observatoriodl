@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.27)  2 DEC 2025 11:49
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.12.14)  18 DEC 2025 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -597,23 +597,23 @@ Package graphics Info: Driver file: xetex.def on input line 106.
 )
 \pandoc@box=\box64
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2025/11/23 v25.16 The multilingual framework for LuaLaTeX, pdfLa
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLa
 TeX and XeLaTeX
 \babel@savecnt=\count327
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2050.
+ne 2068.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2052.
+ne 2070.
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2054.
+e 2072.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2055.
+e 2073.
 LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2056.
+on input line 2074.
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2058.
+on input line 2076.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2083.
+on input line 2101.
 \U@D=\dimen191
 \l@unhyphenated=\language90
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/xebabel.def)
@@ -623,7 +623,7 @@ on input line 2083.
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/pt/babel-brazilian
 .tex)
 Package babel Info: Importing font and identification data for brazilian
-(babel)             from babel-pt-BR.ini. Reported on input line 4298.
+(babel)             from babel-pt-BR.ini. Reported on input line 4320.
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel-portuges/brazilian.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazilian' set to \l@portuguese
@@ -1042,7 +1042,7 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+Package: eso-pic 2025/12/10 v3.0d eso-pic (RN)
 \ESO@tempdima=\dimen338
 \ESO@tempdimb=\dimen339
 )
@@ -1063,15 +1063,15 @@ File: ppxetex.def 2025/07/23 v0.6g Pdfpages driver for XeTeX (AM)
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/svg/svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-independent 
+Package: scrbase 2025/12/01 v3.49 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2025/09/09 v3.48 KOMA-Script package (file load hooks)
+Package: scrlfile 2025/12/01 v3.49 KOMA-Script package (file load hooks)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
-Package: scrlfile-hook 2025/09/09 v3.48 KOMA-Script package (using LaTeX hooks)
+Package: scrlfile-hook 2025/12/01 v3.49 KOMA-Script package (using LaTeX hooks)
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/scrlogo.sty
-Package: scrlogo 2025/09/09 v3.48 KOMA-Script package (logo)
+Package: scrlogo 2025/12/01 v3.49 KOMA-Script package (logo)
 )))
 Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line
@@ -7685,238 +7685,279 @@ Overfull \hbox (15.09442pt too wide) in paragraph at lines 2149--2201
  [][] 
  []
 
-[79] [80
+[79]
+Overfull \hbox (108.34103pt too wide) in paragraph at lines 2224--2224
+[]\TU/lmr/m/n/10 10.1097/jom.000000000000291810.1097/jom.0000000000002918 
+ []
 
+
+Overfull \hbox (108.34103pt too wide) in paragraph at lines 2224--2224
+[]\TU/lmr/m/n/10 10.1097/jom.000000000000291810.1097/jom.0000000000002918 
+ []
+
+[80
+
+]
+Overfull \hbox (108.34103pt too wide) in paragraph at lines 2264--2264
+[]\TU/lmr/m/n/10 10.1097/jom.000000000000291810.1097/jom.0000000000002918 
+ []
+
+
+Overfull \hbox (108.34103pt too wide) in paragraph at lines 2264--2264
+[]\TU/lmr/m/n/10 10.1097/jom.000000000000291810.1097/jom.0000000000002918 
+ []
+
+[81]
+Overfull \hbox (108.34103pt too wide) in paragraph at lines 2308--2308
+[]\TU/lmr/m/n/10 10.1097/jom.000000000000291810.1097/jom.0000000000002918 
+ []
+
+
+Overfull \hbox (108.34103pt too wide) in paragraph at lines 2308--2308
+[]\TU/lmr/m/n/10 10.1097/jom.000000000000291810.1097/jom.0000000000002918 
+ []
+
+[82]
+Overfull \hbox (108.34103pt too wide) in paragraph at lines 2338--2338
+[]\TU/lmr/m/n/10 10.1097/jom.000000000000291810.1097/jom.0000000000002918 
+ []
+
+
+Overfull \hbox (108.34103pt too wide) in paragraph at lines 2338--2338
+[]\TU/lmr/m/n/10 10.1097/jom.000000000000291810.1097/jom.0000000000002918 
+ []
+
+[83] [84
 
 ]
 File: site.png Graphic file (type bmp)
 <site.png>
-[81]
+[85]
 File: observatorio.png Graphic file (type bmp)
 <observatorio.png>
-[82]
-Underfull \hbox (badness 10000) in paragraph at lines 2322--2322
-[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2322--2322
-[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2322--2322
-[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2322--2322
-[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
- []
-
-[83
-
-] [84]
-Underfull \hbox (badness 10000) in paragraph at lines 2346--2346
-[]\TU/lmr/bx/n/10 MARCUS ALEXANDRE DE
- []
-
-
-Underfull \hbox (badness 4899) in paragraph at lines 2346--2346
-\TU/lmr/bx/n/10 PADUA CAVALCANTI BAS-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2346--2346
-[]\TU/lmr/bx/n/10 MARCUS ALEXANDRE DE
- []
-
-
-Underfull \hbox (badness 4899) in paragraph at lines 2346--2346
-\TU/lmr/bx/n/10 PADUA CAVALCANTI BAS-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2346--2346
-[]\TU/lmr/bx/n/10 THALISSA PADUA GILA-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2346--2346
-[]\TU/lmr/bx/n/10 MARCUS ALEXANDRE DE
- []
-
-
-Underfull \hbox (badness 4899) in paragraph at lines 2346--2346
-\TU/lmr/bx/n/10 PADUA CAVALCANTI BAS-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2346--2346
-[]\TU/lmr/bx/n/10 MARCUS ALEXANDRE DE
- []
-
-
-Underfull \hbox (badness 4899) in paragraph at lines 2346--2346
-\TU/lmr/bx/n/10 PADUA CAVALCANTI BAS-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2346--2346
-[]\TU/lmr/bx/n/10 THALISSA PADUA GILA-
- []
-
-[85]
-Underfull \hbox (badness 2809) in paragraph at lines 2376--2376
-[]\TU/lmr/m/n/10 REVISTA AUGUSTUS (UNISUAM. ON-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2376--2376
-[]\TU/lmr/m/n/10 Journal of Physical
- []
-
-
-Underfull \hbox (badness 2809) in paragraph at lines 2376--2376
-[]\TU/lmr/m/n/10 REVISTA AUGUSTUS (UNISUAM. ON-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2376--2376
-[]\TU/lmr/m/n/10 Journal of Physical
- []
-
 [86]
-Underfull \hbox (badness 10000) in paragraph at lines 2421--2421
-[]\TU/lmr/bx/n/10 Ano
+Underfull \hbox (badness 10000) in paragraph at lines 2428--2428
+[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2421--2421
-\TU/lmr/bx/n/10 (iní-
+Underfull \hbox (badness 10000) in paragraph at lines 2428--2428
+[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2421--2421
-[]\TU/lmr/bx/n/10 Ano
+Underfull \hbox (badness 10000) in paragraph at lines 2428--2428
+[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 2421--2421
-[]\TU/lmr/m/n/10 KÁTIA ELIANE SANTOS AVE-
+Underfull \hbox (badness 10000) in paragraph at lines 2428--2428
+[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
+ []
+
+[87
+
+] [88]
+Underfull \hbox (badness 10000) in paragraph at lines 2452--2452
+[]\TU/lmr/bx/n/10 MARCUS ALEXANDRE DE
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 2421--2421
-[]\TU/lmr/m/n/10 Biomedical Signal Processing and
+Underfull \hbox (badness 4899) in paragraph at lines 2452--2452
+\TU/lmr/bx/n/10 PADUA CAVALCANTI BAS-
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 2421--2421
-[]\TU/lmr/m/n/10 Scandinavian Cardiovascular Jour-
+Underfull \hbox (badness 10000) in paragraph at lines 2452--2452
+[]\TU/lmr/bx/n/10 MARCUS ALEXANDRE DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2421--2421
-[]\TU/lmr/m/n/10 CARLOS ALBERTO FIGUEI-
+Underfull \hbox (badness 4899) in paragraph at lines 2452--2452
+\TU/lmr/bx/n/10 PADUA CAVALCANTI BAS-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2421--2421
-[]\TU/lmr/bx/n/10 Ano
+Underfull \hbox (badness 10000) in paragraph at lines 2452--2452
+[]\TU/lmr/bx/n/10 THALISSA PADUA GILA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2421--2421
-\TU/lmr/bx/n/10 (iní-
+Underfull \hbox (badness 10000) in paragraph at lines 2452--2452
+[]\TU/lmr/bx/n/10 MARCUS ALEXANDRE DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2421--2421
-[]\TU/lmr/bx/n/10 Ano
+Underfull \hbox (badness 4899) in paragraph at lines 2452--2452
+\TU/lmr/bx/n/10 PADUA CAVALCANTI BAS-
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 2421--2421
-[]\TU/lmr/m/n/10 KÁTIA ELIANE SANTOS AVE-
+Underfull \hbox (badness 10000) in paragraph at lines 2452--2452
+[]\TU/lmr/bx/n/10 MARCUS ALEXANDRE DE
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 2421--2421
-[]\TU/lmr/m/n/10 Biomedical Signal Processing and
- []
-
-[87]
-Underfull \hbox (badness 1661) in paragraph at lines 2421--2421
-[]\TU/lmr/m/n/10 Scandinavian Cardiovascular Jour-
+Underfull \hbox (badness 4899) in paragraph at lines 2452--2452
+\TU/lmr/bx/n/10 PADUA CAVALCANTI BAS-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2421--2421
-[]\TU/lmr/m/n/10 CARLOS ALBERTO FIGUEI-
- []
-
-[88]
-Underfull \hbox (badness 2245) in paragraph at lines 2444--2444
-[]\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
- []
-
-
-Underfull \hbox (badness 2245) in paragraph at lines 2444--2444
-[]\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
+Underfull \hbox (badness 10000) in paragraph at lines 2452--2452
+[]\TU/lmr/bx/n/10 THALISSA PADUA GILA-
  []
 
 [89]
-Underfull \hbox (badness 2245) in paragraph at lines 2465--2465
+Underfull \hbox (badness 2809) in paragraph at lines 2482--2482
+[]\TU/lmr/m/n/10 REVISTA AUGUSTUS (UNISUAM. ON-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2482--2482
+[]\TU/lmr/m/n/10 Journal of Physical
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 2482--2482
+[]\TU/lmr/m/n/10 REVISTA AUGUSTUS (UNISUAM. ON-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2482--2482
+[]\TU/lmr/m/n/10 Journal of Physical
+ []
+
+[90]
+Underfull \hbox (badness 10000) in paragraph at lines 2527--2527
+[]\TU/lmr/bx/n/10 Ano
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2527--2527
+\TU/lmr/bx/n/10 (iní-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2527--2527
+[]\TU/lmr/bx/n/10 Ano
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 2527--2527
+[]\TU/lmr/m/n/10 KÁTIA ELIANE SANTOS AVE-
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 2527--2527
+[]\TU/lmr/m/n/10 Biomedical Signal Processing and
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 2527--2527
+[]\TU/lmr/m/n/10 Scandinavian Cardiovascular Jour-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2527--2527
+[]\TU/lmr/m/n/10 CARLOS ALBERTO FIGUEI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2527--2527
+[]\TU/lmr/bx/n/10 Ano
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2527--2527
+\TU/lmr/bx/n/10 (iní-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2527--2527
+[]\TU/lmr/bx/n/10 Ano
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 2527--2527
+[]\TU/lmr/m/n/10 KÁTIA ELIANE SANTOS AVE-
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 2527--2527
+[]\TU/lmr/m/n/10 Biomedical Signal Processing and
+ []
+
+[91]
+Underfull \hbox (badness 1661) in paragraph at lines 2527--2527
+[]\TU/lmr/m/n/10 Scandinavian Cardiovascular Jour-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2527--2527
+[]\TU/lmr/m/n/10 CARLOS ALBERTO FIGUEI-
+ []
+
+[92]
+Underfull \hbox (badness 2245) in paragraph at lines 2550--2550
 []\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 2465--2465
+Underfull \hbox (badness 2245) in paragraph at lines 2550--2550
+[]\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
+ []
+
+[93]
+Underfull \hbox (badness 2245) in paragraph at lines 2571--2571
 []\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2465--2465
+Underfull \hbox (badness 2245) in paragraph at lines 2571--2571
+[]\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2571--2571
 []\TU/lmr/m/n/10 Editor for the
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 2465--2465
+Underfull \hbox (badness 2213) in paragraph at lines 2571--2571
 \TU/lmr/m/n/10 Evidence-Based Com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2465--2465
+Underfull \hbox (badness 10000) in paragraph at lines 2571--2571
 \TU/lmr/m/n/10 plementary and
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 2465--2465
+Underfull \hbox (badness 2245) in paragraph at lines 2571--2571
 []\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 2465--2465
+Underfull \hbox (badness 2245) in paragraph at lines 2571--2571
 []\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2465--2465
+Underfull \hbox (badness 10000) in paragraph at lines 2571--2571
 []\TU/lmr/m/n/10 Editor for the
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 2465--2465
+Underfull \hbox (badness 2213) in paragraph at lines 2571--2571
 \TU/lmr/m/n/10 Evidence-Based Com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2465--2465
+Underfull \hbox (badness 10000) in paragraph at lines 2571--2571
 \TU/lmr/m/n/10 plementary and
  []
 
-[90] (./autoavaliacao-2021-2024.aux)
+[94] (./autoavaliacao-2021-2024.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
@@ -7926,12 +7967,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 44685 strings out of 468179
- 895892 string characters out of 5433206
- 1574344 words of memory out of 5000000
- 72772 multiletter control sequences out of 15000+600000
+ 44691 strings out of 468179
+ 895999 string characters out of 5433206
+ 1574467 words of memory out of 5000000
+ 72778 multiletter control sequences out of 15000+600000
  631776 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,126p,1466b,5729s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on autoavaliacao-2021-2024.pdf (93 pages).
+Output written on autoavaliacao-2021-2024.pdf (97 pages).
