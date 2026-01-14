@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.12.14)  18 DEC 2025 16:01
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.1.2)  13 JAN 2026 20:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **autoavaliacao-2010-2012.tex
 (./autoavaliacao-2010-2012.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-11-14>
+L3 programming layer <2025-12-29>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo
@@ -136,7 +136,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/unicode-math/unicode-math.sty 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-11-14 L3 programming layer (loader) 
+Package: expl3 2025-12-29 L3 programming layer (loader) 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
 \g__graphics_track_int=\count295
@@ -597,7 +597,7 @@ Package graphics Info: Driver file: xetex.def on input line 106.
 )
 \pandoc@box=\box64
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLa
+Package: babel 2025/12/30 v25.18 The multilingual framework for LuaLaTeX, pdfLa
 TeX and XeLaTeX
 \babel@savecnt=\count327
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
@@ -623,7 +623,7 @@ on input line 2101.
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/pt/babel-brazilian
 .tex)
 Package babel Info: Importing font and identification data for brazilian
-(babel)             from babel-pt-BR.ini. Reported on input line 4320.
+(babel)             from babel-pt-BR.ini. Reported on input line 4321.
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel-portuges/brazilian.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazilian' set to \l@portuguese
@@ -1534,11 +1534,44 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
 \Hy@SectionHShift=\skip110
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count438
+\l__siunitx_number_exponent_fixed_int=\count439
+\l__siunitx_number_min_decimal_int=\count440
+\l__siunitx_number_min_integer_int=\count441
+\l__siunitx_number_round_precision_int=\count442
+\l__siunitx_number_lower_threshold_int=\count443
+\l__siunitx_number_upper_threshold_int=\count444
+\l__siunitx_number_group_first_int=\count445
+\l__siunitx_number_group_size_int=\count446
+\l__siunitx_number_group_minimum_int=\count447
+\l__siunitx_angle_tmp_dim=\dimen403
+\l__siunitx_angle_marker_box=\box177
+\l__siunitx_angle_unit_box=\box178
+\l__siunitx_compound_count_int=\count448
+(/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_table_tmp_box=\box179
+\l__siunitx_table_tmp_dim=\dimen404
+\l__siunitx_table_column_width_dim=\dimen405
+\l__siunitx_table_integer_box=\box180
+\l__siunitx_table_decimal_box=\box181
+\l__siunitx_table_uncert_box=\box182
+\l__siunitx_table_before_box=\box183
+\l__siunitx_table_after_box=\box184
+\l__siunitx_table_before_dim=\dimen406
+\l__siunitx_table_carry_dim=\dimen407
+\l__siunitx_unit_tmp_int=\count449
+\l__siunitx_unit_position_int=\count450
+\l__siunitx_unit_total_int=\count451
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
-\BKM@id=\count438
+\BKM@id=\count452
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/xurl/xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
 ) (./autoavaliacao-2010-2012.aux
@@ -1559,26 +1592,26 @@ LaTeX Warning: Label `tab:2-2-2-list-tables' multiply defined.
 )
 \openout1 = `autoavaliacao-2010-2012.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 185.
-LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1614,19 +1647,19 @@ LaTeX Font Info:    ... okay on input line 185.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 185.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 194.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 185.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 194.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 185.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 194.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 185.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 194.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 185.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 194.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 185.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 194.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 185.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 194.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999964596882403.
@@ -1657,7 +1690,7 @@ pt=math;language=dflt;"
 pt=math;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 185.
+(Font)              scaled to size 10.0pt on input line 194.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999964596882403.
@@ -1700,18 +1733,18 @@ ath.otf]/OT:script=math;language=dflt;+ssty=1;"
 pt=math;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 185.
+(Font)              scaled to size 10.0pt on input line 194.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 185.
+(Font)              `operators' in the math version `normal' on input line 194.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 185.
+ line 194.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 185.
+(Font)              `operators' in the math version `bold' on input line 194.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 185.
+t line 194.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999964596882403.
@@ -1785,15 +1818,15 @@ ript=math;language=dflt;"<6-8.5>s*[1.000096459334209]"[latinmodern-math.otf]/OT
 t=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 185.
+(Font)              `symbols' in the math version `normal' on input line 194.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 185.
+t line 194.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 185.
+(Font)              `symbols' in the math version `bold' on input line 194.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 185.
+t line 194.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9999964596882403.
@@ -1862,26 +1895,26 @@ pt=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 1
-85.
+94.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 185.
+t line 194.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 185
+(Font)              `largesymbols' in the math version `bold' on input line 194
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 185.
+t line 194.
 Package microtype Info: Patching varwidth to enable character protrusion.
-\MT@vwid@leftmargin=\dimen403
-\MT@vwid@rightmargin=\dimen404
-LaTeX Info: Redefining \microtypecontext on input line 185.
-Package microtype Info: Applying patch `item' on input line 185.
-Package microtype Info: Applying patch `toc' on input line 185.
-Package microtype Info: Applying patch `eqnum' on input line 185.
-Package microtype Info: Applying patch `footnote' on input line 185.
-Package microtype Info: Applying patch `verbatim' on input line 185.
-LaTeX Info: Redefining \microtypesetup on input line 185.
+\MT@vwid@leftmargin=\dimen408
+\MT@vwid@rightmargin=\dimen409
+LaTeX Info: Redefining \microtypecontext on input line 194.
+Package microtype Info: Applying patch `item' on input line 194.
+Package microtype Info: Applying patch `toc' on input line 194.
+Package microtype Info: Applying patch `eqnum' on input line 194.
+Package microtype Info: Applying patch `footnote' on input line 194.
+Package microtype Info: Applying patch `verbatim' on input line 194.
+LaTeX Info: Redefining \microtypesetup on input line 194.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -1892,7 +1925,15 @@ Package microtype Info: No adjustment of kerning.
 File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
 ern Roman (RS)
 )
-Package hyperref Info: Link coloring OFF on input line 185.
+Package hyperref Info: Link coloring OFF on input line 194.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-d
+ictionary-brazil.trsl
+File: translations-basic-dictionary-brazil.trsl (brazil translation file `trans
+lations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `brazil'. on input line 194.
 File: PPG/Images/Cover-1.pdf Graphic file (type pdf)
 <use PPG/Images/Cover-1.pdf>
 File: PPG/Images/Cover-1.pdf Graphic file (type pdf)
@@ -1966,82 +2007,82 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 
 ] [2]
-Overfull \hbox (7.67752pt too wide) in paragraph at lines 281--281
+Overfull \hbox (7.67752pt too wide) in paragraph at lines 290--290
 []\TU/lmr/bx/n/10 Doutorado 
  []
 
 
-Overfull \hbox (1.69751pt too wide) in paragraph at lines 281--281
+Overfull \hbox (1.69751pt too wide) in paragraph at lines 290--290
 []\TU/lmr/bx/n/10 Mestrado 
  []
 
 
-Overfull \hbox (7.67752pt too wide) in paragraph at lines 281--281
+Overfull \hbox (7.67752pt too wide) in paragraph at lines 290--290
 []\TU/lmr/bx/n/10 Doutorado 
  []
 
 
-Overfull \hbox (1.69751pt too wide) in paragraph at lines 281--281
+Overfull \hbox (1.69751pt too wide) in paragraph at lines 290--290
 []\TU/lmr/bx/n/10 Mestrado 
  []
 
 [3]
-Overfull \hbox (7.67752pt too wide) in paragraph at lines 314--314
+Overfull \hbox (7.67752pt too wide) in paragraph at lines 323--323
 []\TU/lmr/bx/n/10 Doutorado 
  []
 
 
-Overfull \hbox (1.69751pt too wide) in paragraph at lines 314--314
+Overfull \hbox (1.69751pt too wide) in paragraph at lines 323--323
 []\TU/lmr/bx/n/10 Mestrado 
  []
 
 
-Overfull \hbox (7.67752pt too wide) in paragraph at lines 314--314
+Overfull \hbox (7.67752pt too wide) in paragraph at lines 323--323
 []\TU/lmr/bx/n/10 Doutorado 
  []
 
 
-Overfull \hbox (1.69751pt too wide) in paragraph at lines 314--314
+Overfull \hbox (1.69751pt too wide) in paragraph at lines 323--323
 []\TU/lmr/bx/n/10 Mestrado 
  []
 
 [4] [5]
-Overfull \hbox (7.37837pt too wide) in paragraph at lines 354--354
+Overfull \hbox (7.37837pt too wide) in paragraph at lines 363--363
 []\TU/lmr/m/n/10 01/01/2006 
  []
 
 
-Overfull \hbox (7.37837pt too wide) in paragraph at lines 354--354
+Overfull \hbox (7.37837pt too wide) in paragraph at lines 363--363
 []\TU/lmr/m/n/10 01/01/2006 
  []
 
 [6] [7]
-Overfull \hbox (7.37837pt too wide) in paragraph at lines 398--398
+Overfull \hbox (7.37837pt too wide) in paragraph at lines 407--407
 []\TU/lmr/m/n/10 01/01/2012 
  []
 
 
-Overfull \hbox (7.37837pt too wide) in paragraph at lines 398--398
+Overfull \hbox (7.37837pt too wide) in paragraph at lines 407--407
 []\TU/lmr/m/n/10 01/01/2012 
  []
 
 
-Overfull \hbox (7.37837pt too wide) in paragraph at lines 398--398
+Overfull \hbox (7.37837pt too wide) in paragraph at lines 407--407
 []\TU/lmr/m/n/10 01/05/2018 
  []
 
 
-Overfull \hbox (7.37837pt too wide) in paragraph at lines 398--398
+Overfull \hbox (7.37837pt too wide) in paragraph at lines 407--407
 []\TU/lmr/m/n/10 01/01/2012 
  []
 
 [8]
-Overfull \hbox (7.37837pt too wide) in paragraph at lines 398--398
+Overfull \hbox (7.37837pt too wide) in paragraph at lines 407--407
 []\TU/lmr/m/n/10 01/01/2012 
  []
 
 
-Overfull \hbox (7.37837pt too wide) in paragraph at lines 398--398
+Overfull \hbox (7.37837pt too wide) in paragraph at lines 407--407
 []\TU/lmr/m/n/10 01/05/2018 
  []
 
@@ -2051,781 +2092,781 @@ g=tex-text;!
 Missing character: There is no ^^92 (U+0092) in font [lmroman10-regular]:mappin
 g=tex-text;!
 
-Underfull \hbox (badness 1173) in paragraph at lines 486--486
+Underfull \hbox (badness 1173) in paragraph at lines 495--495
 \TU/lmr/bx/n/10 Produtivas Sustentá-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/bx/n/10 Cadeias Produtivas
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 486--486
+Underfull \hbox (badness 1168) in paragraph at lines 495--495
 \TU/lmr/bx/n/10 Estado, Sociedade e
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 486--486
+Underfull \hbox (badness 1281) in paragraph at lines 495--495
 \TU/lmr/bx/n/10 Desenvolvimento Lo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Anatomia Funcional
  []
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 486--486
+Underfull \hbox (badness 4899) in paragraph at lines 495--495
 \TU/lmr/m/n/10 cos Pilóricos De Três
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Teleostei (Pisces) De
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Desenvolvimento De
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Produtos à Base De
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 486--486
+Underfull \hbox (badness 2856) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Carne De Tilápia Me-
  []
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 486--486
+Underfull \hbox (badness 2119) in paragraph at lines 495--495
 \TU/lmr/m/n/10 canicamente Processada
  []
 
 
-Underfull \hbox (badness 7963) in paragraph at lines 486--486
+Underfull \hbox (badness 7963) in paragraph at lines 495--495
 \TU/lmr/m/n/10 (Cms) Com Validação
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Qualidade Microbioló-
  []
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 486--486
+Underfull \hbox (badness 4467) in paragraph at lines 495--495
 \TU/lmr/m/n/10 gica, Físico-Química e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Ação De Diferentes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Níveis Lipídicos e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Do Balanceamento
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Energia/Proteína Na
  []
 
 
-Underfull \hbox (badness 7685) in paragraph at lines 486--486
+Underfull \hbox (badness 7685) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Determinação De Exi-
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 486--486
+Underfull \hbox (badness 1521) in paragraph at lines 495--495
 \TU/lmr/m/n/10 lanceadas No Desempe-
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 486--486
+Underfull \hbox (badness 3977) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Touro, Rana Catesbei-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Desenvolvimento Local
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 e Interação Universi-
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 486--486
+Underfull \hbox (badness 1472) in paragraph at lines 495--495
 \TU/lmr/m/n/10 dade Empresa Governo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Agronegocio Aquícola
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 486--486
+Underfull \hbox (badness 1048) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Como Ferramenta Para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Avaliação Morfofisioló-
  []
 
 
-Underfull \hbox (badness 4556) in paragraph at lines 486--486
+Underfull \hbox (badness 4556) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Proposta De Um Ali-
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 486--486
+Underfull \hbox (badness 2173) in paragraph at lines 495--495
 \TU/lmr/m/n/10 res Para Avaliação De
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 486--486
+Underfull \hbox (badness 2961) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Construções e Tecnolo-
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 486--486
+Underfull \hbox (badness 3547) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Avaliação De Inoculan-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Avaliação, Desenvolvi-
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 486--486
+Underfull \hbox (badness 1721) in paragraph at lines 495--495
 \TU/lmr/m/n/10 mento e Novas Aplica-
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 486--486
+Underfull \hbox (badness 4416) in paragraph at lines 495--495
 \TU/lmr/m/n/10 ções De Produtos De
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 486--486
+Underfull \hbox (badness 3179) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Origem Biológica Com
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Cuidadores De Idosos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Empregando Técnicas
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 486--486
+Underfull \hbox (badness 2932) in paragraph at lines 495--495
 \TU/lmr/m/n/10 míneas Do Grupo C4,
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 486--486
+Underfull \hbox (badness 2573) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Sob Manejo Agroecoló-
  []
 
 
-Underfull \hbox (badness 4353) in paragraph at lines 486--486
+Underfull \hbox (badness 4353) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Direitos Da Cidadania
  []
 
 
-Underfull \hbox (badness 5607) in paragraph at lines 486--486
+Underfull \hbox (badness 5607) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Sistemas De Pastoreio
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Construção De Uma
  []
 
 
-Underfull \hbox (badness 7397) in paragraph at lines 486--486
+Underfull \hbox (badness 7397) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Rede De Interação e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Aprendizagem Para
  []
 
 
-Underfull \hbox (badness 7832) in paragraph at lines 486--486
+Underfull \hbox (badness 7832) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Engorda Do Camarão
  []
 
 
-Underfull \hbox (badness 1968) in paragraph at lines 486--486
+Underfull \hbox (badness 1968) in paragraph at lines 495--495
 \TU/lmr/m/n/10 matizado Da Produção
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Laboratório Multidisci-
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 486--486
+Underfull \hbox (badness 2626) in paragraph at lines 495--495
 \TU/lmr/m/n/10 plinar De Estudos Da
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 486--486
+Underfull \hbox (badness 4595) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Linguagem: Pesquisas,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Eventos, Metodologias
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Desenvolvimento De
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Letraguia: Educação
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 486--486
+Underfull \hbox (badness 1320) in paragraph at lines 495--495
 \TU/lmr/m/n/10 tir De Subproduto Ge-
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 486--486
+Underfull \hbox (badness 4072) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Como Alternativa Sus-
  []
 
 
-Underfull \hbox (badness 6893) in paragraph at lines 486--486
+Underfull \hbox (badness 6893) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Letramentos Formal e
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 486--486
+Underfull \hbox (badness 1635) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Inter-Ação Família, Es-
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 486--486
+Underfull \hbox (badness 1320) in paragraph at lines 495--495
 \TU/lmr/m/n/10 tir De Subproduto Ge-
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 486--486
+Underfull \hbox (badness 1558) in paragraph at lines 495--495
 \TU/lmr/m/n/10 nativa De Renda Para
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 486--486
+Underfull \hbox (badness 2126) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Manufatura De Rações
  []
 
 Missing character: There is no ^^92 (U+0092) in font [lmroman10-regular]:mappin
 g=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Desenvolvimento De
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 486--486
+Underfull \hbox (badness 2856) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Uma Geléia Elaborada
  []
 
 
-Underfull \hbox (badness 6927) in paragraph at lines 486--486
+Underfull \hbox (badness 6927) in paragraph at lines 495--495
 \TU/lmr/m/n/10 De Forma Sustentável
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 486--486
+Underfull \hbox (badness 1057) in paragraph at lines 495--495
 \TU/lmr/m/n/10 a Partir Da Casca Da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Banana D^^92agua Musa
  []
 
 
-Underfull \hbox (badness 3333) in paragraph at lines 486--486
+Underfull \hbox (badness 3333) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Melhoria Das Técnicas
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 486--486
+Underfull \hbox (badness 2285) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Manejos Nutricionais e
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 486--486
+Underfull \hbox (badness 1226) in paragraph at lines 495--495
 \TU/lmr/m/n/10 lise Sensorial e Broma-
  []
 
 
-Underfull \hbox (badness 3657) in paragraph at lines 486--486
+Underfull \hbox (badness 3657) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Desenvolvimento Tecno-
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 486--486
+Underfull \hbox (badness 1072) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Estado Do Rio De Ja-
  []
 
 
-Underfull \hbox (badness 4303) in paragraph at lines 486--486
+Underfull \hbox (badness 4303) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Educação Ambiental e
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 486--486
+Underfull \hbox (badness 1264) in paragraph at lines 495--495
 \TU/lmr/m/n/10 menta De Conscientiza-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Orientação De Letra-
  []
 
 
-Underfull \hbox (badness 3199) in paragraph at lines 486--486
+Underfull \hbox (badness 3199) in paragraph at lines 495--495
 \TU/lmr/m/n/10 mento(s) e Construção
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Ensinos Fundamental
  []
 
 
-Underfull \hbox (badness 4291) in paragraph at lines 486--486
+Underfull \hbox (badness 4291) in paragraph at lines 495--495
 \TU/lmr/m/n/10 e Médio: o Protago-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Na Constituição Dos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Efetividade Do Uso
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 486--486
+Underfull \hbox (badness 1584) in paragraph at lines 495--495
 \TU/lmr/m/n/10 De Membranas Filtran-
  []
 
 
-Underfull \hbox (badness 3690) in paragraph at lines 486--486
+Underfull \hbox (badness 3690) in paragraph at lines 495--495
 \TU/lmr/m/n/10 tes Como Método De
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 486--486
+Underfull \hbox (badness 1365) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Em Tecnologias Sociais
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 486--486
+Underfull \hbox (badness 1867) in paragraph at lines 495--495
 \TU/lmr/m/n/10 à Educação Especial ?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Mapeamento Etnobotâ-
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 486--486
+Underfull \hbox (badness 4647) in paragraph at lines 495--495
 \TU/lmr/m/n/10 De Plantas Medicinais
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 486--486
+Underfull \hbox (badness 1454) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Recria e Terminação e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Técnicas De Cultivo
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 486--486
+Underfull \hbox (badness 1616) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Do Camarão De Água
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Doce Macrobrachium
  []
 
 
-Underfull \hbox (badness 5908) in paragraph at lines 486--486
+Underfull \hbox (badness 5908) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Rosenbergii Nas Fases
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 486--486
+Underfull \hbox (badness 1270) in paragraph at lines 495--495
 \TU/lmr/m/n/10 e Engorda No Rio De
  []
 
 
-Underfull \hbox (badness 5105) in paragraph at lines 486--486
+Underfull \hbox (badness 5105) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Pós Lactente: Desen-
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 486--486
+Underfull \hbox (badness 1803) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Técnicas De Criação e
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 486--486
+Underfull \hbox (badness 1424) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Extração De Óleos Es-
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 486--486
+Underfull \hbox (badness 1629) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Renda Para Comunida-
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 486--486
+Underfull \hbox (badness 1127) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Telhados Verdes: Uma
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 486--486
+Underfull \hbox (badness 2460) in paragraph at lines 495--495
 \TU/lmr/m/n/10 prego De Técnicas De
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 486--486
+Underfull \hbox (badness 1205) in paragraph at lines 495--495
 \TU/lmr/m/n/10 munidades Urbanas Do
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 486--486
+Underfull \hbox (badness 1173) in paragraph at lines 495--495
 \TU/lmr/bx/n/10 Produtivas Sustentá-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/bx/n/10 Cadeias Produtivas
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 486--486
+Underfull \hbox (badness 1168) in paragraph at lines 495--495
 \TU/lmr/bx/n/10 Estado, Sociedade e
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 486--486
+Underfull \hbox (badness 1281) in paragraph at lines 495--495
 \TU/lmr/bx/n/10 Desenvolvimento Lo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Anatomia Funcional
  []
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 486--486
+Underfull \hbox (badness 4899) in paragraph at lines 495--495
 \TU/lmr/m/n/10 cos Pilóricos De Três
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Teleostei (Pisces) De
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Desenvolvimento De
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Produtos à Base De
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 486--486
+Underfull \hbox (badness 2856) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Carne De Tilápia Me-
  []
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 486--486
+Underfull \hbox (badness 2119) in paragraph at lines 495--495
 \TU/lmr/m/n/10 canicamente Processada
  []
 
 
-Underfull \hbox (badness 7963) in paragraph at lines 486--486
+Underfull \hbox (badness 7963) in paragraph at lines 495--495
 \TU/lmr/m/n/10 (Cms) Com Validação
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Qualidade Microbioló-
  []
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 486--486
+Underfull \hbox (badness 4467) in paragraph at lines 495--495
 \TU/lmr/m/n/10 gica, Físico-Química e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Ação De Diferentes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Níveis Lipídicos e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Do Balanceamento
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Energia/Proteína Na
  []
 
 
-Underfull \hbox (badness 7685) in paragraph at lines 486--486
+Underfull \hbox (badness 7685) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Determinação De Exi-
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 486--486
+Underfull \hbox (badness 1521) in paragraph at lines 495--495
 \TU/lmr/m/n/10 lanceadas No Desempe-
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 486--486
+Underfull \hbox (badness 3977) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Touro, Rana Catesbei-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Desenvolvimento Local
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 e Interação Universi-
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 486--486
+Underfull \hbox (badness 1472) in paragraph at lines 495--495
 \TU/lmr/m/n/10 dade Empresa Governo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Agronegocio Aquícola
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 486--486
+Underfull \hbox (badness 1048) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Como Ferramenta Para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Avaliação Morfofisioló-
  []
 
 
-Underfull \hbox (badness 4556) in paragraph at lines 486--486
+Underfull \hbox (badness 4556) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Proposta De Um Ali-
  []
 
 [11
 
 ]
-Underfull \hbox (badness 2173) in paragraph at lines 486--486
+Underfull \hbox (badness 2173) in paragraph at lines 495--495
 \TU/lmr/m/n/10 res Para Avaliação De
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 486--486
+Underfull \hbox (badness 2961) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Construções e Tecnolo-
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 486--486
+Underfull \hbox (badness 3547) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Avaliação De Inoculan-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Avaliação, Desenvolvi-
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 486--486
+Underfull \hbox (badness 1721) in paragraph at lines 495--495
 \TU/lmr/m/n/10 mento e Novas Aplica-
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 486--486
+Underfull \hbox (badness 4416) in paragraph at lines 495--495
 \TU/lmr/m/n/10 ções De Produtos De
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 486--486
+Underfull \hbox (badness 3179) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Origem Biológica Com
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Cuidadores De Idosos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Empregando Técnicas
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 486--486
+Underfull \hbox (badness 2932) in paragraph at lines 495--495
 \TU/lmr/m/n/10 míneas Do Grupo C4,
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 486--486
+Underfull \hbox (badness 2573) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Sob Manejo Agroecoló-
  []
 
 
-Underfull \hbox (badness 4353) in paragraph at lines 486--486
+Underfull \hbox (badness 4353) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Direitos Da Cidadania
  []
 
 [12]
-Underfull \hbox (badness 5607) in paragraph at lines 486--486
+Underfull \hbox (badness 5607) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Sistemas De Pastoreio
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Construção De Uma
  []
 
 
-Underfull \hbox (badness 7397) in paragraph at lines 486--486
+Underfull \hbox (badness 7397) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Rede De Interação e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Aprendizagem Para
  []
 
 
-Underfull \hbox (badness 7832) in paragraph at lines 486--486
+Underfull \hbox (badness 7832) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Engorda Do Camarão
  []
 
 
-Underfull \hbox (badness 1968) in paragraph at lines 486--486
+Underfull \hbox (badness 1968) in paragraph at lines 495--495
 \TU/lmr/m/n/10 matizado Da Produção
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Laboratório Multidisci-
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 486--486
+Underfull \hbox (badness 2626) in paragraph at lines 495--495
 \TU/lmr/m/n/10 plinar De Estudos Da
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 486--486
+Underfull \hbox (badness 4595) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Linguagem: Pesquisas,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Eventos, Metodologias
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Desenvolvimento De
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Letraguia: Educação
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 486--486
+Underfull \hbox (badness 1320) in paragraph at lines 495--495
 \TU/lmr/m/n/10 tir De Subproduto Ge-
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 486--486
+Underfull \hbox (badness 4072) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Como Alternativa Sus-
  []
 
 
-Underfull \hbox (badness 6893) in paragraph at lines 486--486
+Underfull \hbox (badness 6893) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Letramentos Formal e
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 486--486
+Underfull \hbox (badness 1635) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Inter-Ação Família, Es-
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 486--486
+Underfull \hbox (badness 1320) in paragraph at lines 495--495
 \TU/lmr/m/n/10 tir De Subproduto Ge-
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 486--486
+Underfull \hbox (badness 1558) in paragraph at lines 495--495
 \TU/lmr/m/n/10 nativa De Renda Para
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 486--486
+Underfull \hbox (badness 2126) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Manufatura De Rações
  []
 
@@ -2833,219 +2874,219 @@ Underfull \hbox (badness 2126) in paragraph at lines 486--486
 Missing character: There is no ^^92 (U+0092) in font [lmroman10-regular]:mappin
 g=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Desenvolvimento De
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 486--486
+Underfull \hbox (badness 2856) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Uma Geléia Elaborada
  []
 
 
-Underfull \hbox (badness 6927) in paragraph at lines 486--486
+Underfull \hbox (badness 6927) in paragraph at lines 495--495
 \TU/lmr/m/n/10 De Forma Sustentável
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 486--486
+Underfull \hbox (badness 1057) in paragraph at lines 495--495
 \TU/lmr/m/n/10 a Partir Da Casca Da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Banana D^^92agua Musa
  []
 
 
-Underfull \hbox (badness 3333) in paragraph at lines 486--486
+Underfull \hbox (badness 3333) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Melhoria Das Técnicas
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 486--486
+Underfull \hbox (badness 2285) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Manejos Nutricionais e
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 486--486
+Underfull \hbox (badness 1226) in paragraph at lines 495--495
 \TU/lmr/m/n/10 lise Sensorial e Broma-
  []
 
 
-Underfull \hbox (badness 3657) in paragraph at lines 486--486
+Underfull \hbox (badness 3657) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Desenvolvimento Tecno-
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 486--486
+Underfull \hbox (badness 1072) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Estado Do Rio De Ja-
  []
 
 
-Underfull \hbox (badness 4303) in paragraph at lines 486--486
+Underfull \hbox (badness 4303) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Educação Ambiental e
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 486--486
+Underfull \hbox (badness 1264) in paragraph at lines 495--495
 \TU/lmr/m/n/10 menta De Conscientiza-
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Orientação De Letra-
  []
 
 
-Underfull \hbox (badness 3199) in paragraph at lines 486--486
+Underfull \hbox (badness 3199) in paragraph at lines 495--495
 \TU/lmr/m/n/10 mento(s) e Construção
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Ensinos Fundamental
  []
 
 
-Underfull \hbox (badness 4291) in paragraph at lines 486--486
+Underfull \hbox (badness 4291) in paragraph at lines 495--495
 \TU/lmr/m/n/10 e Médio: o Protago-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Na Constituição Dos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Efetividade Do Uso
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 486--486
+Underfull \hbox (badness 1584) in paragraph at lines 495--495
 \TU/lmr/m/n/10 De Membranas Filtran-
  []
 
 
-Underfull \hbox (badness 3690) in paragraph at lines 486--486
+Underfull \hbox (badness 3690) in paragraph at lines 495--495
 \TU/lmr/m/n/10 tes Como Método De
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 486--486
+Underfull \hbox (badness 1365) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Em Tecnologias Sociais
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 486--486
+Underfull \hbox (badness 1867) in paragraph at lines 495--495
 \TU/lmr/m/n/10 à Educação Especial ?
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Mapeamento Etnobotâ-
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 486--486
+Underfull \hbox (badness 4647) in paragraph at lines 495--495
 \TU/lmr/m/n/10 De Plantas Medicinais
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 486--486
+Underfull \hbox (badness 1454) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Recria e Terminação e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Técnicas De Cultivo
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 486--486
+Underfull \hbox (badness 1616) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Do Camarão De Água
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Doce Macrobrachium
  []
 
 
-Underfull \hbox (badness 5908) in paragraph at lines 486--486
+Underfull \hbox (badness 5908) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Rosenbergii Nas Fases
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 486--486
+Underfull \hbox (badness 1270) in paragraph at lines 495--495
 \TU/lmr/m/n/10 e Engorda No Rio De
  []
 
 
-Underfull \hbox (badness 5105) in paragraph at lines 486--486
+Underfull \hbox (badness 5105) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Pós Lactente: Desen-
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 486--486
+Underfull \hbox (badness 1803) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Técnicas De Criação e
  []
 
 [17]
-Underfull \hbox (badness 1424) in paragraph at lines 486--486
+Underfull \hbox (badness 1424) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Extração De Óleos Es-
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 486--486
+Underfull \hbox (badness 1629) in paragraph at lines 495--495
 \TU/lmr/m/n/10 Renda Para Comunida-
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 486--486
+Underfull \hbox (badness 1127) in paragraph at lines 495--495
 []\TU/lmr/m/n/10 Telhados Verdes: Uma
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 486--486
+Underfull \hbox (badness 2460) in paragraph at lines 495--495
 \TU/lmr/m/n/10 prego De Técnicas De
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 486--486
+Underfull \hbox (badness 1205) in paragraph at lines 495--495
 \TU/lmr/m/n/10 munidades Urbanas Do
  []
 
 [18] [19
 
 ]
-Underfull \hbox (badness 1337) in paragraph at lines 559--559
+Underfull \hbox (badness 1337) in paragraph at lines 568--568
 []\TU/lmr/bx/n/10 EMPREENDEDORISMO E PLANO DE NEGÓ-
  []
 
 
-Underfull \hbox (badness 6658) in paragraph at lines 559--559
+Underfull \hbox (badness 6658) in paragraph at lines 568--568
 []\TU/lmr/bx/n/10 ASPECTOS BROMATOLÓGICOS E ANÁLISE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
 []\TU/lmr/bx/n/10 TECNOLOGIAS SOCIAIS: ABORDAGENS E
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 559--559
+Underfull \hbox (badness 1337) in paragraph at lines 568--568
 []\TU/lmr/bx/n/10 EMPREENDEDORISMO E PLANO DE NEGÓ-
  []
 
 
-Underfull \hbox (badness 6658) in paragraph at lines 559--559
+Underfull \hbox (badness 6658) in paragraph at lines 568--568
 []\TU/lmr/bx/n/10 ASPECTOS BROMATOLÓGICOS E ANÁLISE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--559
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
 []\TU/lmr/bx/n/10 TECNOLOGIAS SOCIAIS: ABORDAGENS E
  []
 
@@ -3067,12 +3108,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 559--559
 ] [31] [32
 
 ]
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 882--882
+Overfull \hbox (12.4192pt too wide) in paragraph at lines 891--891
 []\TU/lmr/bx/n/10 PositiveLRC 
  []
 
 
-Overfull \hbox (12.4192pt too wide) in paragraph at lines 882--882
+Overfull \hbox (12.4192pt too wide) in paragraph at lines 891--891
 []\TU/lmr/bx/n/10 PositiveLRC 
  []
 
@@ -3083,12 +3124,12 @@ Overfull \hbox (12.4192pt too wide) in paragraph at lines 882--882
 ] [41
 
 ]
-Underfull \hbox (badness 4378) in paragraph at lines 1157--1157
+Underfull \hbox (badness 4378) in paragraph at lines 1166--1166
 []\TU/lmr/bx/n/10 Silvia Conceicao Reis Pereira
  []
 
 
-Underfull \hbox (badness 4378) in paragraph at lines 1157--1157
+Underfull \hbox (badness 4378) in paragraph at lines 1166--1166
 []\TU/lmr/bx/n/10 Silvia Conceicao Reis Pereira
  []
 
@@ -3101,7 +3142,7 @@ Underfull \hbox (badness 4378) in paragraph at lines 1157--1157
 
 
 ] [46]
-Overfull \hbox (12.64723pt too wide) in paragraph at lines 1305--1328
+Overfull \hbox (12.64723pt too wide) in paragraph at lines 1314--1337
  [][] 
  []
 
@@ -3117,53 +3158,53 @@ File: site.png Graphic file (type bmp)
 File: observatorio.png Graphic file (type bmp)
 <observatorio.png>
 [54]
-Underfull \hbox (badness 10000) in paragraph at lines 1557--1557
+Underfull \hbox (badness 10000) in paragraph at lines 1566--1566
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1557--1557
+Underfull \hbox (badness 10000) in paragraph at lines 1566--1566
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1557--1557
+Underfull \hbox (badness 10000) in paragraph at lines 1566--1566
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1557--1557
+Underfull \hbox (badness 10000) in paragraph at lines 1566--1566
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 [55
 
 ] [56]
-Underfull \hbox (badness 2245) in paragraph at lines 1598--1598
+Underfull \hbox (badness 2245) in paragraph at lines 1607--1607
 []\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 1598--1598
+Underfull \hbox (badness 2245) in paragraph at lines 1607--1607
 []\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
  []
 
 [57] (./autoavaliacao-2010-2012.aux)
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-11-14>
+L3 programming layer <2025-12-29>
  ***********
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 42694 strings out of 468179
- 851949 string characters out of 5433206
- 1551219 words of memory out of 5000000
- 70781 multiletter control sequences out of 15000+600000
+ 46633 strings out of 468179
+ 977581 string characters out of 5433208
+ 1636847 words of memory out of 5000000
+ 74708 multiletter control sequences out of 15000+600000
  631776 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,19n,126p,1406b,3202s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,19n,126p,1406b,3784s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on autoavaliacao-2010-2012.pdf (60 pages).
