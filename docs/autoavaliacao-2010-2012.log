@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.1.27)  7 FEB 2026 14:37
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.9)  11 FEB 2026 08:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1586,9 +1586,6 @@ LaTeX Warning: Label `tab:2-2-1-list-tables' multiply defined.
 
 LaTeX Warning: Label `tab:2-2-2-list-tables' multiply defined.
 
-
-LaTeX Warning: Label `tab:2-2-2-list-tables' multiply defined.
-
 )
 \openout1 = `autoavaliacao-2010-2012.aux'.
 
@@ -3126,12 +3123,12 @@ Overfull \hbox (12.4192pt too wide) in paragraph at lines 891--891
 ] [41
 
 ]
-Underfull \hbox (badness 4378) in paragraph at lines 1166--1166
+Underfull \hbox (badness 4378) in paragraph at lines 1147--1147
 []\TU/lmr/bx/n/10 Silvia Conceicao Reis Pereira
  []
 
 
-Underfull \hbox (badness 4378) in paragraph at lines 1166--1166
+Underfull \hbox (badness 4378) in paragraph at lines 1147--1147
 []\TU/lmr/bx/n/10 Silvia Conceicao Reis Pereira
  []
 
@@ -3144,7 +3141,7 @@ Underfull \hbox (badness 4378) in paragraph at lines 1166--1166
 
 
 ] [46]
-Overfull \hbox (12.64723pt too wide) in paragraph at lines 1314--1337
+Overfull \hbox (12.64723pt too wide) in paragraph at lines 1295--1318
  [][] 
  []
 
@@ -3160,34 +3157,34 @@ File: site.png Graphic file (type bmp)
 File: observatorio.png Graphic file (type bmp)
 <observatorio.png>
 [54]
-Underfull \hbox (badness 10000) in paragraph at lines 1566--1566
+Underfull \hbox (badness 10000) in paragraph at lines 1547--1547
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1566--1566
+Underfull \hbox (badness 10000) in paragraph at lines 1547--1547
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1566--1566
+Underfull \hbox (badness 10000) in paragraph at lines 1547--1547
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1566--1566
+Underfull \hbox (badness 10000) in paragraph at lines 1547--1547
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 [55
 
 ] [56]
-Underfull \hbox (badness 2245) in paragraph at lines 1607--1607
+Underfull \hbox (badness 2245) in paragraph at lines 1588--1588
 []\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 1607--1607
+Underfull \hbox (badness 2245) in paragraph at lines 1588--1588
 []\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
  []
 
@@ -3202,7 +3199,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  46636 strings out of 468174
- 977628 string characters out of 5433150
+ 977628 string characters out of 5433151
  1636941 words of memory out of 5000000
  74716 multiletter control sequences out of 15000+600000
  631776 words of font info for 79 fonts, out of 8000000 for 9000
